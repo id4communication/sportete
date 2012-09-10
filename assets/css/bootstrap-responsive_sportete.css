@@ -1,0 +1,212 @@
+/*!
+ * Bootstrap Responsive v2.0.4
+ *
+ * Copyright 2012 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+
+
+
+@media (min-width: 0px) and (max-width: 985px) {
+  
+  
+
+
+.row-fluid .span12 {
+    width: 100%;
+    *width: 99.94680851063829%;
+  }
+   
+ 
+  
+.droite { 
+width:100%;
+}
+
+.gauche { 
+width:100%;
+}
+  
+  
+#contacts {
+background-position: top left;
+margin-top:10px;
+margin-bottom:30px;
+
+}
+
+#catalogue {
+	margin-top:20px;
+	 }
+	 
+.entetedepage {
+	width:100%;
+	margin-top:0px;}
+ 
+  
+}
+
+
+
+@media (min-width: 985px) and (max-width: 1200px) {
+
+  
+  
+  .container,
+  .navbar-fixed-top .container,
+  .navbar-fixed-bottom .container {
+    width: 100%;
+  }
+  
+.droite { 
+width:100%;
+		  }
+		  
+  
+   #contacts {
+background-position: top left;
+margin-top:10px;
+margin-bottom:30px;
+
+}
+
+
+  #catalogue {
+	margin-top:20px
+	 }
+	 
+.entetedepage {
+	width:100%;
+	margin-top:-175px;
+	float:left;}
+	
+ 
+  
+  
+}
+
+@media (max-width: 1200px) {
+	
+	#contact {
+		float:left;
+		}
+
+  .entetedepage {
+	  width:740px;
+	  float:left;}
+
+
+  [class*="span"] {
+    float: left;
+    margin-left: 0px;
+  }
+  
+ 
+  .container,
+  .navbar-fixed-top .container,
+  .navbar-fixed-bottom .container {
+    width: 100%;
+  }
+  
+  .container-fluid {
+  padding: 0px;
+ margin: 0px;
+ width:100%;
+}
+  
+  
+  .offset12 {
+    margin-left: 1000px;
+  }
+  
+ 
+  .row-fluid {
+    width: 100%;
+    *zoom: 1;
+  }
+  .row-fluid:before,
+  .row-fluid:after {
+    display: table;
+    content: "";
+  }
+  .row-fluid:after {
+    clear: both;
+  }
+  .row-fluid [class*="span"] {
+    display: block;
+    float: left;
+    width: 100%;
+    min-height: 28px;
+    margin-left: 0;
+    *margin-left: 0;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .row-fluid [class*="span"]:first-child {
+    margin-left: 0;
+  }
+  
+  
+  .row-fluid .span12 {
+    width: 100%;
+    *width: 100%;
+  }
+ 
+     .row-fluid .span8 {
+  width: 740px;
+  *width: 740px;
+} 
+
+
+  .row-fluid .span4,
+   .row-fluid .sejours {
+    width: 225px;
+    *width: 225px;
+	margin-right:5px;
+  }
+  
+   .row-fluid .colonnes_portail {
+    width: 33%;
+    *width: 33%;
+	float:left;
+  }
+  
+
+  .row-fluid .span2 {
+        width: 230px;
+		    *width: 230px;
+		
+  }
+  
+.row-fluid .span2droite {
+     width: 230px;
+	 float:left;
+  }
+
+.row-fluid .span2gauche {
+     width: 230px;
+	 float:left;
+  }
+  
+  
+  
+   .row-fluid .span2footergauche {
+     width:219px; 
+	 border-right: 1px #9b9b9b solid;
+	 padding:0px 5px 0px 5px;
+  }
+  
+  .row-fluid .span2footercenter {
+	 margin-left:10px;
+	 width:175px;
+	 float:left; }
+  
+
+  
+}
+
