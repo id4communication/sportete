@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+
+/* COLONIES */
+
+/*! Couleurs */
+
+.fichecolonie {
+	color:#85187F;
+	
+	}
+
+/*! surcharge bootstrap couleurs de liens */
+
+a.fichecolonie {
+  color:#85187F;
+  text-decoration: none;
+  padding-top: 20px;
+  background-image: url(../images/sstitre_colonies.png);
+ background-repeat: no-repeat;
+ background-position: 10px top;
+ }
+
+a.fichecolonie:hover {
+  color: #571D68;
+  text-decoration: none;
+}
+
+
+/*! Dégradés couleur */
+
+
+.fichecolonie .enteteoffres {
+  background-image: -moz-linear-gradient(top, #85187f, #4d1f56);
+  background-image: -ms-linear-gradient(top, #85187f, #4d1f56);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#85187f), to(#4d1f56));
+  background-image: -webkit-linear-gradient(top, #85187f, #4d1f56);
+  background-image: -o-linear-gradient(top, #85187f, #4d1f56);
+  background-image: linear-gradient(top, #85187f, #4d1f56);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#85187f', endColorstr='#4d1f56', GradientType=0);
+	}
+	
+.fichecolonie .jour { background-image: url(../images/colonies/picto_jour.png);}
+
+.fichecolonie .nuit {background-image:url(../images/colonies/picto_nuit.png);}
+	
+	
+	
+/*! CURIEUX DU MONDE */
+
+/*! Couleurs */
+
+.fichecurieux {
+	color:#449a2b;
+	}
+	
+a.fichecurieux {
+  color:#449a2b;
+  text-decoration: none;
+  padding-top: 20px;
+    background-image: url(../images/sstitre_curieux.png);
+ background-repeat: no-repeat;
+ background-position: 10px top;
+}
+
+a.fichecurieux:hover {
+  color: #571D68;
+  text-decoration: none;
+}
+
+
+.fichecurieux .enteteoffres {
+  background-image: -moz-linear-gradient(top, #449a2b, #385a2d);
+  background-image: -ms-linear-gradient(top, #449a2b, #385a2d);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#449a2b), to(#385a2d));
+  background-image: -webkit-linear-gradient(top, #449a2b, #385a2d);
+  background-image: -o-linear-gradient(top, #449a2b, #385a2d);
+  background-image: linear-gradient(top, #449a2b, #385a2d);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#449a2b', endColorstr='#385a2d', GradientType=0);
+	}
+	
+
+.fichecurieux .jour {
+	background-image: url(../images/curieuxdumonde/picto_jour.png);
+}
+
+.fichecurieux .nuit {background-image:url(../images/curieuxdumonde/picto_nuit.png);
+}
+
+
+
+
+
+
+
+/*! SJOURS SPORTIFS */
+
+/*! Couleurs */
+
+.fichesejourssportifs {
+	color:#ee8021;
+	}
+
+.fichesejourssportifs .enteteoffres {
+  background-image: -moz-linear-gradient(top, #fbc010, #ee8021);
+  background-image: -ms-linear-gradient(top, #fbc010, #ee8021);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fbc010), to(#ee8021));
+  background-image: -webkit-linear-gradient(top, #fbc010, #ee8021);
+  background-image: -o-linear-gradient(top, #fbc010, #ee8021);
+  background-image: linear-gradient(top, #fbc010, #ee8021);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#fbc010', endColorstr='#ee8021', GradientType=0);
+	}
+
+a.fichesejourssportifs {
+  color: #ee8021;
+    padding-top: 20px;
+	    background-image: url(../images/sstitre_sejours_sportifs.png);
+ background-repeat: no-repeat;
+ background-position: 10px top;
+ }
+ 
+a.fichesejourssportifs:hover {
+  color: #fbc010;
+
+}
+	
+.fichesejourssportifs .jour {
+	background-image: url(../images/sejourssportifs/picto_jour.png);}
+
+.fichesejourssportifs .nuit {background-image:url(../images/sejourssportifs/picto_nuit.png);}
+
+
+
+/*! ACADEMY */
+
+/*! Couleurs */
+
+
+
+.ficheacademy {
+	color:#cc3333;
+	}
+
+.ficheacademy .enteteoffres {
+  background-image: -moz-linear-gradient(top, #cc3333, #3d120b);
+  background-image: -ms-linear-gradient(top, #cc3333, #3d120b);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3d120b), to(#cc3333));
+  background-image: -webkit-linear-gradient(top, #cc3333, #3d120b);
+  background-image: -o-linear-gradient(top, #cc3333, #3d120b);
+  background-image: linear-gradient(top, #cc3333, #3d120b);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#cc3333', endColorstr='#3d120b', GradientType=0);
+	}
+	
+a.ficheacademy {
+  color: #cc3333;
+    padding-top: 20px;
+	  background-image: url(../images/sstitre_academy.png);
+ background-repeat: no-repeat;
+ background-position: 10px top;
+ }
+
+a.ficheacademy:hover {
+  color: #3d120b;
+  }
+
+.ficheacademy .jour {
+	background-image: url(../images/academy/picto_jour.png);
+}
+
+.ficheacademy .nuit {background-image:url(../images/academy/picto_nuit.png);}
