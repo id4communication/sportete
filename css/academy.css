@@ -48,7 +48,7 @@ background-image: url(../images/academy/logo.png);
 /*! surcharge bootstrap couleurs des liens */
 
 a {
-  color: #cc3333;
+  color: #900;
   }
 
 a:hover {
@@ -66,3 +66,9 @@ a:hover {
 }
 
 .nuit {background-image:url(../images/academy/picto_nuit.png);}
+
+/*! surcharge bootstrap couleurs des titres */
+
+h1,
+h3,
+h5 {color:#900;}

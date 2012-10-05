@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="fr">
 <head>
 <meta charset="utf-8">
@@ -9,8 +9,10 @@
 
 <!-- Le styles -->
 <link href="css/bootstrap.css" rel="stylesheet">
+
 <link href="css/bootstrap_sportete.css" rel="stylesheet">
 <link href="css/fiches_univers.css" rel="stylesheet">
+<link href="css/bootstrap-responsive.css" rel="stylesheet">
 <link href="css/bootstrap-responsive_sportete.css" rel="stylesheet">
 <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
@@ -27,11 +29,11 @@
 
 <nav class="navbar navbar-fixed-top navbar-inverse">
   <div class="navbar-inner">
-    <div class="container">
-      <div class="row-fluid">
-        <div class="span12 picto_monespace"> 
+    <div class="container-sportete">
+      <div class="row-fluid-sportete">
+        <div class="span12sportete picto_monespace"> 
           <!-- bouton sport été portail -->
-          <ul class="lien_portail span2 center">
+          <ul class="lien_portail span2sportete center">
             <li><a href="index.html"> <i class="icon-play icon-white"></i> Portail Sport été</a></li>
           </ul>
           <!-- navigation -->
@@ -85,30 +87,30 @@
             <li class="divider"></li>
             <li><a href="#agenda">Agenda</a></li>
           </ul>
-          <!--/.span8 --> 
+          <!--/.span8sportete --> 
           
           <!-- Navigation Espace perso / panier -->
-          
-          <div class="span2" id="mon_espace"><span class="titre_monespace">Mon Espace</span><a href="#" class="acces">Accès</a>
-            <p class="separateur"></p>
-            <div id="mon_panier"><a href="#">Mon panier</a></div>
+          <div class="container-fluid-sportete"> 
+  <!-- row_0 --> 
+  <div class="row-fluid-sportete">
+ <div id="mon_espace" class="nav navbar-fixed-top span2sportete" style="float:right;"><div class="titre_monespace">Mon Espace<a href="#" class="acces">Accès</a></div><div id="mon_panier"><a href="#">Mon panier</a></div></div></div>
           </div>
+         
         </div>
       </div>
     </div>
   </div>
 </nav>
-
 <!-- entete_de_page fluid--> 
 <!-- Bandeau/logo/slogan/-->
-<div class="container-fluid"> 
-  <!-- row_0 -->
-  <div class="row-fluid">
-    <header class="span12">
-      <div id="bandeau" class="container">
-        <div class="row-fluid">
-          <div id="logo" class="span2"></div>
-          <div id="slogans" class="span8" >Choisis l'univers de tes futures vacances</div>
+<div class="container-fluid-sportete"> 
+  <!-- row_0 --> 
+  <div class="row-fluid-sportete">
+    <header class="span12sportete">
+      <div id="bandeau" class="container-sportete">
+        <div class="row-fluid-sportete">
+          <div id="logo" class="span2sportete"></div>
+       <div id="slogans" class="span8sportete" >Choisis l'univers de tes futures vacances</div>
         </div>
       </div>
     </header>
@@ -116,13 +118,13 @@
 </div>
 
 <!-- Navigation univers Sport été-->
-<div class="container" >
-  <div class="row-fluid menu_principal"> 
+<div class="container-sportete" >
+  <div class="row-fluid-sportete menu_principal" > 
     <!-- boutton découvrez nos univers--> 
-    <a href="index_sportete.html" class="span2 decouvrez center" >Découvrez<br />
+    <a href="index_sportete.html" class="span2sportete decouvrez center hidden-phone" >Découvrez<br />
     <span class="nosunivers" >nos univers</span><img src="images/puce_droite_bouton_univers.png" width="19" height="27" alt="decouvrez nos univers" class="puce_univers"></a> 
     <!-- navigation entre univers-->
-    <nav class="span8">
+    <nav class="span8sportete" >
       <ul id="univers">
         <li><a href="index_academy.html" class="academy" ><img src="images/medium_logo_academy.png" width="101" height="13" alt="Univers Academy"><br>
           100% technique</a></li>
@@ -138,7 +140,7 @@
     </nav>
     
     <!-- contacts-->
-    <div class="span2" id="contacts">
+    <div class="span2sportete" id="contacts">
       <div class="contact_content">
         <h3 class="contact">Contacts :</h3>
         <table>
@@ -172,19 +174,20 @@
     <!--/ Contact--> 
     
   </div>
+<!-- / row-fluid-sportete menu principal--> 
 </div>
-<!-- / container menu principal--> 
 
 <!-- Contenu-->
 
-<div class="container">
-  <div class="row-fluid"> 
+<div class="container-sportete">
+  <div class="row-fluid-sportete"> 
     
     <!-- aside_gauche-->
+    
     <aside class="gauche"> 
       
       <!-- Recherche_rapide-->
-      <div id="quick_search" class="span2gauche" >
+      <div id="quick_search" class="span2gauche">
         <div class="titres_recherches">Recherche <img src="images/picto_recherche.png" width="21" height="21" alt="recherche"> <span>rapide</span></div>
         <form class="form-search">
           <fieldset>
@@ -265,12 +268,15 @@
       </div>
       <!--/Recherche_rapide--> 
       
+  
+      
+      
       <!--Bloc espace promotion-->
-      <div id="promotion" class="span2gauche" ><a href="#" class="boutton_promotion" target="_self" >En savoir <span class="grossir">+</span></a></div>
+      <div id="promotion" class="span2sportete hidden-phone" ><a href="#" class="boutton_promotion" target="_self" >En savoir <span class="grossir">+</span></a></div>
       <!--/ Bloc espace promotion--> 
       
       <!--Bloc séjours_consultés-->
-      <div class="span2gauche" >
+      <div class="span2gauche  hidden-phone" >
         <div class="left_block_title">Derniers séjours consultés</div>
         <!--/ Titre séjours_consultés--> 
         <!--séjours 1-->
@@ -294,24 +300,15 @@
     <!--/aside_gauche--> 
     
     <!--Espace central-->
-    <div class="entetedepage"> 
-      <!--Espace titre_page-->
-      <div class="degrade_clair_enbas">
-        <div id="titredecodroite">
-          <div id="titredecogauche">
-            <h2 class="titrepage">150 séjours et stages proposés</h2>
-            <a href="#" class="trierparprix">Trier par prix</a>
-            <p class="separateur"></p>
-            <a href="#" class="plusderesultat">(Afficher + de résultats)</a>
-            <p class="separateur"></p>
-          </div>
-          <p class="separateur"></p>
-        </div>
-        <p class="separateur"></p>
-      </div>
+    <div class="entetedepage"><div class="degrade_clair_enhaut" ><div id="titredecodroite">
+      <div id="titredecogauche" ><span class="titrepage">15 Camps trouvés<a href="#" class="trierparprix">Trier par prix</a><a href="#" class="plusderesultat">(Afficher + de résultats)</a></span>
+        <blockquote class="reference">&nbsp;</blockquote></div></div></div>  
+        <!--contenu_page ligne 1 --> 
+        
+  
       
-      <!--contenu_page ligne 1 -->
-      <div class="page"> 
+         
+       <div class="page"> 
         <!--contenu_page ligne 1 colonne 1--> 
         
         <a href="fiche_sejour.html" class="sejours fichecolonie">
@@ -366,7 +363,7 @@
             </tr>
             <tr>
               <td colspan="3" class="descriptif">Tu as la passion et l'envie de l'art de la scène ? Tu souhaites maitriser le plus vieil art du divertissement qu'est le cirque ?<br />
-                N’hésites plus à te lancer dans l'aventure « Cirque et Spectacle » de notre centre Sport Eté à la Rochelle !</td>
+                N'hésites plus à te lancer dans l'aventure « Cirque et Spectacle » de notre centre Sport Eté à la Rochelle !</td>
             </tr>
           </tbody>
         </table>
@@ -397,7 +394,7 @@
             </tr>
             <tr>
               <td colspan="3" class="descriptif">Tu as la passion et l'envie de l'art de la scène ? Tu souhaites maitriser le plus vieil art du divertissement qu'est le cirque ?<br />
-                N’hésites plus à te lancer dans l'aventure « Cirque et Spectacle » de notre centre Sport Eté à la Rochelle !</td>
+                N'hésites plus à te lancer dans l'aventure « Cirque et Spectacle » de notre centre Sport Eté à la Rochelle !</td>
             </tr>
           </tbody>
         </table>
@@ -428,7 +425,7 @@
             </tr>
             <tr>
               <td colspan="3" class="descriptif">Tu as la passion et l'envie de l'art de la scène ? Tu souhaites maitriser le plus vieil art du divertissement qu'est le cirque ?<br />
-                N’hésites plus à te lancer dans l'aventure « Cirque et Spectacle » de notre centre Sport Eté à la Rochelle !</td>
+                N'hésites plus à te lancer dans l'aventure « Cirque et Spectacle » de notre centre Sport Eté à la Rochelle !</td>
             </tr>
           </tbody>
         </table>
@@ -459,7 +456,7 @@
             </tr>
             <tr>
               <td colspan="3" class="descriptif">Tu as la passion et l'envie de l'art de la scène ? Tu souhaites maitriser le plus vieil art du divertissement qu'est le cirque ?<br />
-                N’hésites plus à te lancer dans l'aventure « Cirque et Spectacle » de notre centre Sport Eté à la Rochelle !</td>
+                N'hésites plus à te lancer dans l'aventure « Cirque et Spectacle » de notre centre Sport Eté à la Rochelle !</td>
             </tr>
           </tbody>
         </table>
@@ -488,7 +485,7 @@
             </tr>
             <tr>
               <td colspan="3" class="descriptif">Tu as la passion et l'envie de l'art de la scène ? Tu souhaites maitriser le plus vieil art du divertissement qu'est le cirque ?<br />
-                N’hésites plus à te lancer dans l'aventure « Cirque et Spectacle » de notre centre Sport Eté à la Rochelle !</td>
+                N'hésites plus à te lancer dans l'aventure « Cirque et Spectacle » de notre centre Sport Eté à la Rochelle !</td>
             </tr>
           </tbody>
         </table>
@@ -496,12 +493,14 @@
         <!--/ligne 2--> 
         
         <a href="#" class="plusderesultat_bottom">Afficher + de résultats</a> </div>
-    </div>
+        
+        
+  </div>
     <!-- / espace_central--> 
     
     <!--aside_droite-->
     
-    <aside class="droite"> 
+    <aside class="droite" > 
       <!--catalogues-->
       <div id="catalogue" class="span2droite" > <a href="html/test.html">
         <div id="rotation">
@@ -532,24 +531,51 @@
       <!--/ Flash_infos--> 
       
       <!-- Destination et blogs-->
-      <div id="destinations" class="span2droite">
-        <div class="right_block_title">Destinations et blogs</div>
-        <div class="wrapper_blog"><a data-toggle="collapse" data-target="#destination_content_1" class="blog">Destination_1</a>
-          <div id="destination_content_1" class="collapse">
+      <div class="accordion span2droite" id="accordion2">
+                <div class="accordion-group">
+                  <div class="accordion-heading"> <div class="right_block_title">Destinations et blogs</div>
+                    <a class="blog" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">Destination_1
+                    </a>
+                  </div>
+                  <div id="collapseOne" class="accordion-body collapse in">
+                  <div id="destination_content_1">
             <div class="correction_padding"><a href="#"><img src="images/carte_1.png" width="56" height="57" alt="carte 1" class="carte_destination" ></a>
               <div class="listing_lien_blog"><a href="#">&gt; Le blog du centre</a> <a href="#"> &gt; Voir la destination</a></div>
               <p class="separateur"></p>
             </div>
           </div>
-          <a data-toggle="collapse" data-target="#destination_content_2" class="blog" >Destination_2</a>
-          <div id="destination_content_2" class="collapse" >
+                  </div>
+                </div>
+                <div class="accordion-group">
+                  <div class="accordion-heading">
+                    <a class="blog" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">Destination_2</a>
+                  </div>
+                  <div id="collapseTwo" class="accordion-body collapse">
+                    
+                     <div id="destination_content_1">
             <div class="correction_padding"><a href="#"><img src="images/carte_1.png" width="56" height="57" alt="carte 1" class="carte_destination" ></a>
               <div class="listing_lien_blog"><a href="#">&gt; Le blog du centre</a> <a href="#"> &gt; Voir la destination</a></div>
               <p class="separateur"></p>
             </div>
           </div>
-        </div>
-      </div>
+                     </div>
+                </div>
+                <div class="accordion-group">
+                  <div class="accordion-heading">
+                    <a class="blog" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">Destination_3
+                    </a>
+                  </div>
+                  <div id="collapseThree" class="accordion-body collapse">
+                   <div id="destination_content_1">
+            <div class="correction_padding"><a href="#"><img src="images/carte_1.png" width="56" height="57" alt="carte 1" class="carte_destination" ></a>
+              <div class="listing_lien_blog"><a href="#">&gt; Le blog du centre</a> <a href="#"> &gt; Voir la destination</a></div>
+              <p class="separateur"></p>
+            </div>
+          </div>
+                  </div>
+                </div>
+              </div>
+              
       <!--/ Destination et blogs--> 
       
       <!--/ Partenaires-->
@@ -584,11 +610,11 @@
 <!--/ container Contenu--> 
 
 <!--/ footer-->
-<footer class="container-fluid">
-  <div id="degrade_clair_enbas" class="row-fluid"></div>
-  <div class="container">
-    <div class="row-fluid">
-      <div id="footer_content" class="span12">
+<footer class="container-fluid-sportete">
+  <div id="degrade_clair_enbas" class="row-fluid-sportete"></div>
+  <div class="container-sportete">
+    <div class="row-fluid-sportete">
+      <div id="footer_content" class="span12sportete">
         <div class="span2footergauche"><img src="images/mini_logo_sportete_nb.png" width="92" height="58" alt="Sport été">
           <div class="footer_a_set"><a href="#">Portail Sport été</a><a href="#">Accueil site général Sport-été</a><a href="#">Tous les stages, séjours, colonies et camps</a><a href="#">Qui Sommes nous ?</a><a href="#">Nous recrutons</a><a href="#">Le projet éducatif</a><a href="#">Mentions légales</a></div>
           MON ESPACE SPORT’ETE
@@ -632,7 +658,7 @@
           Tous droits de reproduction réservés</div>
       </div>
     </div>
-    <!--/ .row-fluid--> 
+    <!--/ .row-fluid-sportete--> 
   </div>
   <!--/ .container--> 
 </footer>
@@ -641,18 +667,22 @@
 <!-- Le javascript
     ================================================== --> 
 <!-- Placed at the end of the document so the pages load faster --> 
-<script src="js/jquery.js"></script> 
-<script src="js/bootstrap-transition.js"></script> 
-<script src="js/bootstrap-alert.js"></script> 
-<script src="js/bootstrap-modal.js"></script> 
-<script src="js/bootstrap-dropdown.js"></script> 
-<script src="js/bootstrap-scrollspy.js"></script> 
-<script src="js/bootstrap-tab.js"></script> 
-<script src="js/bootstrap-tooltip.js"></script> 
-<script src="js/bootstrap-popover.js"></script> 
-<script src="js/bootstrap-button.js"></script> 
-<script src="js/bootstrap-collapse.js"></script> 
-<script src="js/bootstrap-carousel.js"></script> 
-<script src="js/bootstrap-typeahead.js"></script>
+<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/google-code-prettify/prettify.js"></script>
+    <script src="js/bootstrap-transition.js"></script>
+    <script src="js/bootstrap-alert.js"></script>
+    <script src="js/bootstrap-modal.js"></script>
+    <script src="js/bootstrap-dropdown.js"></script>
+    <script src="js/bootstrap-scrollspy.js"></script>
+    <script src="js/bootstrap-tab.js"></script>
+    <script src="js/bootstrap-tooltip.js"></script>
+    <script src="js/bootstrap-popover.js"></script>
+    <script src="js/bootstrap-button.js"></script>
+    <script src="js/bootstrap-collapse.js"></script>
+    <script src="js/bootstrap-carousel.js"></script>
+    <script src="js/bootstrap-typeahead.js"></script>
+    <script src="js/bootstrap-affix.js"></script>
+    <script src="js/application.js"></script>
 </body>
 </html>

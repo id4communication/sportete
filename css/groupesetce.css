@@ -42,7 +42,7 @@ background-color:#000;
 
 
 
-.enteteoffres .degrade_clair_enhaut {
+.degrade_clair_enhaut {
 	background-color:#000;
 	color:#fff;
   background-image: -moz-linear-gradient(top, #0a77b8, #404e99);
@@ -72,3 +72,7 @@ a:hover {
   background-color: #0a77b8;
 }	
 	
+	
+#slogans {
+	padding:84px 0px 0px 20px;
+	}
