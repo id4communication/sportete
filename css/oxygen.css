@@ -1,2 +1,36 @@
-span { truc: rien; }
-span { non truc }
+.website_forms #sportete_website_contact_form_type_message {
+	height:180px;
+	width:280px;
+}
+
+.website_forms .wrapper-submit {
+	text-align:center;
+	margin:20px 0
+}
+
+.website_forms #activities-list select {
+	margin:0;
+	margin-right:2px;
+	padding:1px;
+	display:inline;
+	vertical-align:middle
+}
+.website_forms #activities-list .activity {
+	border-bottom:1px dotted #E5E5E5;
+	padding:5px 0
+}
+.website_forms #activities-list .activity:last-child { border-bottom: 0px }
+.website_forms #activities-list .activity-delete {
+	display:block;
+	float:right;
+	vertical-align:middle;
+	border:0
+}
+.website_forms #activity-add { display: block; margin-bottom: 5px;}
+.website_forms .activities-cmd {
+	text-align:right
+}
+
+.website_forms .custom_warning {
+	color: #B94A48
+}

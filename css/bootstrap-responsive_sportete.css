@@ -10,16 +10,28 @@
 
 
 
+
+
+
+
+
+
 @media (min-width: 0px) and (max-width: 985px) {
-  
-  
 
 
-.row-fluid .span12 {
+  .container-sportete,
+  .navbar-fixed-top .container-sportete,
+  .navbar-fixed-bottom .container-sportete {
     width: 100%;
-    *width: 99.94680851063829%;
+ padding:0px;
+ margin:0px;
   }
-   
+  
+  .container-fluid-sportete {
+  padding: 0px;
+ margin: 0px;
+ width:100%;
+}
  
   
 .droite { 
@@ -42,9 +54,69 @@ margin-bottom:30px;
 	margin-top:20px;
 	 }
 	 
-.entetedepage {
+.row-fluid-sportete .entetedepage {
 	width:100%;
+	*width:100%;
 	margin-top:0px;}
+	
+	#slogans {
+	color:#fff;
+	background-color:#000;
+	font-size: 24px;
+	line-height:24px;
+	padding:0px 0px 0px 25px;
+	font-weight:200;
+	letter-spacing:1px;
+	}	
+	
+ .row-fluid-sportete .span12sportete {
+    width: 100%;
+    *width: 100%;
+  }
+ 
+     .row-fluid-sportete .span8sportete {
+  width: 100%;
+  *width: 100%;
+} 	
+
+ .row-fluid-sportete .span2sportete ,
+  .row-fluid-sportete .span2droite,
+  .row-fluid-sportete .span2gauche {
+     width: 100%;
+	  *width: 100%;
+	 float:left;
+  }
+  
+  
+   .row-fluid-sportete .sejours {
+    width: 100%;
+    *width: 100%;
+	margin:0px;
+  }
+  
+  .row-fluid-sportete .page {
+	width: 100%;
+    *width: 100%;
+	margin:0px;
+	padding:25px;}
+
+ .navbar-fixed-top {
+    margin-bottom: -20px;
+  }	
+  
+  body {
+    padding-top: 0;
+  }
+  .navbar-fixed-top,
+  .navbar-fixed-bottom {
+    position: fixed;
+  }
+ 
+
+  .navbar-fixed-top .navbar-inner,
+  .navbar-fixed-bottom .navbar-inner {
+    padding: 0px;
+  }
  
   
 }
@@ -53,36 +125,31 @@ margin-bottom:30px;
 
 @media (min-width: 985px) and (max-width: 1200px) {
 
-  
-  
-  .container,
-  .navbar-fixed-top .container,
-  .navbar-fixed-bottom .container {
-    width: 100%;
-  }
+
   
 .droite { 
 width:100%;
 		  }
 		  
   
-   #contacts {
+#contacts {
 background-position: top left;
-margin-top:10px;
+margin-top:0px;
 margin-bottom:30px;
 
 }
 
 
-  #catalogue {
+#catalogue {
 	margin-top:20px
 	 }
 	 
-.entetedepage {
-	width:100%;
-	margin-top:-176px;
-	float:left;}
-	
+  
+.row-fluid-sportete .entetedepage {
+
+	margin-top:-166px;
+	} 
+
  
   
   
@@ -90,121 +157,45 @@ margin-bottom:30px;
 
 @media (max-width: 1200px) {
 	
-	#contact {
-		float:left;
-		}
-
-  .entetedepage {
-	  width:740px;
-	  float:left;}
-
-
-  [class*="span"] {
-    float: left;
-    margin-left: 0px;
+  .container-sportete,
+  .navbar-fixed-top .container-sportete,
+  .navbar-fixed-bottom .container-sportete {
+    width: 100%;
   }
+  
+  
+
   
  
-  .container,
-  .navbar-fixed-top .container,
-  .navbar-fixed-bottom .container {
-    width: 100%;
-  }
-  
-  .container-fluid {
-  padding: 0px;
- margin: 0px;
- width:100%;
-}
-  
-  
-  .offset12 {
-    margin-left: 1000px;
-  }
-  
- 
-  .row-fluid {
-    width: 100%;
-    *zoom: 1;
-  }
-  .row-fluid:before,
-  .row-fluid:after {
-    display: table;
-    content: "";
-  }
-  .row-fluid:after {
-    clear: both;
-  }
-  .row-fluid [class*="span"] {
-    display: block;
-    float: left;
-    width: 100%;
-    min-height: 28px;
-    margin-left: 0;
-    *margin-left: 0;
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-        -ms-box-sizing: border-box;
-            box-sizing: border-box;
-  }
-  .row-fluid [class*="span"]:first-child {
-    margin-left: 0;
-  }
-  
-  
-  .row-fluid .span12 {
-    width: 100%;
-    *width: 100%;
-  }
- 
-     .row-fluid .span8 {
-  width: 740px;
-  *width: 740px;
-} 
-
-
-  .row-fluid .span4,
-   .row-fluid .sejours {
+   .row-fluid-sportete .sejours {
     width: 225px;
     *width: 225px;
 	margin-right:5px;
   }
   
-   .row-fluid .colonnes_portail {
+   .row-fluid-sportete .colonnes_portail {
     width: 33%;
     *width: 33%;
 	float:left;
   }
   
-
-  .row-fluid .span2 {
-        width: 230px;
-		    *width: 230px;
-		
-  }
-  
-.row-fluid .span2droite {
+  .row-fluid-sportete .span2sportete ,
+  .row-fluid-sportete .span2droite,
+  .row-fluid-sportete .span2gauche {
      width: 230px;
+	  *width: 230px;
 	 float:left;
   }
-
-.row-fluid .span2gauche {
-     width: 230px;
-	 float:left;
-  }
-  
-  
-  
-   .row-fluid .span2footergauche {
+ 
+   .row-fluid-sportete .span2footergauche {
      width:219px; 
 	 border-right: 1px #9b9b9b solid;
 	 padding:0px 5px 0px 5px;
   }
   
-  .row-fluid .span2footercenter {
+  .row-fluid-sportete .span2footercenter {
 	 margin-left:10px;
-	 width:175px;
-	 float:left; }
+	 width:175px; }
   
 
   
