@@ -95,7 +95,7 @@ background-position: center bottom;}
 	z-index:11000;
 	width: 230px;
 	color: #FFF;
-	background-color: #000;
+	background-color: rgba(0, 0, 0, 0.5);
 	-webkit-border-radius:4px 4px 4px 4px;
     -moz-border-radius: 4px 4px 4px 4px;
     border-radius: 4px 4px 4px 4px;
@@ -114,10 +114,10 @@ a.acces {
 	font-size: 12px;
 	height: 20px;
 	line-height:26px;
-	padding: 3px 37px 3px 20px;
+	padding: 3px 37px 3px 47px;
 	background-image:url(../images/cadenas_ouvert.png);
 	background-repeat:no-repeat;
-	background-position: 3px center;
+	background-position: 30px center;
 	}
 
 a.acces:hover {
@@ -201,6 +201,16 @@ a:hover {
   text-decoration: none;
 }
 
+.dropdown-menu li > a:hover,
+.dropdown-menu li > a:focus,
+.dropdown-submenu:hover > a {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #707173;
+  background-image: none;
+  color:#fff;
+}
+
 
 /*! surcharge bootstrap  */
 
@@ -220,6 +230,17 @@ background-repeat:repeat-x;
  .navbar {
 	 padding-bottom:30px;
 	 } 
+
+.navbar-inverse .navbar-inner {
+   background-color: rgba(0, 0, 0, 0.8);
+  background-image: none;
+  border-color: #252525;
+}
+	
+	 
+.navbar-inverse .navbar-inner {
+
+}	 
 	 
 .navbar .nav {
   position: relative;
@@ -237,7 +258,7 @@ background-repeat:repeat-x;
   float: none;
   padding: 3px 10px 3px 11px;
   line-height: 19px;
-  color: #999999;
+  color: #dadada;
   text-decoration: none;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }	
@@ -252,6 +273,11 @@ padding-right: 0px;
 form {
   margin: 0px;
 }
+
+.accordion {
+  margin-bottom: 0px;
+}
+
 
 
 /*! correction structure bootstrap (pas de marges) */
@@ -717,9 +743,8 @@ padding:0px;
 }
 
 .lien_portail a:hover {
-background-color:#dadada;
-color:#333333;
-opacity: 0.3;
+background-color:#fff;
+color:#000;
 	-webkit-transition: opacity 0.5s ease-in-out, background-color 0.5s ease-in-out;
   -o-transition:  opacity 0.5s ease-in-out, background-color 0.5s ease-in-out;
   -ms-transition:   opacity 0.5s ease-in-out, background-color 0.5s ease-in-out;
@@ -952,8 +977,7 @@ h3.contact {
 .contact_content {
 	background-color:#999a96;
 	padding: 5px 5px 0px 5px;;
-	font-size: 11px;
-	line-height:11px;
+	line-height:13px;
 	height: 141px;
 	 -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
      -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
@@ -966,14 +990,18 @@ a.facebook {
 	display: block;
 	float:left;
 	height:17px;
-	width:18px;
+	width:17px;
 	background-image:url(../images/facebook.png);
 	background-repeat:no-repeat;
 	background-position: center center;
-	margin-left:5px;}
+	margin-left:5px;
+	}
 	
 a.facebook:hover {
 	background-image:url(../images/facebook_over.png);
+	 -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+     -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
 	}
 	
 	
@@ -989,7 +1017,10 @@ a.tweeter {
 	
 a.tweeter:hover {
 	background-image:url(../images/tweeter_hover.png);
-	}
+	 -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+     -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+		  }
 	
 
 a.pointel {
@@ -1004,7 +1035,10 @@ a.pointel {
 	
 a.pointel:hover {
 	background-image:url(../images/point_tel_hover.png);
-	}
+	 -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+     -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+		  }
 	
 
 		  
@@ -1019,7 +1053,11 @@ background-color:#faf8f8;
 .gauche {
 	width:230px;
 	float:left;
-	 overflow:hidden;}
+	-webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+     -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25); 
+	
+	 }
 
 
 .right_block_title {
@@ -1043,7 +1081,10 @@ background-color:#faf8f8;
 /*! Destinations et Blogs */		
 
 #partenaires, #destinations {
-	padding-top: 20px;}	
+	padding-top: 0px;}
+	
+.espacementvertical {
+	padding:5px;}	
 
 #destination_content_1,
 #destination_content_2 {
@@ -1075,7 +1116,7 @@ color:#fff;
 	margin-left:10px;}
 
 .listing_lien_blog {
-	padding: 20px 0px 0px 0px;}
+	padding: 10px 0px 0px 0px;}
 	
 .correction_padding {
 	!important;
@@ -1129,6 +1170,10 @@ color:#000;
 #catalogue a {
 	text-decoration:none; }	 
 
+	
+ 
+#rotation:hover {
+	background-color:#666; }		 
 	 
 #catalogues_interactifs {
 	font-family: chinese_rocks_rgregular, Edo, Arial;
@@ -1228,10 +1273,10 @@ font-size: 80%;
 text-transform: uppercase;
 color:#5e5e5e;}	 
 
-#titreinfo {
+.titreinfo {
 	display: block;
-	padding: 5px;
-	font-weight: bold;
+	padding:0px;
+	margin:0px;
 	}
 	 
 #flash_info {
@@ -1241,10 +1286,12 @@ color:#5e5e5e;}
 	padding-top: 20px;}
 	
 .flashinfos_content {
-	padding:10px;
+	padding: 10px 10px 10px 10px;
+	line-height:10px;
 	color:#333333;
 	background-color:#edebeb;}
 	
+
 
 .lirelasuite {
 background-image: url(../images/picto_lirelasuite.png);
@@ -1276,6 +1323,15 @@ background-color:#707173;
 	width:100%;
 	padding:5px;
 	text-align:center;}
+	
+	
+.accordion-group {
+  margin-bottom: 2px;
+  border: 0px solid #e5e5e5;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}	
 
 /*! Aside gauche */	
 
@@ -1288,7 +1344,6 @@ background-color:#707173;
 	text-align:center;
 margin-top:5px;
 margin-bottom:10px;
-color:#ffffff;
 background-color: #fff;
   background-image: -moz-linear-gradient(left, #000000, #b8babb);
   background-image: -ms-linear-gradient(left, #000000, #b8babb);
@@ -1314,6 +1369,7 @@ background-color: #fff;
 	width: 80px;}	
 
 .titres_recherches {
+	color:#fff;
 	font-size:150%;
 	padding:15px 5px 15px 5px;
 	text-align:center; 
@@ -1327,8 +1383,7 @@ background-color: #fff;
 	text-align: center;
 	background-color: #b1b3b4;
 	padding:5px;
-	font-size: 11px;
-	overflow:hidden;} 	
+	font-size: 11px;} 	
 	
 .quick_search_content label {
 	font-size: 11px;} 		
@@ -1387,22 +1442,20 @@ background-position:top left;
  
 .boutton_promotion {
 	display:block;
-	margin-top: 158px;
+	margin-top: 154px;
 	font-size: 12px;
 	padding: 3px;
 	text-align: center;
 	width: 70px;
-	margin-left: 156px;
+	margin-left: 154px;
 	color: #fff;
-	background-color: #000;
-	opacity: 0.8;
-	
-	
+	background-color: rgba(0, 0, 0, 0.8);	
 	}
 
 .boutton_promotion:hover {
 	text-decoration:none;
-	color:#dadada;
+color: #000;
+	background-color: rgba(0, 0, 0, 0.8);	
 	}
 	
 
@@ -1430,22 +1483,28 @@ background-position:top left;
 	
  
 #sejours_consultes {
-padding-top: 10px;
+padding:10px 5px 0px 5px;
 font-size: 11px;	
 line-height: 12px;
 	}
 	
+#sejours_consultes p {
+padding-left: 17px;
+	}
+	
 #sejours_consultes { }
 #sejours_consultes a { color: #000; }
+
 #sejours_consultes:hover,
 #sejours_consultes a:hover { 
-background-color: #dadada;
+background-color: #696969;
+color:#fff;
 	text-decoration:none; 
-	 -webkit-transition: background-color 0.5s ease-in-out;
-  -o-transition:  background-color 0.5s ease-in-out;
-  -ms-transition: background-color 0.5s ease-in-out;
-  -moz-transition:  background-color 0.5s ease-in-out;
-  transition: background-color 0.5s ease-in-out;
+	 -webkit-transition: background-color  0.2s ease-in-out,color 0.2s ease-in-out;
+  -o-transition:  background-color  0.2s ease-in-out, color 0.2s ease-in-out;
+  -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -moz-transition:  background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 	}
 	
 	
@@ -1697,20 +1756,17 @@ opacity:0.5;
 
 input.newsletter {
 	height:10px;
-	width: 100px;
-	margin-top:5px;
+	width: 90px;
+	margin-top: 10px;
+	font-size: 11px;
 	}
 
-.newsletter_boutton {
-	background-image: url(../images/puce_boutton_newsletter.png);
-	background-repeat: no-repeat;
-	background-position:center center;
-	background-color:none;
-	width:30px;
-	height:20px;
+.newsletterboutton {
+	background-color: none;
+	width: 15px;
+	height: 15px;
 	border:none;
 	}
-	
 	
 /*! css_portail  */	
 
