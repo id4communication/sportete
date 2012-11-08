@@ -2748,6 +2748,7 @@ table [class*=span],
   outline: 0;
 }
 
+
 .caret {
   display: inline-block;
   width: 0;
@@ -2765,6 +2766,7 @@ table [class*=span],
 }
 
 .dropdown-menu {
+	text-align: left;
   position: absolute;
   top: 100%;
   left: 0;
