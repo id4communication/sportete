@@ -156,7 +156,7 @@ a.acces:hover {
 	background-repeat:no-repeat;
 	background-position: 45px center;
 	padding: 7px 0px 8px 80px; 
-	display:block;
+	display: block;
 	text-align: left;
 	vertical-align: middle;
 	font-size:17px;
@@ -168,7 +168,7 @@ a.acces:hover {
 	color:#000;
 	text-decoration:none;
 	background-color: #fff;
-	opacity: 1;
+	background-image: url(../images/icon_decouvrez_inverse.png);
 	-webkit-transition: background-color 0.5s ease-in-out;
   -o-transition:  background-color 0.5s ease-in-out;
   -ms-transition:  background-color 0.5s ease-in-out;
@@ -182,6 +182,9 @@ a.acces:hover {
 		margin-left:0px;
 		font-size:80%;
 		letter-spacing:1px;}
+		
+.nosunivers:hover {
+		color:#000;}
 	
 .puce_univers {
 	float:right;
@@ -783,17 +786,19 @@ ul#univers li a {
 	width:100%;
 	text-align:center;
 	font-size:10px;
+	background-color: rgba(0, 0, 0, 0);
 	} 
 	
 
 ul#univers li a:hover {
-	opacity: 0.3;
+	  color: #000;
+	background-color: rgba(255, 255, 255, 0.7);
 	text-decoration:none;
-	-webkit-transition: opacity 0.5s ease-in-out;
-  -o-transition: opacity 0.5s ease-in-out;
-  -ms-transition: opacity 0.5s ease-in-out;
-  -moz-transition: opacity 0.5s ease-in-out;
-  transition: opacity 0.5s ease-in-out;
+	-webkit-transition: background-color 0.5s ease-in-out;
+  -o-transition: background-color 0.5s ease-in-out;
+  -ms-transition: background-color 0.5s ease-in-out;
+  -moz-transition: background-color 0.5s ease-in-out;
+  transition: background-color 0.5s ease-in-out;
 } 
 		
  
@@ -806,7 +811,6 @@ a.academy {
 	
 a.academy:hover {
 	background-image:none;
-  background-color:#999;
 	} 
 
 a.colonies {
@@ -818,7 +822,6 @@ a.colonies {
 	
 a.colonies:hover {
 	background-image:none;
-  background-color:#999;
 	} 	
 
 	
@@ -1657,13 +1660,12 @@ margin:0px;}
 
 .plusderesultat:hover {
 		color:#000;
-	background-color:#dadada;
-opacity:0.5;
- -webkit-transition: opacity 0.5s ease-out, background-color 0.5s ease-in-out;
-  -o-transition:  opacity 0.5s ease-out, background-color 0.5s ease-in-out;
-  -ms-transition:  opacity 0.5s ease-out, background-color 0.5s ease-in-out;
-  -moz-transition:  opacity 0.5s ease-out, background-color 0.5s ease-in-out;
-  transition: opacity 0.5s ease-out, background-color 0.5s ease-in-out;
+	background-color:#ffffff;
+ -webkit-transition: background-color 0.5s ease-in-out;
+  -o-transition: background-color 0.5s ease-in-out;
+  -ms-transition:  background-color 0.5s ease-in-out;
+  -moz-transition:  background-color 0.5s ease-in-out;
+  transition: background-color 0.5s ease-in-out;
    -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
           border-radius: 4px;
@@ -1713,14 +1715,13 @@ background-position: top right;}
 	
 .trierparprix:hover {
 	color:#000;
-	background-color:#dadada;
+	background-color:#ffffff;
 	background-image:url(../images/puce_tri_descend.png);
-opacity:0.5;
- -webkit-transition: opacity 0.5s ease-out, background-color 0.5s ease-in-out;
-  -o-transition:  opacity 0.5s ease-out, background-color 0.5s ease-in-out;
-  -ms-transition:  opacity 0.5s ease-out, background-color 0.5s ease-in-out;
-  -moz-transition:  opacity 0.5s ease-out, background-color 0.5s ease-in-out;
-  transition: opacity 0.5s ease-out, background-color 0.5s ease-in-out;
+ -webkit-transition: background-color 0.5s ease-in-out;
+  -o-transition: background-color 0.5s ease-in-out;
+  -ms-transition: background-color 0.5s ease-in-out;
+  -moz-transition: background-color 0.5s ease-in-out;
+  transition: background-color 0.5s ease-in-out;
    -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
           border-radius: 4px;
@@ -1728,7 +1729,7 @@ opacity:0.5;
 
 .reservation {
 	float:right;
-	color:#dadada;
+	color:#fff;
 	font-size:13px;
 	line-height:13px;
 	margin:  -30px 20px 0px 30px;
@@ -1741,14 +1742,13 @@ opacity:0.5;
 	
 .reservation:hover {
 	color:#000;
-	background-color:#dadada;
-	background-image:url(../images/picto_resa_hover.png);
-opacity:0.5;
- -webkit-transition: opacity 0.5s ease-out, background-color 0.5s ease-in-out;
-  -o-transition:  opacity 0.5s ease-out, background-color 0.5s ease-in-out;
-  -ms-transition:  opacity 0.5s ease-out, background-color 0.5s ease-in-out;
-  -moz-transition:  opacity 0.5s ease-out, background-color 0.5s ease-in-out;
-  transition: opacity 0.5s ease-out, background-color 0.5s ease-in-out;
+	background-color:#ffffff;
+	background-image:url(../images/picto_resa_hover_inverse.png);
+ -webkit-transition: background-color 0.5s ease-in-out;
+  -o-transition: background-color 0.5s ease-in-out;
+  -ms-transition:  background-color 0.5s ease-in-out;
+  -moz-transition: background-color 0.5s ease-in-out;
+  transition:background-color 0.5s ease-in-out;
    -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
           border-radius: 4px;
@@ -1939,4 +1939,9 @@ text-align: center;
    -ms-transform: scale(1.2);
 filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',
    M11=1.2, M12=-0, M21=0, M22=1.2);
-   }	
+   }
+   
+#sousmenu_page {background-color:#b1b3b4;padding:0px;margin:0px;}	
+.tab-pane {
+	margin:0px;
+	padding:0px;}

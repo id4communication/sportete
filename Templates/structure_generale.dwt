@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="author" content="">
+<meta name="author" content="iD4COM ©2012">
 <!-- TemplateBeginEditable name="head" -->
 <title>Sport été</title>
 
@@ -311,7 +311,7 @@
     
     <!--Espace central-->
     <div class="entetedepage"><div class="degrade_clair_enbas" ><div id="titredecodroite">
-      <div id="titredecogauche" ><span class="titrepage"><!-- TemplateBeginEditable name="Titre de pAGE" -->Titre de page <a href="#" class="reservation">Réserver</a><!-- TemplateEndEditable -->
+      <div id="titredecogauche" ><span class="titrepage"><!-- TemplateBeginEditable name="Titre de pAGE" -->Titre de page<!-- TemplateEndEditable -->
 </span>
         <blockquote class="reference"><!-- TemplateBeginEditable name="Blockquote" -->blockquote<!-- TemplateEndEditable --></blockquote></div></div></div>  
         <!--contenu_page --> 
