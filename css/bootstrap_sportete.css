@@ -165,10 +165,10 @@ a.acces:hover {
 	}
 	
 .decouvrez:hover {
-	color:#fff;
+	color:#000;
 	text-decoration:none;
-	background-color: #999;
-	opacity: 0.6;
+	background-color: #fff;
+	opacity: 1;
 	-webkit-transition: background-color 0.5s ease-in-out;
   -o-transition:  background-color 0.5s ease-in-out;
   -ms-transition:  background-color 0.5s ease-in-out;
