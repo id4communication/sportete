@@ -94,7 +94,7 @@
           <div class="container-fluid-sportete"> 
   <!-- row_0 --> 
   <div class="row-fluid-sportete">
- <div id="mon_espace" class="nav navbar-fixed-top span2sportete" style="float:right;padding-left:0px"><div class="titre_monespace">Mon Espace<a href="#" class="acces">Accès</a></div><div id="mon_panier"><a href="#">Mon panier</a></div></div></div>
+ <div id="mon_espace" class="nav navbar-fixed-top span2sportete" style="float:right;padding-left:0px"><div class="titre_monespace">Mon Espace<a href="mon_espace.html" class="acces">Accès</a></div><div id="mon_panier"><a href="mon_panier.html">Mon panier</a></div></div></div>
           </div>
          
         </div>
@@ -111,10 +111,10 @@
       <div id="bandeau" class="container-sportete">
         <div class="row-fluid-sportete">
           <div id="logo" class="span2sportete"></div>
-       <div id="slogans" class="span8sportete" ><!-- TemplateBeginEditable name="slogan univers" -->
+       <h1 id="slogans" class="span8sportete" ><!-- TemplateBeginEditable name="slogan univers" -->
 
 	   
-	   <!-- TemplateEndEditable --></div>
+	   <!-- TemplateEndEditable --></h1>
         </div>
       </div>
     </header>
@@ -158,7 +158,7 @@
           </tr>
           <tr>
             <td style="text-align:right;">Rappelez moi</td>
-            <td><a href="#"><i class="icon-play icon-white"></i> Demandez un rappel</a></td>
+            <td><i class="icon-play icon-white" style="float:left;"><a data-original-title="Rappelez moi !" href="#" rel="popover" data-placement="left" data-content="Suivez ce lien et demander un rappel téléphonique..."></i> Demandez un rappel</a></td>
           </tr>
           <tr>
             <td style="text-align:right;">Suivez nous</td>
@@ -189,11 +189,15 @@
     <!-- aside_gauche-->
     
     <aside class="gauche"> 
-      
       <!-- Recherche_rapide-->
-      <div id="quick_search" class="span2gauche">
-        <div class="titres_recherches">Recherche <img src="../images/picto_recherche.png" width="21" height="21" alt="recherche"> <span>rapide</span></div>
-        <form class="form-search">
+      <div id="quick_search">
+<div class="accordion" id="search">
+                <div class="accordion-group">
+                  <div class="accordion-heading"> 
+                    <a class="titres_recherches" data-toggle="collapse" data-parent="#search" href="#collapseOne">Recherche <img src="../images/picto_recherche.png" width="21" height="21" alt="recherche"> <span>rapide</span></a>
+                  </div>
+                  <div id="collapseOne" class="accordion-body collapse in">
+                  <form class="form-search">
           <fieldset>
             <div class="quick_search_content">
               <table>
@@ -269,24 +273,37 @@
               </table>
             </div>
             <div style="padding:5px;">
-              <input type="submit" name="search" class="btn center" id="search" value="Rechercher" />
+              <input type="submit" name="search" class="btn btn-mini center" id="search" value="Rechercher" />
               &nbsp;
-              <input type="submit" name="search" class="btn center" id="search" value="+ de critères" />
+              <input type="submit" name="search" class="btn btn-mini center" id="search" value="+ de critères" />
             </div>
           </fieldset>
         </form>
+                  </div>
+                </div>
+        </div>
       </div>
-      <!--/Recherche_rapide--> 
+ <!--/Recherche_rapide--> 
       
-  
+      <div class="separateur"></div>
       
+ <!--Bloc espace promotion
+      <div id="promotion" class="span2sportete hidden-phone" ><a href="#" class="boutton_promotion" target="_self" >En savoir <span class="grossir">+</span></a></div>-->
       
-      <!--Bloc espace promotion-->
-      <div id="promotion" class="span2sportete hidden-phone" ><a href="#" class="boutton_promotion" target="_self" >En savoir <span class="grossir">+</span></a></div>
+      <div id="myCarousel" class="carousel slide">
+    <!-- Carousel items -->
+    <div class="carousel-inner">
+    <div class="active item"><img src="images/images_promotion/1.jpg" width="230" height="180"></div>
+    <div class="item"><img src="images/images_promotion/1.jpg" width="230" height="180"></div>
+    <div class="item"><img src="images/images_promotion/1.jpg" width="230" height="180"></div>
+    </div>
+    <!-- Carousel nav -->
+    <a class="carousel-control-promotion left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+    <a class="carousel-control-promotion right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+    <a href="#" class="boutton_promotion" target="_self" >En savoir <span class="grossir">+</span></a></div>
       <!--/ Bloc espace promotion--> 
-      
       <!--Bloc séjours_consultés-->
-      <div class="span2gauche  hidden-phone" >
+      <div class="hidden-phone" >
         <div class="left_block_title">Derniers séjours consultés</div>
         <!--/ Titre séjours_consultés--> 
         <!--séjours 1-->
@@ -310,13 +327,15 @@
     <!--/aside_gauche--> 
     
     <!--Espace central-->
-    <div class="entetedepage"><div class="degrade_clair_enbas" ><div id="titredecodroite">
-      <div id="titredecogauche" ><span class="titrepage"><!-- TemplateBeginEditable name="Titre de pAGE" -->Titre de page<!-- TemplateEndEditable -->
-</span>
-        <blockquote class="reference"><!-- TemplateBeginEditable name="Blockquote" -->blockquote<!-- TemplateEndEditable --></blockquote></div></div></div>  
+       <!--Espace central-->
+    <header class="entetedepage"><div class="degrade_clair_enbas" ><div id="titredecodroite"><div id="titredecogauche" >
+    <h2>
+	<!-- TemplateBeginEditable name="Titre de pAGE" -->Titre de Page<!-- TemplateEndEditable --></h2>
+        <blockquote class="reference"><!-- TemplateBeginEditable name="Blockquote" -->blockquote<!-- TemplateEndEditable --></blockquote></div><!-- TemplateBeginEditable name="menu optionnel" --><!-- TemplateEndEditable --></div></div>  
+      </header>    
         <!--contenu_page --> 
  <div class="page"><!-- TemplateBeginEditable name="Page" -->la page<!-- TemplateEndEditable --></div>  
-  </div>
+
     <!-- / espace_central--> 
     
     <!--aside_droite-->

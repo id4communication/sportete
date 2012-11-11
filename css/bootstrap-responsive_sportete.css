@@ -94,11 +94,11 @@ margin-bottom:30px;
 	margin:0px;
   }
   
-  .row-fluid-sportete .page {
-	width: 100%;
-    *width: 100%;
-	margin:0px;
-	padding:25px;}
+.page {
+width: 740px;
+	   *width: 740px;
+	  overflow:hidden;
+	  	padding:25px;}
 
  .navbar-fixed-top {
     margin-bottom: -20px;
