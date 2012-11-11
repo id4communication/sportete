@@ -9,123 +9,117 @@
  */
 
 
+@media (min-width: 0px) and (max-width: 1024px) {
 
+.hidden {
+	display:none;}
 
+  .row-fluid-sportete {
+  width: 1024px;
+  *zoom: 1;
+}
 
-
-
-
-
-@media (min-width: 0px) and (max-width: 985px) {
-
+.row-fluid-sportete [class*="span"] {
+  display: block;
+  float: left;
+  width: 1024px;
+  min-height: 30px;
+  margin-left: 2.127659574468085%;
+  *margin-left: 2.074468085106383%;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
 
   .container-sportete,
   .navbar-fixed-top .container-sportete,
   .navbar-fixed-bottom .container-sportete {
-    width: 100%;
- padding:0px;
- margin:0px;
+    width: 1024px;
+	margin-left:auto;
+	margin-right: auto;
   }
   
-  .container-fluid-sportete {
-  padding: 0px;
- margin: 0px;
- width:100%;
-}
- 
+
   
-.droite { 
-width:100%;
+.row-fluid-sportete .span8sportete {
+  width: 740px;
+  *width: 740px;
+  float:left;
+  margin:0px;
 }
 
-.gauche { 
-width:100%;
-}
-  
-  
-#contacts {
-background-position: top left;
-margin-top:10px;
-margin-bottom:30px;
-
-}
-
-#catalogue {
-	margin-top:20px;
-	 }
-	 
-.row-fluid-sportete .entetedepage {
-	width:100%;
-	*width:100%;
-	margin-top:0px;}
-	
-	#slogans {
-	color:#fff;
-	background-color:#000;
-	font-size: 24px;
-	line-height:24px;
-	padding:0px 0px 0px 25px;
-	font-weight:200;
-	letter-spacing:1px;
-	}	
-	
- .row-fluid-sportete .span12sportete {
-    width: 100%;
-    *width: 100%;
+.row-fluid-sportete .sejours {
+    width: 225px;
+    *width: 225px;
+	margin-right:5px;
   }
- 
-     .row-fluid-sportete .span8sportete {
-  width: 100%;
-  *width: 100%;
-} 	
-
- .row-fluid-sportete .span2sportete ,
-  .row-fluid-sportete .span2droite,
-  .row-fluid-sportete .span2gauche {
-     width: 100%;
-	  *width: 100%;
+  
+.row-fluid-sportete .colonnes_portail {
+    width: 33%;
+    *width: 33%;
+	float:left;
+  }
+  
+  
+.row-fluid-sportete .span2droite,
+.row-fluid-sportete .span2sportete,
+.row-fluid-sportete .span2gauche {
+     width: 230px;
+	 *width: 230px;
 	 float:left;
   }
   
   
-   .row-fluid-sportete .sejours {
-    width: 100%;
-    *width: 100%;
-	margin:0px;
+.row-fluid-sportete .span2footergauche {
+     width: 219px; 
+	 border-right: 1px #9b9b9b solid;
+	 padding:0px 5px 0px 5px;
   }
   
-.page {
-width: 740px;
-	   *width: 740px;
-	  overflow:hidden;
-	  	padding:25px;}
+.row-fluid-sportete .span2footercenter {
+	 margin-left:10px;
+	 width:175px;
+	 float:left; }
+	 
 
- .navbar-fixed-top {
-    margin-bottom: -20px;
-  }	
+.droite { 
+width:230px;
+		float:left; 
+		margin-top:-300px; }
+		  
   
-  body {
-    padding-top: 0;
-  }
-  .navbar-fixed-top,
-  .navbar-fixed-bottom {
-    position: fixed;
-  }
- 
+#contacts {
+background-position: top left;
+margin-top:0px;
+margin-bottom:30px;
+margin-left:0px;
+}
 
-  .navbar-fixed-top .navbar-inner,
-  .navbar-fixed-bottom .navbar-inner {
-    padding: 0px;
-  }
- 
+
+#catalogue {
+	margin-top:20px
+	 }
+	 
+  
+.row-fluid-sportete .entetedepage {
+
+	margin-top:-166px;
+	} 
+
+.row-fluid-sportete .pagecontent {
+	margin-top:-76px;
+	} 
+
+
+  
   
 }
 
 
 
-@media (min-width: 985px) and (max-width: 1200px) {
 
 
+@media (min-width: 1024px) and (max-width: 1200px) {
   
 .droite { 
 width:100%;
@@ -150,6 +144,10 @@ margin-bottom:30px;
 	margin-top:-166px;
 	} 
 
+.row-fluid-sportete .pagecontent {
+	margin-top:-76px;
+	} 
+
  
   
   
@@ -162,9 +160,6 @@ margin-bottom:30px;
   .navbar-fixed-bottom .container-sportete {
     width: 100%;
   }
-  
-  
-
   
  
    .row-fluid-sportete .sejours {

@@ -16,7 +16,7 @@
 <!-- InstanceBeginEditable name="styles" -->
 <link href="css/sejourssportifs.css" rel="stylesheet">
 <!-- InstanceEndEditable -->
-<link href="css/bootstrap-responsive.css" rel="stylesheet">
+
 <link href="css/bootstrap-responsive_sportete.css" rel="stylesheet">
 <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
@@ -94,7 +94,7 @@
           <div class="container-fluid-sportete"> 
   <!-- row_0 --> 
   <div class="row-fluid-sportete">
- <div id="mon_espace" class="nav navbar-fixed-top span2sportete" style="float:right;padding-left:0px"><div class="titre_monespace">Mon Espace<a href="mon_espace.html" class="acces">Accès</a></div><div id="mon_panier"><a href="mon_panier.html">Mon panier</a></div></div></div>
+ <div id="mon_espace" class="nav navbar-fixed-top span2sportete"><div class="titre_monespace">Mon Espace<a href="mon_espace.html" class="acces">Accès</a></div><div id="mon_panier"><a href="mon_panier.html">Mon panier</a></div></div></div>
           </div>
          
         </div>
@@ -152,22 +152,20 @@
             <td><a href="#"><i class="icon-play icon-white"></i> Par email</a></td>
           </tr>
           <tr>
-            <td style="text-align:right;">Tél. </td>
-            <td><i class="icon-play icon-white"></i> 04.66.32.28.59</td>
+            <td align="right">Tél. </td>
+            <td><a data-original-title="Appelez  nous !" href="#" rel="popover" data-placement="left" data-content="04.66.32.28.59"><i class="icon-play icon-white"></i> <span class="alert-block">04.66.32.28.59</span></td>
           </tr>
           <tr>
-            <td style="text-align:right;">Rappelez moi</td>
-            <td><i class="icon-play icon-white" style="float:left;"><a data-original-title="Rappelez moi !" href="#" rel="popover" data-placement="left" data-content="Suivez ce lien et demander un rappel téléphonique..."></i> Demandez un rappel</a></td>
+            <td align="right">Rappelez moi</td>
+            <td><a data-original-title="Rappelez moi !" href="#" rel="popover" data-placement="left" data-content="Suivez ce lien et demander un rappel téléphonique..."><i class="icon-play icon-white"></i> Demandez un rappel</a></td>
           </tr>
           <tr>
-            <td style="text-align:right;">Suivez nous</td>
-            <td><i class="icon-play icon-white" style="float:left;"></i> <a href="#" class="facebook"></a><a href="#" class="tweeter"></a><a href="#" class="pointel"></a></td>
+            <td align="right">Suivez nous</td>
+            <td><i class="icon-play icon-white pull-left"></i><a  class="facebook" data-original-title="Suivez nous sur Facebook" href="#" rel="popover" data-placement="bottom"></a><a class="tweeter" data-original-title="Suivez nous sur tweeter" href="#" rel="popover" data-placement="bottom" data-content=""></a><a class="pointel" data-original-title="Toutes nos coordonnées téléphoniques" href="#" rel="popover" data-placement="bottom" data-content=""></a></td>
           </tr>
           <tr>
-            <td style="text-align:right;line-height:20px;">Newsletter</td>
-            <td style="line-height:25px;"><form name="newsletter" action="#" style="padding:0px;margin:0px;">
-                <i class="icon-play icon-white"></i>
-                <input class="newsletter" type="text" placeholder="@Newsletter" />
+            <td align="right">Newsletter</td>
+            <td><form name="newsletter" action="#" ><i class="icon-play icon-white"></i> <input class="newsletter" type="text" placeholder="@Newsletter" />
                 <input name="valid" type="image" class="newsletterboutton" value="Valider" src="images/puce_boutton_newsletter.png" /> 
               </form></td>
           </tr>
@@ -193,9 +191,9 @@
 <div class="accordion" id="search">
                 <div class="accordion-group">
                   <div class="accordion-heading"> 
-                    <a class="titres_recherches" data-toggle="collapse" data-parent="#search" href="#collapseOne">Recherche <img src="images/picto_recherche.png" width="21" height="21" alt="recherche"> <span>rapide</span></a>
+                    <a class="titres_recherches" data-toggle="collapse" data-parent="#search" href="#collapse14">Recherche <img src="images/picto_recherche.png" width="21" height="21" alt="recherche"> <span>rapide</span></a>
                   </div>
-                  <div id="collapseOne" class="accordion-body collapse in">
+                  <div id="collapse14" class="accordion-body collapse in">
                   <form class="form-search">
           <fieldset>
             <div class="quick_search_content">
@@ -289,7 +287,7 @@
  <!--Bloc espace promotion
       <div id="promotion" class="span2sportete hidden-phone" ><a href="#" class="boutton_promotion" target="_self" >En savoir <span class="grossir">+</span></a></div>-->
       
-      <div id="myCarousel" class="carousel slide">
+      <div id="myCarousel" class="carousel slide hidden">
     <!-- Carousel items -->
     <div class="carousel-inner">
     <div class="active item"><img src="images/images_promotion/1.jpg" width="230" height="180"></div>
@@ -327,13 +325,14 @@
     
     <!--Espace central-->
        <!--Espace central-->
-    <header class="entetedepage"><div class="degrade_clair_enbas" ><div id="titredecodroite"><div id="titredecogauche" >
-    <h2>
+       <section id="page">
+    <header class="entetedepage">
+    <div class="degrade_clair_enbas" ><div id="titredecodroite"><div id="titredecogauche" ><h2 id="titrepage">
 	<!-- InstanceBeginEditable name="Titre de pAGE" -->Titre de page<!-- InstanceEndEditable --></h2>
-        <blockquote class="reference"><!-- InstanceBeginEditable name="Blockquote" -->blockquote<!-- InstanceEndEditable --></blockquote></div><!-- InstanceBeginEditable name="menu optionnel" -->Menu optionnel<!-- InstanceEndEditable --></div></div>  
+        <blockquote class="reference"><!-- InstanceBeginEditable name="Blockquote" -->blockquote<!-- InstanceEndEditable --></blockquote><!-- InstanceBeginEditable name="menu optionnel" -->Menu optionnel<!-- InstanceEndEditable --></div></div></div>  
       </header>    
         <!--contenu_page --> 
- <div class="page"><!-- InstanceBeginEditable name="Page" -->
+ <div class="pagecontent"><!-- InstanceBeginEditable name="Page" -->
 
         
         <a href="fiche_sejour.html" class="sejours fichecolonie">
@@ -519,8 +518,9 @@
         
         <a href="#" class="plusderesultat_bottom">Afficher + de résultats</a>
         
- <!-- InstanceEndEditable --></div>  
-
+ <!-- InstanceEndEditable --></div> 
+ 
+ </section> 
     <!-- / espace_central--> 
     
     <!--aside_droite-->
@@ -543,17 +543,22 @@
         </div>
       </div>
       <!--/ catalogues--> 
+        <!--Flash_infos-->
+<div class="accordion span2droite" id="flash_info"  >
+                <div class="accordion-group" >
+                  <div class="accordion-heading"><div class="right_block_title"><a data-toggle="collapse" data-parent="#flash_info" href="#collapseflashinfos"><img src="images/icon_rss.png" width="20" height="20" alt="Rss Sport été"> Flash <span class="infos">infos</span></a></div>
+                  </div>
+                  <div id="collapseflashinfos" class="accordion-body collapse in">
+          <div id="flashinfoscontent"><h5>Passion Bad :</h5><p>Ouverture de 8 places supplémentaires</p></div>
+        <a href="#" class="lirelasuite" >Lire la suite</a></div>
+                  </div>
+      </div>
       
-      <!--Flash_infos-->
-      <div id="flash_info" class="span2droite" >
-        <div class="right_block_title"><img src="images/icon_rss.png" width="20" height="20" alt="Rss Sport été"> Flash <span class="infos">infos</span></div><div class="flashinfos_content">
-          <h5 class="titreinfo">Passion Bad :</h5>
-          <p>Ouverture de 8 places supplémentaires</p></div>
-        <a href="#" class="lirelasuite">Lire la suite</a> </div>
-      <!--/ Flash_infos--> 
+      
+    <!--/ Flash_infos--> 
       
       <!-- Destination et blogs-->
-      <div class="accordion span2droite" id="accordion2">
+<div class="accordion span2droite" id="accordion2">
                 <div class="right_block_title">Destinations et blogs</div><div class="espacementvertical"></div><div class="accordion-group">
                   <div class="accordion-heading"> 
                     <a class="blog" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">Destination_1</a>
@@ -673,7 +678,7 @@
         <div class="span2droite"><b>INFORMATIONS PRATIQUES :</b>
           <div class="footer_a_set"> <a href="#">La vie des séjours document pdf</a> <a href="#">Carte des transports</a> <a href="#">Préparez votre départ</a> <a href="#">Documents administratifs</a></div><b>PARTENAIRES</b><div class="footer_a_set"> <a href="#">Fédération Française de Tennis de Table</a> <a href="#">Fédération Française de Badminton</a> <a href="#">Fédération Française de Tir à l’Arc</a> <a href="#">Artengo</a> <a href="#">+2Bad</a> <a href="#">Cartaping</a> <a href="#">Virtuabad</a> <a href="#">-->Tous nos partenaires</a></div>
           Crédits :
-          <div class="footer_a_set"> <a href="#">Gestion de projet  / Prog : l.Chedanne</a> <a href="#">Design : iD4COMmunication.fr</a></div>
+          <div class="footer_a_set"> <a href="#">Gestion de projet  / Prog : l.Chedanne</a> <a href="http://id4communication.fr" target="_blank" >Design : <img src="images/signatureiD4com.png" width="45" height="20" alt="iD4COM"></a></div>
           ©2012 Sport’été<br />
           Tous droits de reproduction réservés</div>
       </div>

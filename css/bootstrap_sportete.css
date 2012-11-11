@@ -34,34 +34,7 @@ body {
 }
 
 
-h1,
-H2,
-H3,
-H4,
-H5,
-h6 {
-	font-weight:200;}
 
-h1,
-h2 {
-	  margin: 1px 0;
-  font-family: inherit;
-  font-weight: 100;
-  line-height: 1;
-  color: inherit;
-  text-rendering: optimizelegibility;
-	color:#fff;
-font-size: 24px;
-line-height:26px;
-font-weight: 200;
-display:block;
-padding: 20px 5px 0px 25px;}
-
-
-
-h1 {font-size: 28px;
-
-}
 
 .separateur {
 	clear:both;
@@ -90,15 +63,35 @@ background-image: url(../images/logo.png);
 background-repeat:no-repeat;
 background-position: center bottom;}
 
+
 #slogans {
+	margin: 1px 0;
+  font-family: inherit;
+  font-weight: 200;
+  text-rendering: optimizelegibility;
+	color:#fff;
+font-weight: 200;
+display:block;
+padding: 14px 5px 0px 25px;
 	color:#fff;
 	font-size: 24px;
 	line-height:24px;
 	padding:120px 0px 0px 25px;
-	font-weight:200;
 	letter-spacing:1px;
 	}
 
+#titrepage {
+	font-weight:200;
+	margin: 0px;
+  font-family: inherit;
+  text-rendering: optimizelegibility;
+	color:#fff;
+font-weight: 200;
+display:block;
+padding: 15px 5px 0px 25px;
+	color:#fff;
+	font-size: 22px;
+	line-height:22px;}
 
 .sous_slogan {
 	display:block;
@@ -129,6 +122,8 @@ background-position: center bottom;}
 	-webkit-border-radius:4px 4px 4px 4px;
     -moz-border-radius: 4px 4px 4px 4px;
     border-radius: 4px 4px 4px 4px;
+	float:right;
+	padding-left:0px;
 	}
 
 .titre_monespace {
@@ -902,9 +897,9 @@ a.groupeetce:hover {
 	  float:left;
 	  overflow:hidden;}
 	  
-.page {
+.pagecontent {
 	  width: 690px;
-	   *width: 740px;
+	   *width: 690px;
 	  float:left;
 	  overflow:hidden;
 	  padding:25px;}
@@ -1007,21 +1002,19 @@ h3.contact {
 	margin:0px;
 	font-family:chinese_rocks_rgregular, Edo, Arial;
 	letter-spacing: 2px;
-	font-size: 20px;
-	line-height:20px;
+	font-size: 23px;
+	line-height:25px;
 	color: #fff;}
 
 .contact_content {
 	background-color:#999a96;
 	padding: 5px 5px 0px 5px;;
-	line-height:13px;
+	line-height:17px;
 	height: 141px;
 	 -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
      -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
           box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
 		  overflow:hidden;}
-
-	
 	
 a.facebook {
 	display: block;
@@ -1104,15 +1097,26 @@ background-color:#faf8f8;
 	font-size: 20px;
 	line-height: 21px;
 	color: #fff;
-	background-color:#000;	
-  background-image: -moz-linear-gradient(left, #696969, #c8c8c8);
-  background-image: -ms-linear-gradient(left, #696969, #c8c8c8);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#696969), to( #c8c8c8));
-  background-image: -webkit-linear-gradient(left, #696969, #c8c8c8);
-  background-image: -o-linear-gradient(left, #696969, #c8c8c8);
-  background-image: linear-gradient(left, #696969, #c8c8c8);
-   background-repeat: repeat-x;
-  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#696969', endColorstr='#c8c8c8', GradientType=1);
+	background-color: #000;
+  background-image: -moz-linear-gradient(left, #000000, #b8babb);
+  background-image: -ms-linear-gradient(left, #000000, #b8babb);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000000), to(#b8babb));
+  background-image: -webkit-linear-gradient(left, #000000, #b8babb);
+  background-image: -o-linear-gradient(left, #000000, #b8babb);
+  background-image: linear-gradient(left, #000000, #b8babb);
+  background-repeat: repeat-x;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#000000', endColorstr='#b8babb', GradientType=1);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+     -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+		  overflow::visible;
+	}
+
+.right_block_title:a {
+	color:#fff;
 	}
 
 /*! Destinations et Blogs */		
@@ -1204,13 +1208,23 @@ color:#000;
 	overflow:hidden;
 	 }
 
-#catalogue a {
-	text-decoration:none; }	 
-
-	
- 
 #rotation:hover {
-	background-color:#666; }		 
+	background-color: #000;
+  background-image: -moz-linear-gradient(left, #000000, #b8babb);
+  background-image: -ms-linear-gradient(left, #000000, #b8babb);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000000), to(#b8babb));
+  background-image: -webkit-linear-gradient(left, #000000, #b8babb);
+  background-image: -o-linear-gradient(left, #000000, #b8babb);
+  background-image: linear-gradient(left, #000000, #b8babb);
+  background-repeat: repeat-x;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#000000', endColorstr='#b8babb', GradientType=1);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+     -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+		  overflow::visible; }		 
 	 
 #catalogues_interactifs {
 	font-family: chinese_rocks_rgregular, Edo, Arial;
@@ -1258,19 +1272,21 @@ font-family: chinese_rocks_rgregular, EdoRegular, Arial;
 overflow:hidden;
 margin-right:-10px;
 
+
  }
  
 
 #demandez {
 font-size: 45px;
 letter-spacing: 2px;
-height:35px;
-line-height:36px;
+height:37px;
+line-height:43px;
 background-color:#908e8e;
 color:#fff;
 padding:1px 1px 1px 5px;
 width: 220px;
 float:right;
+margin:0px 0px 0px 30px;
 
 } 
  
@@ -1280,12 +1296,12 @@ letter-spacing: 1px;
 	 font-size: 24px;
 	 background-color:#908e8e;
 	 color:#fff;
-	 padding:1px;
+	 padding:1px 1px 1px 5px;
 	 margin:5px 0px 0px 3px;
 	 width:215px;
 	 float:right;
 	 height:30px;
-	 line-height:30px;}
+	 line-height:34px;}
 	 
 #gratuit {
 letter-spacing: 1px;
@@ -1296,6 +1312,7 @@ letter-spacing: 1px;
 		  width:200px;
 		  float:right;
 		  margin-top:5px;
+		  	 line-height:34px;
 		  }
 		  
 	 
@@ -1308,12 +1325,9 @@ font-family: chinese_rocks_rgregular, Arial;
 letter-spacing:1px;
 font-size: 80%;
 text-transform: uppercase;
-color:#5e5e5e;}	 
+color:#fff;}	 
 
 .titreinfo {
-	display: block;
-	padding:0px;
-	margin:0px;
 	}
 	 
 #flash_info {
@@ -1321,17 +1335,17 @@ color:#5e5e5e;}
 	background-repeat: no-repeat;
 	background-position: center 5px;
 	padding-top: 20px;}
+
+#flash_info a{
+	color:#fff;}
 	
-.flashinfos_content {
-	padding: 10px 10px 10px 10px;
-	line-height:10px;
-	color:#333333;
-	background-color:#edebeb;
+#flashinfoscontent {
+	padding: 5px 15px 5px 15px;
 	}
 	
 
 
-.lirelasuite {
+a.lirelasuite {
 	cursor:pointer;
 background-image: url(../images/picto_lirelasuite.png);
 background-repeat: no-repeat;
@@ -1342,11 +1356,11 @@ text-align:left;
 padding:3px 3px 3px 30px;;
 height:25px;
 line-height:25px;
-color:#707173;
+color:#000;
 background-color:transparent;
 }
 
-.lirelasuite:hover {
+a.lirelasuite:hover {
 background-image: url(../images/picto_lirelasuite.png);
 color:#fff;
 background-color:#707173;
@@ -1529,14 +1543,13 @@ background-color: rgba(0, 0, 0, 0.6);
 /*! Derniers séjours consultés */
 
 .left_block_title {
-	margin-top: 20px;
-	letter-spacing: 1px;
+	padding:3px;
 	font-family: chinese_rocks_rgregular, Edo, Arial;
-	font-size: 16px;
-	display: block;
+	letter-spacing: 1px;
+	font-size: 20px;
+	line-height: 21px;
 	color: #fff;
-	padding: 5px;
-background-color: #000;
+	background-color: #000;
   background-image: -moz-linear-gradient(left, #000000, #b8babb);
   background-image: -ms-linear-gradient(left, #000000, #b8babb);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000000), to(#b8babb));
@@ -1544,7 +1557,14 @@ background-color: #000;
   background-image: -o-linear-gradient(left, #000000, #b8babb);
   background-image: linear-gradient(left, #000000, #b8babb);
   background-repeat: repeat-x;
-  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#000000', endColorstr='#b8babb', GradientType=1);}
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#000000', endColorstr='#b8babb', GradientType=1);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+     -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+		  overflow::visible;}
 	
  
 #sejours_consultes {
@@ -1811,14 +1831,12 @@ background-position: top right;}
 input.newsletter {
 	height:10px;
 	width: 90px;
-	margin-top: 10px;
 	font-size: 11px;
+	margin-top:7px;
 	}
 
 .newsletterboutton {
 	background-color: none;
-	width: 15px;
-	height: 15px;
 	border:none;
 	}
 	
