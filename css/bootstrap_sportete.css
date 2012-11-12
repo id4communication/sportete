@@ -34,6 +34,32 @@ body {
 }
 
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 5px 0px 10px 0px;
+  font-family: inherit;
+  line-height: 1;
+  color: inherit;
+  text-rendering: optimizelegibility;
+}
+
+
+
+
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small {
+  font-weight: normal;
+  line-height: 1;
+  color: #000000;
+}
 
 
 .separateur {
@@ -49,6 +75,17 @@ li {
 .droit {text-align:right;}
 
 
+/*! contenus */
+article p img {
+	margin-right:15px;
+	}
+	
+#page footer {
+	color:#fff;
+	background-image: none;
+	background-color:#dadada;
+	}
+	
 /*! header */
 
 #bandeau {
@@ -229,24 +266,29 @@ a:hover {
   text-decoration: none;
 }
 
-.dropdown-menu li > a:hover,
-.dropdown-menu li > a:focus,
-.dropdown-submenu:hover > a {
-  color: #ffffff;
-  text-decoration: none;
-  background-color: #707173;
-  background-image: none;
-  color:#fff;
-}
-
 
 /*! surcharge bootstrap  */
 
 header {
 	background-image: url(../images/background_bandeau.jpg);
-background-repeat:repeat-x;
+background-repeat:repeat;
+padding:0px;
+margin:0px;
 }
 
+#page header {
+	background-image: none;
+}
+
+#page header table {
+	padding:0px;
+	margin:0px;
+}
+
+#page article article {
+	padding:10px;
+	margin:0px;
+}
 
 	
 .nav {
@@ -894,8 +936,7 @@ a.groupeetce:hover {
  .row-fluid-sportete .entetedepage{
 	  width: 740px;
 	   *width: 740px;
-	  float:left;
-	  overflow:hidden;}
+	  float:left;}
 	  
 .pagecontent {
 	  width: 690px;
@@ -934,7 +975,45 @@ a.groupeetce:hover {
 	display:block;
 	overflow:hidden;}	
 
-#ensavoirplus {}
+#collapsedestinationdetails {	
+background-color:#eaeaea;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+		  border: 1px solid #dadada;
+		   border-top: 0px;}
+		 
+
+#ensavoirplusdestination {
+	margin-bottom:20px;
+}
+
+.ensavoirplus a {
+	display:block;
+	width: 100px;
+	padding:5px;
+	color: #fff;
+	background-color: #000;
+  background-image: -moz-linear-gradient(left, #000000, #b8babb);
+  background-image: -ms-linear-gradient(left, #000000, #b8babb);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000000), to(#b8babb));
+  background-image: -webkit-linear-gradient(left, #000000, #b8babb);
+  background-image: -o-linear-gradient(left, #000000, #b8babb);
+  background-image: linear-gradient(left, #000000, #b8babb);
+  background-repeat: repeat-x;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#000000', endColorstr='#b8babb', GradientType=1);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+     -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+		  overflow::visible;}
+		  
+.ensavoirplus:hover {}	
+ 
+ .entete_destination_resume {background-color:#737373;}
+		  
 
 .tab-pane { padding:20px;}
 
@@ -1608,7 +1687,6 @@ color:#fff;
 
 /*! footer*/
 
-
 .enteteoffres, .degrade_clair_enhaut {
 background-color:#000;
 color:#fff;
@@ -1621,24 +1699,6 @@ color:#fff;
   background-repeat: repeat-x;
   filter: progid:dximagetransform.microsoft.gradient(startColorstr='#90BC13', endColorstr=' #4A5B27', GradientType=0);
 	}
-
-#degrade_clair_enbas, .degrade_clair_enbas {
-background-color:#000;
-color:#fff;
- background-image: -moz-linear-gradient(top, #4A5B27, #90BC13);
-  background-image: -ms-linear-gradient(top, #4A5B27, #90BC13);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#4A5B27), to( #90BC13));
-  background-image: -webkit-linear-gradient(top, #4A5B27, #90BC13);
-  background-image: -o-linear-gradient(top, #4A5B27, #90BC13);
-  background-image: linear-gradient(top, #4A5B27, #90BC13);
-   background-repeat: repeat-x;
-  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#4A5B27', endColorstr='#90BC13', GradientType=0);
-}
-
-#degrade_clair_enbas {
-height:11px;
-}
-
 
 footer { background-image: url(../images/footer_background_0.jpg);
 background-repeat: repeat-x;
@@ -1827,6 +1887,40 @@ background-position: top right;}
      -moz-border-radius: 4px;
           border-radius: 4px;
 }	
+
+
+.reservation_inverse {
+	display:block;
+	color:#000;
+	background-color:#ffffff;
+	background-image:url(../images/picto_resa_hover_inverse.png);	
+	font-size:12px;
+	line-height:12px;
+	margin: 0px;
+	padding: 25px 40px 10px 5px;
+	background-position: center right;
+	background-repeat: no-repeat;
+	  text-shadow: 0px 2px 2px 0px rgba(250, 89, 5, 1);
+	}
+	
+.reservation_inverse:hover {
+	background-color:#466c25;
+	background-image:url(../images/picto_resa.png);
+	color:#fff;
+ -webkit-transition: background-color 0.5s ease-in-out;
+  -o-transition: background-color 0.5s ease-in-out;
+  -ms-transition:  background-color 0.5s ease-in-out;
+  -moz-transition: background-color 0.5s ease-in-out;
+  transition:background-color 0.5s ease-in-out;
+   -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}	
+
+
+
+
+
 
 input.newsletter {
 	height:10px;
@@ -2017,3 +2111,20 @@ filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',
 .tab-pane {
 	margin:0px;
 	padding:0px;}
+	
+ul.mini li {
+	display:inline;}
+	
+	
+table.tableaudesreservations { width:100%;
+display: block;}	
+
+
+.tableaudesreservations td { background-color: #58585a;}
+#resa {
+	background-color: #58585a;
+padding-top : 5px;
+	-webkit-border-radius:4px 4px 0px 0px;
+    -moz-border-radius: 4px 4px 0px 0px;
+    border-radius: 4px 4px 0px 0px;}
+#resa table tr td {border:0px;}
