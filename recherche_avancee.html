@@ -1,22 +1,16 @@
 <!DOCTYPE html>
-<html lang="fr"><!-- InstanceBegin template="/Templates/structure_generale.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="fr">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="author" content="iD4COM ©2012">
-<!-- InstanceBeginEditable name="head" -->
 <title>Sport été</title>
 
 <meta name="description" content="">
-<!-- InstanceEndEditable -->
-
 <!-- Le styles -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/bootstrap_sportete.css" rel="stylesheet">
-<!-- InstanceBeginEditable name="styles" -->
-<link href="css/fiches_univers.css" rel="stylesheet">
-<!-- InstanceEndEditable -->
-
+<link href="css/academy.css" rel="stylesheet">
 <link href="css/bootstrap-responsive_sportete.css" rel="stylesheet">
 <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
@@ -111,10 +105,7 @@
       <div id="bandeau" class="container">
         <div class="row-fluid">
           <div id="logo" class="colwidth"></div>
-       <h1 id="slogans" class="main_col_width" ><!-- InstanceBeginEditable name="slogan univers" -->
-
-	   
-	   <!-- InstanceEndEditable --></h1>
+       <h1 id="slogans" class="main_col_width" >&nbsp; </h1>
         </div>
       </div>
     </header>
@@ -125,10 +116,10 @@
 <div class="container" >
   <div class="row-fluid menu_principal" > 
     <!-- boutton découvrez nos univers--> 
-    <div class="colwidth"><a href="index_sportete.html" class="decouvrez center hidden-phone" >Découvrez<br />
-    <span class="nosunivers" >nos univers</span><img src="images/puce_droite_bouton_univers.png" width="19" height="27" alt="decouvrez nos univers" class="puce_univers"></a></div>
+    <a href="index_sportete.html" class="colwidth decouvrez center hidden-phone" >Découvrez<br />
+    <span class="nosunivers" >nos univers</span><img src="images/puce_droite_bouton_univers.png" width="19" height="27" alt="decouvrez nos univers" class="puce_univers"></a> 
     <!-- navigation entre univers-->
-    <nav class="main_col_width">
+    <nav class="main_col_width" >
       <ul id="univers">
         <li><a href="index_academy.html" class="academy" ><img src="images/medium_logo_academy.png" width="101" height="13" alt="Univers Academy"><br>
           100% technique</a></li>
@@ -142,7 +133,7 @@
           Votre séjour de A à Z</a></li>
       </ul>
     </nav>
-
+    
     <!-- contacts-->
     <div class="colwidth" id="contacts">
       <div class="contact_content" >
@@ -154,7 +145,7 @@
           </tr>
           <tr>
             <td align="right">Tél. </td>
-            <td><a data-original-title="Contactez nous au 04.66.32.28.59 !" href="#" rel="tooltip" data-placement="left"><i class="icon-play icon-white"></i> 04.66.32.28.59</a></td>
+            <td><a data-original-title="Appelez  nous !" href="#" rel="popover" data-placement="left" data-content="04.66.32.28.59"><i class="icon-play icon-white"></i> <span class="alert-block">04.66.32.28.59</span></td>
           </tr>
           <tr>
             <td align="right">Rappelez moi</td>
@@ -186,108 +177,102 @@
     
     <!-- aside_gauche-->
     
-    <aside class="gauche">
-    
-  
-     
+    <aside class="gauche"> 
       <!-- Recherche_rapide-->
       <div id="quick_search">
-<div class="accordion" id="search">
+<div class="accordion" id="recherche_avancee">
                 <div class="accordion-group">
                   <div class="accordion-heading"> 
-                    <a class="titres_recherches" data-toggle="collapse" data-parent="#search" href="#collapse14">Recherche <img src="images/picto_recherche.png" width="21" height="21" alt="recherche"> <span>rapide</span></a>
+                    <a class="titres_recherches" data-toggle="collapse" data-parent="#recherche_avancee" href="#collapse14"><img src="images/picto_recherche.png" width="21" height="21" alt="recherche"> Recherche <span>avancée</span></a>
                   </div>
                   <div id="collapse14" class="accordion-body collapse in">
-                  <form class="form-search">
-          <fieldset>
-            <div class="quick_search_content">
-              <table>
-                <tr>
-                  <td class="search droit largeurlabels"><label>Activité : </label></td>
-                  <td class="search"><div class="btn-group">
-    <a class="btn dropdown-toggle btn-mini" data-toggle="dropdown" href="#">
-    Activités
-    <span class="caret"></span>
-    </a>
-    <ul class="dropdown-menu">
-    <li><a href="#">Badminton</a></li>
-                      <li><a href="#">Cirque</a></li>
-                      <li><a href="#">Cuisine</a></li>
-                      <li><a href="#">Equitation</a></li>
-                      <li><a href="#">Escalade</a></li>
-                     <li><a href="#">Football</a></li>
-                     <li><a href="#">Grands jeux</a></li>
-                      <li><a href="#">Journalisme</a></li>
-                      <li><a href="#">Magie</a></li>
-                      <li><a href="#">Multisports</a></li>
-                      <li><a href="#">Nautisme</a></li>
-                     <li><a href="#">Randonnée</a></li>
-                      <li><a href="#">Sports mécaniques</a></li>
-                      <li><a href="#">Squash</a></li>
-                      <li><a href="#">Taekwondo</a></li>
-                      <li><a href="#">Tennis</a></li>
-                      <li><a href="#">Tennis de table</a></li>
-                      <li><a href="#">Théâtre</a></li>
-                      <li><a href="#">Tir à l'arc</a></li>
-                      <li><a href="#">VTT</a></li>
-    </ul>
-    </div></td>
-                </tr>
-                <tr>
-                  <td class="search droit"><label>Période : </label></td>
-                  <td class="search"><select class="quick_search_inputs">
-                      <option>Badminton</option>
-                      <option>Cirque</option>
-                      <option>Cuisine</option>
-                      <option>Equitation</option>
-                      <option>Escalade</option>
-                      <option>Football</option>
-                      <option>Grands jeux</option>
-                      <option>Journalisme </option>
-                      <option>Magie</option>
-                      <option>Multisports</option>
-                      <option>Nautisme</option>
-                      <option>Randonnée</option>
-                      <option>Sports mécaniques</option>
-                      <option>Squash</option>
-                      <option>Taekwondo</option>
-                      <option>Tennis</option>
-                      <option>Tennis de table</option>
-                      <option>Théâtre</option>
-                      <option>Tir à l'arc</option>
-                      <option>VTT</option>
-                    </select></td>
-                </tr>
-                <tr>
-                  <td class="search droit"><label>Age : </label></td>
-                  <td class="search"><select id="age" class="quick_search_inputs">
-                      <option>7-->12ans</option>
-                      <option>12-->16ans</option>
-                      <option>Adultes</option>
-                    </select></td>
-                </tr>
-                <tr>
-                  <td class="search droit"><label>Code séjour : </label></td>
-                  <td class="search"><input class="newsletter quick_search_inputs" type="text" id="code_sejour"  /></td>
-                </tr>
-              </table>
+                  <div class="fond_recherche">
+                  <div class="accordion" id="recherche_details">
+                <div class="accordion-group">
+                  
+                  <div class="accordion-heading"><a data-toggle="collapse" data-parent="#recherche_details" href="#collapse20" class="rechercheavance" >Univers :</a></div><div id="collapse20" class="accordion-body collapse"><ul class="rechercheavanceecorpsdetails">
+                <li><a href="#">Academy</a></li>
+                <li><a href="#">Curieux du Monde</a></li>
+                <li><a href="#">Colonies</a></li>
+                <li><a href="#">Séjours sportifs</a></li>
+                <li><a href="#">Groupe et CE</a></li>
+                <li><a href="#">Tous les univers</a></li>
+              </ul></div>
+              
+                  <div class="accordion-heading"><a data-toggle="collapse" data-parent="#recherche_details" href="#collapse18" class="rechercheavance" >Sports / Activités :</a><div id="selection"><a class="selected">Journalisme<img src="images/rechercheavancee_deselect.png" width="16" height="16" class="deselect"></a><a class="selected">Randonnée<img src="images/rechercheavancee_deselect.png" width="16" height="16" class="deselect"></a></div></div><div id="collapse18" class="accordion-body collapse"><ul class="rechercheavanceecorpsdetails"><li><a href="#">Badminton</a></li>
+                <li><a href="#">Cirque</a></li>
+                <li><a href="#">Cuisine</a></li>
+                <li><a href="#">Equitation</a></li>
+                <li><a href="#">Escalade</a></li>
+                <li><a href="#">Football</a></li>
+                <li><a href="#">Grands jeux</a></li>
+                <li><a href="#">Journalisme</a></li>
+                <li><a href="#">Magie</a></li>
+                <li><a href="#">Multisports</a></li>
+                <li><a href="#">Nautisme</a></li>
+                <li><a href="#">Randonnée</a></li>
+                <li><a href="#">Sports</a></li>
+                <li><a href="#">mécaniques</a></li>
+                <li><a href="#">Squash</a></li>
+                <li><a href="#">Taekwondo</a></li>
+                <li><a href="#">Tennis</a></li>
+                <li><a href="#">Tennis de table</a></li>
+                <li><a href="#">Théâtre</a></li>
+                <li><a href="#">Tir à l'arc</a></li>
+                <li><a href="#">VTT</a></li></ul></div>
+                
+                <div class="accordion-heading"><a data-toggle="collapse" data-parent="#recherche_details" href="#collapse19" class="rechercheavance" >Destinations :</a></div>
+                <div id="collapse19" class="accordion-body collapse">
+                <ul class="rechercheavanceecorpsdetails">
+                <li><a href="#">Bagnères-de-Bigorre</a></li>
+                <li><a href="#">Contrexéville</a></li>
+                <li><a href="#">La Canourgue</a></li>
+                <li><a href="#">La Rochelle</a></li>
+                <li><a href="#">Le Malzieu</a></li>
+                <li><a href="#">Les Sables d'Olonne</a></li>
+                <li><a href="#">Magnanville</a></li>
+                <li><a href="#">Marvejols</a></li>
+                <li><a href="#">Mende - Le Chapitre</a></li>
+                <li><a href="#">OSCA (La Canourgue)</a></li>
+                <li><a href="#">Tignes</a></li>
+              </ul></div>
+             
+                <div class="accordion-heading"><a data-toggle="collapse" data-parent="#recherche_details" href="#collapse21" class="rechercheavance" >Age :</a></div>
+                  <div id="collapse21" class="accordion-body collapse">
+                  <ul class="rechercheavanceecorpsdetails"> <li><a href="#">7-->12ans</a></li>
+                <li><a href="#">12-->16ans</a></li>
+                <li><a href="#">Adultes</a></li>
+              </ul></div>
+           
+           
+            <div class="accordion-heading"><a data-toggle="collapse" data-parent="#recherche_details" href="#collapse22" class="rechercheavance" >Période :</a></div>
+            <div id="collapse22" class="accordion-body collapse">
+            <ul class="rechercheavanceecorpsdetails"><li><a href="#">Printemps</a></li>
+                <li><a href="#">été</a></li>
+                <li><a href="#">Automne</a></li>
+                <li><a href="#">Hiver</a></li>
+              </ul>
             </div>
-            <div class="espace_boutton_recherche">
-              <input type="submit" name="search" class="btn btn-mini center" id="search" value="Rechercher" />
-              &nbsp;
-              <a href="recherche_avancee.html" class="btn btn-mini center">+ de critère</a>
-            </div>
-          </fieldset>
-        </form>
-                  </div>
-                </div>
+         
+             <div id="codesejours"> Code séjour : <input class="newsletter" type="text" id="code_sejour" /><input name="valid" type="image" class="codesejours" value="Valider" src="images/puce_boutton_newsletter.png" /> 
+                    </input></div>
+             
+              </div>
+          </div>
         </div>
-      </div>
- <!--/Recherche_rapide--> 
+            <br />
+           </div>
+          </div>
+          
+          
+        </div>
+ </div>
+ <!--/Recherche_avancée--> 
       
       <div class="separateur"></div>
       
- <!--Bloc espace promotion-->
+ <!--Bloc espace promotion
+      <div id="promotion" class="colwidth hidden-phone" ><a href="#" class="boutton_promotion" target="_self" >En savoir <span class="grossir">+</span></a></div>-->
       
       <div id="myCarousel" class="carousel slide hidden">
     <!-- Carousel items -->
@@ -301,25 +286,26 @@
     <a class="carousel-control-promotion right" href="#myCarousel" data-slide="next">&rsaquo;</a>
     <a href="#" class="boutton_promotion" target="_self" >En savoir <span class="grossir">+</span></a></div>
       <!--/ Bloc espace promotion--> 
-     <!--Bloc séjours_consultés-->
-    <div class="accordion colwidth" id="sejoursconsultes" >
-                <div class="accordion-group" >
-                  <div class="accordion-heading"><div class="right_block_title"><a data-toggle="collapse" data-parent="#sejoursconsultes" href="#collapsesejoursconsultes">Derniers séjours consultés</a></div></div>
-                  <div id="collapsesejoursconsultes" class="accordion-body collapse in">
-          <div id="sejours_consultes"><a href="fiche_sejour.html" target="_self">
+      <!--Bloc séjours_consultés-->
+      <div class="hidden-phone" >
+        <div class="left_block_title">Derniers séjours consultés</div>
+        <!--/ Titre séjours_consultés--> 
+        <!--séjours 1-->
+        <div id="sejours_consultes"><a href="#">
           <i class="icon-circle-arrow-right"></i>&nbsp;<b>STAGE Tennis de table</b><br>
             <p>3h00/jour - Tout public - Contrexéville<br />
             <i>2 périodes entre le 09/07 et le 27/07/12</i><br />
             <span class="tarif_consultes">A partir de <b>179 <sup>€</sup></b></span></p>
           </a></div>
         <!--/ séjours 1--><!--séjours 2-->
-        <div id="sejours_consultes"><a href="fiche_sejour.html" target="_self">
+        <div id="sejours_consultes"><a href="#">
           <i class="icon-circle-arrow-right"></i>&nbsp;<b>STAGE Tennis de table</b><br>
             <p>3h00/jour - Tout public - Contrexéville<br />
             <i>2 périodes entre le 09/07 et le 27/07/12</i><br />
             <span class="tarif_consultes">A partir de <b>179 <sup>€</sup></b></span></p>
-          </a></div></div></div>              
-      </div> <!--/ séjours consultés--> 
+          </a></div>
+      </div>
+      <!--/ séjours consultés--> 
       
     </aside>
     <!--/aside_gauche--> 
@@ -328,246 +314,53 @@
        <!--Espace central-->
        <section id="page">
     <header class="entetedepage">
-    <div class="degrade_clair_enbas" ><div id="titredecodroite"><div id="titredecogauche" ><h1 id="titrepage">
-	<!-- InstanceBeginEditable name="Titre de pAGE" -->Titre de page<!-- InstanceEndEditable --></h1>
-        <blockquote class="reference"><!-- InstanceBeginEditable name="Blockquote" -->blockquote<!-- InstanceEndEditable --></blockquote><!-- InstanceBeginEditable name="menu optionnel" -->Menu optionnel<!-- InstanceEndEditable --></div></div></div>  
+    <div class="degrade_clair_enbas" ><div id="titredecodroite"><div id="titredecogauche" ><h2 id="titrepage"> Titre de Page</h2>
+        <blockquote class="reference">blockquote</blockquote>
+</div></div></div>  
       </header>    
         <!--contenu_page --> 
- <div class="pagecontent"><!-- InstanceBeginEditable name="Page" -->
- 
-        
-        <a href="fiche_sejour.html" class="sejours fichecolonie">
-        <table class="table table-bordered table-condensed" cellspacing="0" cellpading="0">
-          <thead class="degrade_clair_enhaut" >
-            <tr>
-              <th colspan="3" class="enteteoffres">Titre Séjour ou stage<span class="destinationentete">Destination</span></th>
-            </tr>
-          </thead>
-          <tbody class="couleur_univers">
-            <tr>
-              <td width="75px" height="122px" rowspan="3" style="padding:0px;margin:0px;"><img src="images/images_colonies/col13223_mini.jpg" width="82" height="122" alt="visuel_sejour_stage"></td>
-              <td colspan="2" style="text-align:center;"><span class="nombre_periode">3</span><span class="texte_periode">périodes possibles</span> <span class="du_au">du</span><span class="date">08/07</span><span class="du_au">au</span><span class="date">28/07/12</span></td>
-            </tr>
-            <tr>
-              <td style="text-align:center;"><span class="jour">4</span><span class="nuit">13</span></td>
-              <td style="text-align:center;"><span class="formule">Formule</span> <span class="formule_type">intense</span></td>
-            </tr>
-            <tr>
-              <td style="text-align:center;">10/14<br>
-                ans</td>
-              <td style="text-align:center;"><span class="apartirde">à partir de</span><span class="tarif">399<sup>€</sup></span></td>
-            </tr>
-            <tr>
-              <td colspan="3" class="descriptif">Tu as la passion et l'envie de l'art de la scène ? Tu souhaites maitriser le plus vieil art du divertissement qu'est le cirque ?<br />
-                N'hésites plus à te lancer dans l'aventure « Cirque et Spectacle » de notre centre Sport Eté à la Rochelle !</td>
-            </tr>
-          </tbody>
-        </table>
-        </a><!--contenu_page ligne 1 colonne 2--> 
-        
-        <a href="fiche_sejour.html" class="sejours fichecurieux">
-        <table class="table table-bordered table-condensed" cellspacing="0" cellpading="0">
-          <thead class="degrade_clair_enhaut" >
-            <tr>
-              <th colspan="3" class="enteteoffres">Titre Séjour ou stage<span class="destinationentete">Destination</span></th>
-            </tr>
-          </thead>
-          <tbody class="couleur_univers">
-            <tr>
-              <td width="82" height="122px" rowspan="3" style="padding:0px;"><img src="images/images_colonies/col13223_mini.jpg" width="82" height="122" alt="visuel_sejour_stage"></td>
-              <td colspan="2" style="text-align:center;"><span class="nombre_periode">3</span><span class="texte_periode">périodes possibles</span> <span class="du_au">du</span><span class="date">08/07</span><span class="du_au">au</span><span class="date">28/07/12</span></td>
-            </tr>
-            <tr>
-              <td style="text-align:center;"><span class="jour">4</span><span class="nuit">13</span></td>
-              <td style="text-align:center;"><span class="formule">Formule</span> <span class="formule_type">intense</span></td>
-            </tr>
-            <tr>
-              <td style="text-align:center;">10/14<br>
-                ans</td>
-              <td style="text-align:center;"><span class="apartirde">à partir de</span><span class="tarif">399<sup>€</sup></span></td>
-            </tr>
-            <tr>
-              <td colspan="3" class="descriptif">Tu as la passion et l'envie de l'art de la scène ? Tu souhaites maitriser le plus vieil art du divertissement qu'est le cirque ?<br />
-                N'hésites plus à te lancer dans l'aventure « Cirque et Spectacle » de notre centre Sport Eté à la Rochelle !</td>
-            </tr>
-          </tbody>
-        </table>
-        </a> 
-        
-        <!--contenu_page ligne 1 colonne 3--> 
-        
-        <a href="fiche_sejour.html" class="sejours fichesejourssportifs">
-        <table class="table table-bordered table-condensed" cellspacing="0" cellpading="0">
-          <thead class="degrade_clair_enhaut" >
-            <tr>
-              <th colspan="3" class="enteteoffres">Titre Séjour ou stage<span class="destinationentete">Destination</span></th>
-            </tr>
-          </thead>
-          <tbody class="couleur_univers">
-            <tr>
-              <td width="82" height="122px" rowspan="3" style="padding:0px;"><img src="images/images_colonies/col13223_mini.jpg" width="82" height="122" alt="visuel_sejour_stage"></td>
-              <td colspan="2" style="text-align:center;"><span class="nombre_periode">3</span><span class="texte_periode">périodes possibles</span> <span class="du_au">du</span><span class="date">08/07</span><span class="du_au">au</span><span class="date">28/07/12</span></td>
-            </tr>
-            <tr>
-              <td style="text-align:center;"><span class="jour">4</span><span class="nuit">13</span></td>
-              <td style="text-align:center;"><span class="formule">Formule</span> <span class="formule_type">intense</span></td>
-            </tr>
-            <tr>
-              <td style="text-align:center;">10/14<br>
-                ans</td>
-              <td style="text-align:center;"><span class="apartirde">à partir de</span><span class="tarif">399<sup>€</sup></span></td>
-            </tr>
-            <tr>
-              <td colspan="3" class="descriptif">Tu as la passion et l'envie de l'art de la scène ? Tu souhaites maitriser le plus vieil art du divertissement qu'est le cirque ?<br />
-                N'hésites plus à te lancer dans l'aventure « Cirque et Spectacle » de notre centre Sport Eté à la Rochelle !</td>
-            </tr>
-          </tbody>
-        </table>
-        </a> 
-        <!--/ligne 1 --> 
-        <!--/ligne 2 --> 
-        <!--contenu_page ligne 2 colonne 1--> 
-        <a href="fiche_sejour.html" class="sejours ficheacademy">
-        <table class="table table-bordered table-condensed" cellspacing="0" cellpading="0">
-          <thead class="degrade_clair_enhaut" >
-            <tr>
-              <th colspan="3" class="enteteoffres">Titre Séjour ou stage<span class="destinationentete">Destination</span></th>
-            </tr>
-          </thead>
-          <tbody class="couleur_univers">
-            <tr>
-              <td width="82" height="122px" rowspan="3" style="padding:0px;"><img src="images/images_colonies/col13223_mini.jpg" width="82" height="122" alt="visuel_sejour_stage"></td>
-              <td colspan="2" style="text-align:center;"><span class="nombre_periode">3</span><span class="texte_periode">périodes possibles</span> <span class="du_au">du</span><span class="date">08/07</span><span class="du_au">au</span><span class="date">28/07/12</span></td>
-            </tr>
-            <tr>
-              <td style="text-align:center;"><span class="jour">4</span><span class="nuit">13</span></td>
-              <td style="text-align:center;"><span class="formule">Formule</span> <span class="formule_type">intense</span></td>
-            </tr>
-            <tr>
-              <td style="text-align:center;">10/14<br>
-                ans</td>
-              <td style="text-align:center;"><span class="apartirde">à partir de</span><span class="tarif">399<sup>€</sup></span></td>
-            </tr>
-            <tr>
-              <td colspan="3" class="descriptif">Tu as la passion et l'envie de l'art de la scène ? Tu souhaites maitriser le plus vieil art du divertissement qu'est le cirque ?<br />
-                N'hésites plus à te lancer dans l'aventure « Cirque et Spectacle » de notre centre Sport Eté à la Rochelle !</td>
-            </tr>
-          </tbody>
-        </table>
-        </a> 
-        
-        <!--contenu_page ligne 2 colonne 2--> 
-        
-        <a href="fiche_sejour.html" class="sejours ficheacademy">
-        <table class="table table-bordered table-condensed" cellspacing="0" cellpading="0">
-          <thead class="degrade_clair_enhaut" >
-            <tr>
-              <th colspan="3" class="enteteoffres">Titre Séjour ou stage<span class="destinationentete">Destination</span></th>
-            </tr>
-          </thead>
-          <tbody class="couleur_univers">
-            <tr>
-              <td width="82" height="122px" rowspan="3" style="padding:0px;"><img src="images/images_colonies/col13223_mini.jpg" width="82" height="122" alt="visuel_sejour_stage"></td>
-              <td colspan="2" style="text-align:center;"><span class="nombre_periode">3</span><span class="texte_periode">périodes possibles</span> <span class="du_au">du</span><span class="date">08/07</span><span class="du_au">au</span><span class="date">28/07/12</span></td>
-            </tr>
-            <tr>
-              <td style="text-align:center;"><span class="jour">4</span><span class="nuit">13</span></td>
-              <td style="text-align:center;"><span class="formule">Formule</span> <span class="formule_type">intense</span></td>
-            </tr>
-            <tr>
-              <td style="text-align:center;">10/14<br>
-                ans</td>
-              <td style="text-align:center;"><span class="apartirde">à partir de</span><span class="tarif">399<sup>€</sup></span></td>
-            </tr>
-            <tr>
-              <td colspan="3" class="descriptif">Tu as la passion et l'envie de l'art de la scène ? Tu souhaites maitriser le plus vieil art du divertissement qu'est le cirque ?<br />
-                N'hésites plus à te lancer dans l'aventure « Cirque et Spectacle » de notre centre Sport Eté à la Rochelle !</td>
-            </tr>
-          </tbody>
-        </table>
-        </a> 
-        <!--contenu_page ligne 2 colonne 3--> 
-        <a href="fiche_sejour.html" class="sejours ficheacademy">
-        <table class="table table-bordered table-condensed" cellspacing="0" cellpading="0">
-          <thead class="degrade_clair_enhaut" >
-            <tr>
-              <th colspan="3" class="enteteoffres">Titre Séjour ou stage<span class="destinationentete">Destination</span></th>
-            </tr>
-          </thead>
-          <tbody class="couleur_univers">
-            <tr>
-              <td width="82" height="122px" rowspan="3" style="padding:0px;"><img src="images/images_colonies/col13223_mini.jpg" width="82" height="122" alt="visuel_sejour_stage"></td>
-              <td colspan="2" style="text-align:center;"><span class="nombre_periode">3</span><span class="texte_periode">périodes possibles</span> <span class="du_au">du</span><span class="date">08/07</span><span class="du_au">au</span><span class="date">28/07/12</span></td>
-            </tr>
-            <tr>
-              <td style="text-align:center;"><span class="jour">4</span><span class="nuit">13</span></td>
-              <td style="text-align:center;"><span class="formule">Formule</span> <span class="formule_type">intense</span></td>
-            </tr>
-            <tr>
-              <td style="text-align:center;">10/14<br>
-                ans</td>
-              <td style="text-align:center;"><span class="apartirde">à partir de</span><span class="tarif">399<sup>€</sup></span></td>
-            </tr>
-            <tr>
-              <td colspan="3" class="descriptif">Tu as la passion et l'envie de l'art de la scène ? Tu souhaites maitriser le plus vieil art du divertissement qu'est le cirque ?<br />
-                N'hésites plus à te lancer dans l'aventure « Cirque et Spectacle » de notre centre Sport Eté à la Rochelle !</td>
-            </tr>
-          </tbody>
-        </table>
-        </a> 
-        <!--/ligne 2--> 
-        
-        <a href="#" class="plusderesultat_bottom">Afficher + de résultats</a>
- 
- <!-- InstanceEndEditable --></div> 
+ <div class="pagecontent">la page</div> 
  
  </section> 
     <!-- / espace_central--> 
     
     <!--aside_droite-->
     
-    <aside class="droite"> 
+    <aside class="droite" > 
       <!--catalogues-->
-      <div id="catalogue" class="colwidth">
+      <div id="catalogue" class="span2droite" >
         <div id="rotation"><a href="#" class="cat">
           <div id="demandez">Demandez</div>
-          <div id="votrecatalogue" > <span class="votre">Votre</span><span class="cataloguetexte"> catalogue</span></div>
+          <div id="votrecatalogue" > <span style="font-size:50%;">Votre</span><span style="font-size:31px;"> catalogue</span></div>
           <div id="gratuit"> Gratuit <img src="images/picto_catalogue.png" width="41" height="28" alt="Catalogues"></div></a></div>
       
         <p class="separateur"></p>
         <div id="catalogues_interactifs" ><a data-toggle="collapse" data-target="#liens_catalogues_interactifs">ou visualisez nos catalogues en ligne</a></div>
         <div id="liens_catalogues_interactifs" class="collapse">
           <ul>
-            <li><a href="http://asp.zone-secure.net/v2/index.jsp?id=3803/4957/20890&lng=fr" target="_blank">Séjours sportifs</a></li>
-            <li><a href="http://asp.zone-secure.net/v2/index.jsp?id=3803/4957/21126&lng=fr" target="_blank">Colonies</a></li>
-            <li><a href="http://asp.zone-secure.net/v2/index.jsp?id=3803/4957/21132&lng=fr" target="_blank">Stages Academy</a></li>
+            <li><a href="#" target="_blank">Curieux du monde</a></li>
+            <li><a href="#" target="_blank">Séjours sportifs</a></li>
           </ul>
         </div>
       </div>
       <!--/ catalogues--> 
         <!--Flash_infos-->
-<div class="accordion colwidth" id="flash_info">
+<div class="accordion span2droite" id="flash_info"  >
                 <div class="accordion-group" >
                   <div class="accordion-heading"><div class="right_block_title"><a data-toggle="collapse" data-parent="#flash_info" href="#collapseflashinfos"><img src="images/icon_rss.png" width="20" height="20" alt="Rss Sport été"> Flash <span class="infos">infos</span></a></div>
                   </div>
                   <div id="collapseflashinfos" class="accordion-body collapse in">
-          <div id="flashinfoscontent"><h5>Passion Bad :</h5><p>Ouverture de 8 places supplémentaires</p></div> 
-        <a href="#" class="lirelasuite" >Lire la suite</a></div></div>
-                 
+          <div id="flashinfoscontent"><h5>Passion Bad :</h5><p>Ouverture de 8 places supplémentaires</p></div>
+        <a href="#" class="lirelasuite" >Lire la suite</a></div>
+                  </div>
       </div>
       
       
     <!--/ Flash_infos--> 
       
       <!-- Destination et blogs-->
-<div class="accordion colwidth" id="#destinationsetblogs"  >
-                <div class="accordion-group" >
-                  <div class="accordion-heading"><div class="right_block_title"><a data-toggle="collapse" data-parent="#destinationsetblogs" href="#collapsedestinationsetblogs">Destinations et blogs</a></div>
-                  </div>
-                  <div id="collapsedestinationsetblogs" class="accordion-body collapse in">
-           
-      <div class="accordion" id="accordion2">
-                <div class="espacementvertical"></div><div class="accordion-group">
+<div class="accordion span2droite" id="accordion2">
+                <div class="right_block_title">Destinations et blogs</div><div class="espacementvertical"></div><div class="accordion-group">
                   <div class="accordion-heading"> 
                     <a class="blog" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">Destination_1</a>
                   </div>
@@ -610,25 +403,13 @@
                 </div>
                 <div class="espacementvertical"></div>
               </div>
-              </div></div>
-                 
-      </div>
-      
-      
- 
+              
       <!--/ Destination et blogs--> 
       
       <!--/ Partenaires-->
-      
-      
-      
-      
-      <div class="accordion colwidth" id="partenaires"  >
-                <div class="accordion-group" >
-                  <div class="accordion-heading"><div class="right_block_title"><a data-toggle="collapse" data-parent="#partenaires" href="#collapsepartenaires">Partenaires</a></div>
-                  </div>
-                  <div id="collapsepartenaires" class="accordion-body collapse in">
-           <table class="tablepartenaire">
+      <div id="partenaires" class="span2droite">
+        <div class="right_block_title">Partenaires</div>
+        <table class="tablepartenaire">
           <tr>
             <td><a href="#" target="_blank"><img src="images/Logo-FFTA-couleur.jpg" width="50" height="50" alt="FFTA"></a></td>
             <td><a href="#" target="_blank"><img src="images/fftt.1.jpg" width="50" height="28" alt="fftt"></a></td>
@@ -647,11 +428,7 @@
             <td><a href="#" target="_blank"><img src="images/virtuabad.png" width="103" height="29" alt="Virtuabad"></a></td>
           </tr>
         </table>
-        <a href="#" class="lirelasuite" >Tous nos partenaires</a></div></div></div> 
-    
-      
- 
-   
+        <a href="#" class="lirelasuite">Lire la suite</a> </div>
       <!--/ Partenaires --> 
     </aside>
     <!--/ Aside droite--> 
@@ -694,12 +471,12 @@
         </div>
         <div class="span2footercenter"><b>CATALOGUES</b><br />
           <br />
-          Papier <span class="footer_cpmnt">(commander gratuitement)</span>:
+          Papier <span style="font-size:80%;">(commander gratuitement)</span>:
           <div class="footer_a_set"> <a href="#">--> Univers Academy</a> <a href="#">--> Univers Séjours Sportifs</a> <a href="#">--> Univers  Curieux du Monde & Colonies</a></div>
-          Interactifs <span class="footer_cpmnt">(pdf à consulter ou télécharger )</span>:
+          Interactifs <span style="font-size:80%;">(pdf à consulter ou télécharger )</span>:
           <div class="footer_a_set"> <a href="#">--> Univers Academy</a> <a href="#">--> Univers Séjours Sportifs</a> <a href="#">--> Univers  Curieux du Monde & Colonies</a></div>
         </div>
-        <div class="span2"><b>INFORMATIONS PRATIQUES :</b>
+        <div class="span2droite"><b>INFORMATIONS PRATIQUES :</b>
           <div class="footer_a_set"> <a href="#">La vie des séjours document pdf</a> <a href="#">Carte des transports</a> <a href="#">Préparez votre départ</a> <a href="#">Documents administratifs</a></div><b>PARTENAIRES</b><div class="footer_a_set"> <a href="#">Fédération Française de Tennis de Table</a> <a href="#">Fédération Française de Badminton</a> <a href="#">Fédération Française de Tir à l’Arc</a> <a href="#">Artengo</a> <a href="#">+2Bad</a> <a href="#">Cartaping</a> <a href="#">Virtuabad</a> <a href="#">-->Tous nos partenaires</a></div>
           Crédits :
           <div class="footer_a_set"> <a href="#">Gestion de projet  / Prog : l.Chedanne</a> <a href="http://id4communication.fr" target="_blank" >Design : <img src="images/signatureiD4com.png" width="45" height="20" alt="iD4COM"></a></div>
@@ -734,4 +511,4 @@
     <script src="js/bootstrap-affix.js"></script>
     <script src="js/application.js"></script>
 </body>
-<!-- InstanceEnd --></html>
+</html>
