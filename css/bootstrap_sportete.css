@@ -101,18 +101,17 @@ background-position: center bottom;}
 
 
 #slogans {
-	margin: 1px 0;
+	width:740px;
+	margin: 14px 5px 0px 230px;
   font-family: inherit;
   font-weight: 200;
   text-rendering: optimizelegibility;
 	color:#fff;
 font-weight: 200;
 display:block;
-padding: 14px 5px 0px 25px;
 	color:#fff;
 	font-size: 24px;
 	line-height:24px;
-	padding:110px 0px 0px 25px;
 	letter-spacing:1px;
 	}
 
@@ -212,20 +211,23 @@ a.acces:hover {
 
 /*! Boutton découvrez nos univers  */
 
-.decouvrez {
+a.decouvrez {
 	background-image: url(../images/icon_decouvrez.png);
 	background-repeat:no-repeat;
 	background-position: 45px center;
 	padding: 7px 0px 8px 80px; 
 	display: block;
+	height:37px;
 	text-align: left;
 	vertical-align: middle;
 	font-size:17px;
 	color:#fff;
+	width:150px;
+	float:left;
 	
 	}
 	
-.decouvrez:hover {
+a.decouvrez:hover {
 	color:#000;
 	text-decoration:none;
 	background-color: #fff;
@@ -350,19 +352,19 @@ form {
 
 
 
-/*! correction structure bootstrap (pas de marges) */
+/*! correction structure bootstrap */
 
-.row-fluid .droite { 
-width:230px;
+.droite { 
+width: 230px;
 background-color:#faf8f8;
  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
      -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
           box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
-		  overflow:hidden; 
+		  overflow:hidden;
 		  }
 
-.row-fluid .gauche {
-	width:230px;
+.gauche {
+	width: 230px;
 	float:left;
 	-webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
      -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
@@ -374,7 +376,8 @@ background-color:#faf8f8;
     margin-left: 1100px;
   }
   
-.row-fluid .main_col_width {
+.row-fluid .main_col_width,
+.row .main_col_width {
   width: 740px;
   *width: 740px;
   	 float:left;
@@ -587,7 +590,7 @@ ul#univers li a {
 
 ul#univers li a:hover {
 	  color: #000;
-	background-color: rgba(255, 255, 255, 0.7);
+	background-color: rgba(150, 150, 150, 1);
 	text-decoration:none;
 	-webkit-transition: background-color 0.5s ease-in-out;
   -o-transition: background-color 0.5s ease-in-out;
@@ -1001,11 +1004,12 @@ color:#000;
 	background-position: top center;
 	padding: 20px 0px 0px 0px;
 	text-align: right;
-	width:230px;
+	width: 230px;
 	overflow:hidden;
+	float:left;
+	background-color:#faf8f8;
 	 }
 	 
-.votre {font-size:50%;}	
 .catalogue2 {font-size:31px;}
 
 #rotation:hover {
@@ -1080,7 +1084,7 @@ margin-right:-10px;
 font-size: 45px;
 letter-spacing: 2px;
 height:37px;
-line-height:43px;
+line-height:40px;
 background-color:#908e8e;
 color:#fff;
 padding:1px 1px 1px 5px;
@@ -1223,6 +1227,16 @@ background-color: #000;
 .search {
 	vertical-align: bottom;
 	line-height:30px;}
+
+.search .dropdown-menu li > a {
+  font-size: 11px;
+  line-height: 12px;
+  text-align:left;
+}
+
+.search .btn-group {
+  float:left;
+}
 	
 .largeurlabels {
 	width: 80px;}	
@@ -1248,7 +1262,8 @@ background-color: #000;
 	text-align: center;
 	background-color: #b1b3b4;
 	padding:5px;
-	font-size: 11px;
+  font-weight: 11px;
+  line-height: 12px;
 	} 	
 	
 .quick_search_content label {
@@ -1310,8 +1325,8 @@ background-color: rgba(0, 0, 0, 0.6);
 
 .carousel-control-promotion {
   position: absolute;
-  bottom:17%;
-  left: 10px;
+  bottom:-5%;
+  left: 5px;
   width: 20px;
   height: 20px;
   font-size: 30px;
@@ -1330,8 +1345,7 @@ background-color: rgba(0, 0, 0, 0.6);
 
 .carousel-control-promotion.right {
 	margin-top:-5px;
-  right: 20px;
-  left: auto;
+   left: 40px;
 }
 
 .carousel-control:hover,
