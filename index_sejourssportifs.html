@@ -111,9 +111,9 @@
       <div id="bandeau" class="container">
         <div class="row">
           <div id="logo" class="colwidth"></div>
-       <h1 id="slogans"><!-- InstanceBeginEditable name="slogan univers" -->
+       <table class="main_col_width alignement_slogan"><tr><td valign="bottom" ><h1 id="slogans"><!-- InstanceBeginEditable name="slogan univers" -->
 	   Sports &amp; Vacances<span class="sous_slogan">L'univers idéal pour allier le plaisir de la progression technique de ton sport favori<br />tout en découvrant d'autres activités sportives et ludiques.</span>
-	   <!-- InstanceEndEditable --></h1>
+	   <!-- InstanceEndEditable --></h1></td></tr></table>
         </div>
       </div>
     </header>
@@ -122,14 +122,15 @@
 
 <!-- Navigation univers Sport été-->
 <div class="container" >
-  <div class="row-fluid menu_principal" > 
+  <div class="row menu_principal" > 
     <!-- boutton découvrez nos univers--> 
     
-   <a href="index_sportete.html" class="decouvrez center hidden-phone" >Découvrez<br />
-    <span class="nosunivers" >nos univers</span><img src="images/puce_droite_bouton_univers.png" width="19" height="27" alt="decouvrez nos univers" class="puce_univers"></a>
+ 
     <!-- navigation entre univers-->
-    <nav class="main_col_width">
-      <ul id="univers">
+    <nav>
+       <a href="index_sportete.html" class="decouvrez center hidden-phone" >Découvrez<br />
+    <span class="nosunivers" >nos univers</span><img src="images/puce_droite_bouton_univers.png" width="19" height="27" alt="decouvrez nos univers" class="puce_univers"></a><div class="main_col_width_univers">
+    <ul id="univers">
         <li><a href="index_academy.html" class="academy" ><img src="images/medium_logo_academy.png" width="101" height="13" alt="Univers Academy"><br>
           100% technique</a></li>
         <li><a href="index_sejourssportifs.html" class="sejourssportifs"><img src="images/medium_sejours_sportifs.png" width="123" height="19" alt="Univers Séjours sportifs"><br>
@@ -140,7 +141,7 @@
           Découvertes et plaisir</a></li>
         <li><a href="index_groupeetce.html" class="groupeetce" ><img src="images/medium_logo_groupeetce.png" width="64" height="28" alt="Univers Groupe et CE"><br>
           Votre séjour de A à Z</a></li>
-      </ul>
+      </ul></div>
     </nav>
 
     <!-- contacts-->
@@ -182,7 +183,7 @@
 <!-- Contenu-->
 
 <div class="container">
-  <div class="row-fluid"> 
+  <div class="row"> 
     
     <!-- aside_gauche-->
     
@@ -272,7 +273,7 @@
             <div class="espace_boutton_recherche">
               <input type="submit" name="search" class="btn btn-mini center" id="search" value="Rechercher" />
               &nbsp;
-              <a href="recherche_avancee.html" class="btn btn-mini center">+ de critère</a>
+              <a href="recherche_avancee.html" class="btn btn-mini center">+ de critère</a></div>
          
           </fieldset>
         </form>
@@ -323,10 +324,12 @@
     
     
     
+    
+    
     <!--Espace central-->
        <!--Espace central-->
-    <section id="page">
-    <header class="entetedepage">
+    <section id="page" class="main_col_width" >
+    <header>
     <div class="degrade_clair_enbas" ><div id="titredecodroite"><div id="titredecogauche" ><h1 id="titrepage">
 	<!-- InstanceBeginEditable name="Titre de pAGE" -->Titre de page<!-- InstanceEndEditable --></h1>
         <blockquote class="reference"><!-- InstanceBeginEditable name="Blockquote" -->blockquote<!-- InstanceEndEditable --></blockquote><!-- InstanceBeginEditable name="menu optionnel" -->Menu optionnel<!-- InstanceEndEditable --></div></div></div>  
@@ -522,6 +525,7 @@
  </section>
     <!-- / espace_central--> 
     
+    
     <aside class="droite"> 
       <!--catalogues-->
       <div id="catalogue">
@@ -542,10 +546,10 @@
       </div>
       <!--/ catalogues--> 
         <!--Flash_infos-->
-<div class="accordion" id="flash_info">
+<div class="accordion colwidth" id="flash_info">
                 <div class="accordion-group" >
                   <div class="accordion-heading">
-                    <div class="right_block_title"><a data-toggle="collapse" data-parent="#flash_info" href="#collapseflashinfos"><img src="images/icon_rss.png" width="20" height="20" alt="Rss Sport été"> <img src="images/titre_flash_infos.png" width="106" height="21" alt="flash infos"></a></div>
+                    <div class="right_block_title"><a data-toggle="collapse" data-parent="#flash_info" href="#collapseflashinfos"><img src="images/icon_rss.png" width="19" height="19" alt="Rss Sport été"> <img src="images/titre_flash_infos.png" width="103" height="19" alt="flash infos"></a></div>
                   </div>
                   <div id="collapseflashinfos" class="accordion-body collapse in">
           <div id="flashinfoscontent"><h5>Passion Bad :</h5><p>Ouverture de 8 places supplémentaires</p></div> 
@@ -557,7 +561,7 @@
     <!--/ Flash_infos--> 
       
       <!-- Destination et blogs-->
-<div class="accordion" id="#destinationsetblogs"  >
+<div class="accordion colwidth" id="destinationsetblogs"  >
                 <div class="accordion-group" >
                   <div class="accordion-heading">
                     <div class="right_block_title"><a data-toggle="collapse" data-parent="#destinationsetblogs" href="#collapsedestinationsetblogs"><img src="images/titre_dests_et_blogs.png" width="207" height="19" alt="Destinations et blogs"></a></div>
@@ -646,12 +650,10 @@
           </tr>
         </table>
         <a href="#" class="lirelasuite" >Tous nos partenaires</a></div></div></div> 
-    
-      
- 
-   
-      <!--/ Partenaires --> 
+ <!--/ Partenaires -->
+ <p class="separateur"></p> 
     </aside>
+    
 
   </div>
   <!--/row Contenu--> 
@@ -666,10 +668,9 @@
 
 <!--/ footer-->
 <footer class="container-fluid">
-  <div id="degrade_clair_enbas" class="row-fluid"></div>
+  <div id="degrade_clair_enbas" class="row-fluid footersurlignage"></div>
   <div class="container">
-    <div class="row-fluid">
-      <div id="footer_content" class="span12">
+      <div id="footer_content" class="row">
         <div class="span2footergauche"><img src="images/mini_logo_sportete_nb.png" width="92" height="58" alt="Sport été">
           <div class="footer_a_set"><a href="#">Portail Sport été</a><a href="#">Accueil site général Sport-été</a><a href="#">Tous les stages, séjours, colonies et camps</a><a href="#">Qui Sommes nous ?</a><a href="#">Nous recrutons</a><a href="#">Le projet éducatif</a><a href="#">Mentions légales</a></div>
           MON ESPACE SPORT’ETE
@@ -709,9 +710,10 @@
           <div class="footer_a_set"> <a href="#">Gestion de projet  / Prog : l.Chedanne</a> <a href="http://id4communication.fr" target="_blank" >Design : <img src="images/signatureiD4com.png" width="45" height="20" alt="iD4COM"></a></div>
           ©2012 Sport’été<br />
           Tous droits de reproduction réservés</div>
+          <p class="separateur"></p>
       </div>
-    </div>
-    <!--/ .row-fluid--> 
+   
+    <!--/ .row--> 
   </div>
   <!--/ .container--> 
 </footer>

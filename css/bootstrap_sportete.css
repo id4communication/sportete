@@ -101,8 +101,6 @@ background-position: center bottom;}
 
 
 #slogans {
-	width:740px;
-	margin: 14px 5px 0px 230px;
   font-family: inherit;
   font-weight: 200;
   text-rendering: optimizelegibility;
@@ -113,6 +111,7 @@ display:block;
 	font-size: 24px;
 	line-height:24px;
 	letter-spacing:1px;
+	margin: 0px 0px 20px 25px;
 	}
 
 #titrepage {
@@ -128,11 +127,14 @@ padding: 15px 5px 0px 25px;
 	font-size: 22px;
 	line-height:22px;}
 
+.alignement_slogan {
+	height:170px;}
+
 .sous_slogan {
 	display:block;
 	font-size:13px;
 	line-height:13px;
-	padding: 5px 0px 10px 0px}
+	padding: 5px 0px 0px 0px}
 
 .menu_principal {
   background-image: url(../images/background-menu.png);
@@ -352,7 +354,7 @@ form {
 
 
 
-/*! correction structure bootstrap */
+/*! correction structure sportete */
 
 .droite { 
 width: 230px;
@@ -376,39 +378,35 @@ background-color:#faf8f8;
     margin-left: 1100px;
   }
   
-.row-fluid .main_col_width,
-.row .main_col_width {
+ .main_col_width_univers, 
+.main_col_width {
   width: 740px;
   *width: 740px;
   	 float:left;
 }
 
-.row-fluid .sejours {
-    width: 222px;
-    *width: 222px;
-	margin-right:8px;
-  }
+
   
-.row-fluid .colonnes_portail {
+.colonnes_portail {
     width: 33%;
     *width: 33%;
 	float:left;
   }
   
-.row-fluid .colwidth {
+.colwidth {
      width: 230px;
 	 *width: 230px;
 	 float:left;
   }
   
   
-.row-fluid .span2footergauche {
+.span2footergauche {
      width: 225px; 
 	 border-right: 1px #9b9b9b solid;
 	 padding:0px 5px 0px 5px;
   }
   
-.row-fluid .span2footercenter {
+.span2footercenter {
 	 margin-left:10px;
 	 width:175px;
 	 float:left; }
@@ -448,11 +446,13 @@ background-color:#faf8f8;
 
 
 
-.sejours {
+a.sejours {
 	display:block;
 	float:left;
 	padding:0px;
-	margin:0px 0px 18px 0px;
+	margin:0px 8px 18px 0px;
+	 width: 222px;
+    *width: 222px;
 	}
 
 a.sejours:hover {
@@ -563,8 +563,8 @@ ul#univers {
 	height:52px;
 	padding:0px;
 	margin:0px;
-	width:100%;
 	vertical-align:bottom;
+	width:100%;
 	} 
 
 ul#univers li {
@@ -662,10 +662,6 @@ a.groupeetce:hover {
 
 /*! Contenus  */
 
-.entetedepage{
-	  width: 740px;
-	   *width: 740px;
-	  float:left;}
 	  
 .pagecontent {
 	  width: 690px;
@@ -675,13 +671,7 @@ a.groupeetce:hover {
 	  padding:25px;}
   
 
-
-
-
 /*! Offres  */
-
-
-
 
 .enteteoffres {
 	border:0px;
@@ -765,8 +755,8 @@ height:15px;
 text-align:right;
 padding-right:20px;}
 
-.nombre_periode {font-size:180%;color:#333333;font-weight:bold; line-height:23px; padding-right:3px;}
-.texte_periode {font-size:90%;color:#333333;font-weight:bold;}
+.nombre_periode {font-size:150%;color:#333333;font-weight:bold; line-height:23px; padding-right:3px;}
+.texte_periode {font-size:11px;color:#333333;font-weight:bold;}
 .du_au {font-size:90%;color:#333333;font-weight:bold;padding-right:3px; }
 .date {font-size:110%;font-weight:normal;}
 .formule {font-family: Arial;font-size: 11px; padding:3px;}
@@ -885,10 +875,6 @@ a.pointel:hover {
 
 .right_block_title {
 	padding:3px;
-	font-family: chinese_rocks_rgregular, Edo, Arial;
-	letter-spacing: 1px;
-	font-size: 20px;
-	line-height: 21px;
 	color: #fff;
 	background-color: #000;
   background-image: -moz-linear-gradient(left, #696969, #d5d4d4);
@@ -1125,10 +1111,6 @@ letter-spacing: 1px;
 /*! Flash info */	
 
 .infos {
-font-family: chinese_rocks_rgregular, Arial; 
-letter-spacing:1px;
-font-size: 80%;
-text-transform: uppercase;
 color:#fff;}	 
 
 .titreinfo {
@@ -1140,7 +1122,11 @@ color:#fff;}
 	background-position: center 5px;
 	padding-top: 20px;
 	width:230px;
+	background-color:#faf8f8;
 	}
+	
+#destinationsetblogs {
+	background-color:#faf8f8;}	
 	
 #flashinfoscontent {
 	padding: 5px 10px 0px 10px;
@@ -1426,7 +1412,7 @@ color:#fff;
 
 
 
-/*! footer*/
+
 
 .enteteoffres, .degrade_clair_enhaut {
 background-color:#000;
@@ -1441,6 +1427,11 @@ color:#fff;
   filter: progid:dximagetransform.microsoft.gradient(startColorstr='#90BC13', endColorstr=' #4A5B27', GradientType=0);
 	}
 
+/*! footer*/
+
+.footersurlignage {
+	height:8px;}
+	
 footer { background-image: url(../images/footer_background_0.jpg);
 background-repeat: repeat-x;
 background-position: top;
@@ -1821,7 +1812,7 @@ filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',
    M11=1.2, M12=-0, M21=0, M22=1.2);
    }
    
-#sousmenu_page {background-color:#b1b3b4;padding:0px;margin:0px;}	
+#sousmenu_page {background-color:#b1b3b4;padding:0px;margin:0px;}
 .tab-pane {
 	margin:0px;
 	padding:0px;}

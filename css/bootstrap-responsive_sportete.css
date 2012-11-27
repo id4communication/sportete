@@ -9,46 +9,81 @@
  */
 
 
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.clearfix:after {
+  clear: both;
+}
+
 
 
 
 @media (min-width:0px) and (max-width: 1024px) {
 	
-	.hidden { visibility:hidden;}
-	
+	 .main_col_width_univers,
+	 main_col_width {
+  width: 794px;
+  *width: 794px;
+  	 float:left;
+}	
+	 
+	.container-fluid,
 	.container,
   .navbar-fixed-top .container,
   .navbar-fixed-bottom .container {
     width: 1024px;
   }
-	
-	
-	
-	a.decouvrez {
-	background-image: url(../images/icon_decouvrez.png);
-	background-repeat:no-repeat;
-	background-position: 45px center;
-	padding: 7px 0px 8px 80px; 
-	display: block;
-	height:37px;
-	text-align: left;
-	vertical-align: middle;
-	font-size:17px;
-	color:#fff;
-	width:150px;
-	float:left;
-	
+  
+#contacts {
+margin-top:-12px;
+margin-bottom:10px;
+background-image:none;
+
+}
+  
+#page {
+	margin-top:-146px;
+	} 
+
+.hidden { 
+display:none;
+visibility:hidden;}
+
+.droite {width:100%;}
+
+#catalogue,
+#flash_info {
+	margin-top:-20px;
+	 }
+
 	}
-	}
 
 
 
-@media (min-width: 1024px) and (max-width: 1200px) {
+@media (min-width: 1024px) and (max-width: 1200px) {	
+	
+.main_col_width_univers,
+main_col_width {
+  width: 794px;
+  *width: 794px;
+  	 float:left;
+}	
 	
 	
-	.hidden { visibility:hidden;}
+.hidden { 
+display:none;
+visibility:hidden;}
 	
-	.container,
+.container,
   .navbar-fixed-top .container,
   .navbar-fixed-bottom .container {
     width: 1024px;
@@ -58,67 +93,35 @@
 	
 #catalogue,
 #flash_info {
-	margin-top:-20px
+	margin-top:-20px;
 	 }
 
-  
 #contacts {
-background-position: top left;
-margin-top:0px;
-margin-bottom:30px;
+margin-top:-12px;
+margin-bottom:10px;
+background-image:none;
 
 }
   
-.row-fluid .entetedepage {
-	margin-top:-166px;
+#page {
+	margin-top:-146px;
 	} 
-
-.row-fluid .pagecontent {
-	margin-top:-76px;
-	} 
-
-
+  
+.droite {width:100%;}
+  
+  
   
 }
 
 @media (max-width: 1200px) {
 	
-  .container,
-  .navbar-fixed-top .container,
-  .navbar-fixed-bottom .container {
-    width: 100%;
-  }
-  
  
-   .row-fluid .sejours {
-    width: 225px;
-    *width: 225px;
-	margin-right:5px;
-  }
-  
-   .row-fluid .colonnes_portail {
+.colonnes_portail {
     width: 33%;
     *width: 33%;
 	float:left;
   }
-  
-  
-  
-  .row-fluid .colwidth {
-     width: 230px;
-	  *width: 230px;
-	  float:left;
-  }
- 
-   .row-fluid .span2footergauche {
-     width:219px; 
-	 border-right: 1px #9b9b9b solid;
-	 padding:0px 5px 0px 5px;
-  }
-  
-  .row-fluid .span2footercenter {
-	 margin-left:10px;
-	 width:175px; }
+
   
   
   

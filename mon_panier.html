@@ -36,7 +36,7 @@
   <div class="navbar-inner">
     <div class="container">
       <div class="row-fluid">
-        <div class="span12 picto_monespace"> 
+        <div class="picto_monespace"> 
           <!-- bouton sport été portail -->
           <ul class="lien_portail colwidth center">
             <li><a href="index.html"> <i class="icon-play icon-white"></i> Portail Sport été</a></li>
@@ -107,14 +107,14 @@
 <div class="container-fluid"> 
   <!-- row_0 --> 
   <div class="row-fluid">
-    <header class="span12">
+    <header>
       <div id="bandeau" class="container">
-        <div class="row-fluid">
+        <div class="row">
           <div id="logo" class="colwidth"></div>
-       <h1 id="slogans" class="main_col_width" ><!-- InstanceBeginEditable name="slogan univers" -->
+       <table class="main_col_width alignement_slogan"><tr><td valign="bottom" ><h1 id="slogans"><!-- InstanceBeginEditable name="slogan univers" -->
 
 	   Mon panier
-	   <!-- InstanceEndEditable --></h1>
+	   <!-- InstanceEndEditable --></h1></td></tr></table>
         </div>
       </div>
     </header>
@@ -123,13 +123,15 @@
 
 <!-- Navigation univers Sport été-->
 <div class="container" >
-  <div class="row-fluid menu_principal" > 
+  <div class="row menu_principal" > 
     <!-- boutton découvrez nos univers--> 
-    <div class="colwidth"><a href="index_sportete.html" class="decouvrez center hidden-phone" >Découvrez<br />
-    <span class="nosunivers" >nos univers</span><img src="images/puce_droite_bouton_univers.png" width="19" height="27" alt="decouvrez nos univers" class="puce_univers"></a></div>
+    
+ 
     <!-- navigation entre univers-->
-    <nav class="main_col_width">
-      <ul id="univers">
+    <nav>
+       <a href="index_sportete.html" class="decouvrez center hidden-phone" >Découvrez<br />
+    <span class="nosunivers" >nos univers</span><img src="images/puce_droite_bouton_univers.png" width="19" height="27" alt="decouvrez nos univers" class="puce_univers"></a><div class="main_col_width_univers">
+    <ul id="univers">
         <li><a href="index_academy.html" class="academy" ><img src="images/medium_logo_academy.png" width="101" height="13" alt="Univers Academy"><br>
           100% technique</a></li>
         <li><a href="index_sejourssportifs.html" class="sejourssportifs"><img src="images/medium_sejours_sportifs.png" width="123" height="19" alt="Univers Séjours sportifs"><br>
@@ -140,13 +142,13 @@
           Découvertes et plaisir</a></li>
         <li><a href="index_groupeetce.html" class="groupeetce" ><img src="images/medium_logo_groupeetce.png" width="64" height="28" alt="Univers Groupe et CE"><br>
           Votre séjour de A à Z</a></li>
-      </ul>
+      </ul></div>
     </nav>
 
     <!-- contacts-->
     <div class="colwidth" id="contacts">
       <div class="contact_content" >
-        <h3 class="contact">Contacts :</h3>
+        <h3 class="contact"><img src="images/titre_contacts.png" width="118" height="25" alt="Contacts"></h3>
         <table>
           <tr>
             <td></td>
@@ -182,7 +184,7 @@
 <!-- Contenu-->
 
 <div class="container">
-  <div class="row-fluid"> 
+  <div class="row"> 
     
     <!-- aside_gauche-->
     
@@ -192,12 +194,12 @@
      
       <!-- Recherche_rapide-->
       <div id="quick_search">
-<div class="accordion" id="search">
-                <div class="accordion-group">
-                  <div class="accordion-heading"> 
-                    <a class="titres_recherches" data-toggle="collapse" data-parent="#search" href="#collapse14">Recherche <img src="images/picto_recherche.png" width="21" height="21" alt="recherche"> <span>rapide</span></a>
-                  </div>
-                  <div id="collapse14" class="accordion-body collapse in">
+<div id="search">
+              
+                  <div class="titres_recherches">
+                   <img src="images/picto_recherche.png" width="21" height="21" alt="recherche"> Recherche <span>rapide</span>
+                 </div>
+                 
                   <form class="form-search">
           <fieldset>
             <div class="quick_search_content">
@@ -235,61 +237,57 @@
                 </tr>
                 <tr>
                   <td class="search droit"><label>Période : </label></td>
-                  <td class="search"><select class="quick_search_inputs">
-                      <option>Badminton</option>
-                      <option>Cirque</option>
-                      <option>Cuisine</option>
-                      <option>Equitation</option>
-                      <option>Escalade</option>
-                      <option>Football</option>
-                      <option>Grands jeux</option>
-                      <option>Journalisme </option>
-                      <option>Magie</option>
-                      <option>Multisports</option>
-                      <option>Nautisme</option>
-                      <option>Randonnée</option>
-                      <option>Sports mécaniques</option>
-                      <option>Squash</option>
-                      <option>Taekwondo</option>
-                      <option>Tennis</option>
-                      <option>Tennis de table</option>
-                      <option>Théâtre</option>
-                      <option>Tir à l'arc</option>
-                      <option>VTT</option>
-                    </select></td>
+                  <td class="search"><div class="btn-group">
+    <a class="btn dropdown-toggle btn-mini" data-toggle="dropdown" href="#">
+    Périodes
+    <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu">
+    <li><a href="#">Badminton</a></li>
+                      <li><a href="#">Printemps</a></li>
+                      <li><a href="#">Eté</a></li>
+                      <li><a href="#">Automne</a></li>
+                      <li><a href="#">Hiver</a></li>
+    </ul>
+    </div></td>
                 </tr>
                 <tr>
                   <td class="search droit"><label>Age : </label></td>
-                  <td class="search"><select id="age" class="quick_search_inputs">
-                      <option>7-->12ans</option>
-                      <option>12-->16ans</option>
-                      <option>Adultes</option>
-                    </select></td>
+                  <td class="search"><div class="btn-group">
+    <a class="btn dropdown-toggle btn-mini" data-toggle="dropdown" href="#">
+    Ages
+    <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu">
+                      <li><a href="#">7-->12ans</a></li>
+                      <li><a href="#">12-->16ans</a></li>
+                      <li><a href="#">Adultes</a></li>
+    </ul>
+    </div></td>
                 </tr>
                 <tr>
                   <td class="search droit"><label>Code séjour : </label></td>
-                  <td class="search"><input class="newsletter quick_search_inputs" type="text" id="code_sejour"  /></td>
+                  <td class="search"><input class="quick_search_inputs" type="text" id="code_sejour"  /></td>
                 </tr>
               </table>
             </div>
             <div class="espace_boutton_recherche">
               <input type="submit" name="search" class="btn btn-mini center" id="search" value="Rechercher" />
               &nbsp;
-              <a href="recherche_avancee.html" class="btn btn-mini center">+ de critère</a>
-            </div>
+              <a href="recherche_avancee.html" class="btn btn-mini center">+ de critère</a></div>
+         
           </fieldset>
         </form>
-                  </div>
-                </div>
-        </div>
+                
+                </div>   
       </div>
  <!--/Recherche_rapide--> 
       
       <div class="separateur"></div>
       
  <!--Bloc espace promotion-->
-      
-      <div id="myCarousel" class="carousel slide hidden">
+      <div class="hidden">
+      <div id="myCarousel" class="carousel slide">
     <!-- Carousel items -->
     <div class="carousel-inner">
     <div class="active item"><img src="images/images_promotion/1.jpg" width="230" height="180"></div>
@@ -299,12 +297,12 @@
     <!-- Carousel nav -->
     <a class="carousel-control-promotion left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
     <a class="carousel-control-promotion right" href="#myCarousel" data-slide="next">&rsaquo;</a>
-    <a href="#" class="boutton_promotion" target="_self" >En savoir <span class="grossir">+</span></a></div>
+    <a href="#" class="boutton_promotion" target="_self" >En savoir <span class="grossir">+</span></a></div></div>
       <!--/ Bloc espace promotion--> 
      <!--Bloc séjours_consultés-->
     <div class="accordion colwidth" id="sejoursconsultes" >
                 <div class="accordion-group" >
-                  <div class="accordion-heading"><div class="right_block_title"><a data-toggle="collapse" data-parent="#sejoursconsultes" href="#collapsesejoursconsultes">Derniers séjours consultés</a></div></div>
+                  <div class="accordion-heading"><div class="right_block_title"><a data-toggle="collapse" data-parent="#sejoursconsultes" href="#collapsesejoursconsultes"><img src="images/titre_sejours_consultes.png" width="220" height="19" alt="Sejours sport été consultés"></a></div></div>
                   <div id="collapsesejoursconsultes" class="accordion-body collapse in">
           <div id="sejours_consultes"><a href="fiche_sejour.html" target="_self">
           <i class="icon-circle-arrow-right"></i>&nbsp;<b>STAGE Tennis de table</b><br>
@@ -324,10 +322,15 @@
     </aside>
     <!--/aside_gauche--> 
     
+    
+    
+    
+    
+    
     <!--Espace central-->
        <!--Espace central-->
-       <section id="page">
-    <header class="entetedepage">
+    <section id="page" class="main_col_width" >
+    <header>
     <div class="degrade_clair_enbas" ><div id="titredecodroite"><div id="titredecogauche" ><h1 id="titrepage">
 	<!-- InstanceBeginEditable name="Titre de pAGE" -->X articles dans mon panier<!-- InstanceEndEditable --></h1>
         <blockquote class="reference"><!-- InstanceBeginEditable name="Blockquote" -->Merci de vous identifier<!-- InstanceEndEditable --></blockquote><!-- InstanceBeginEditable name="menu optionnel" --><!-- InstanceEndEditable --></div></div></div>  
@@ -341,22 +344,20 @@
    </tr>
  </table>
 <!-- InstanceEndEditable --></div> 
- 
- </section> 
+ </section>
     <!-- / espace_central--> 
     
-    <!--aside_droite-->
     
     <aside class="droite"> 
       <!--catalogues-->
-      <div id="catalogue" class="colwidth">
+      <div id="catalogue">
         <div id="rotation"><a href="#" class="cat">
-          <div id="demandez">Demandez</div>
-          <div id="votrecatalogue" > <span class="votre">Votre</span><span class="cataloguetexte"> catalogue</span></div>
-          <div id="gratuit"> Gratuit <img src="images/picto_catalogue.png" width="41" height="28" alt="Catalogues"></div></a></div>
+          <div id="demandez"><img src="images/demandez.png" width="169" height="40" alt="Demandez"></div>
+          <div id="votrecatalogue" ><img src="images/votre_catalogue.png" width="170" height="28" alt="Votre catalogue"></div>
+          <div id="gratuit"><img src="images/gratuit.png" width="128" height="29" alt="gratuit"></div></a></div>
       
         <p class="separateur"></p>
-        <div id="catalogues_interactifs" ><a data-toggle="collapse" data-target="#liens_catalogues_interactifs">ou visualisez nos catalogues en ligne</a></div>
+        <div id="catalogues_interactifs" ><a data-toggle="collapse" data-target="#liens_catalogues_interactifs"><img src="images/titre_cat_en_ligne.png" width="184" height="15" alt="Catalogues sport étéen ligne"></a></div>
         <div id="liens_catalogues_interactifs" class="collapse">
           <ul>
             <li><a href="http://asp.zone-secure.net/v2/index.jsp?id=3803/4957/20890&lng=fr" target="_blank">Séjours sportifs</a></li>
@@ -369,7 +370,8 @@
         <!--Flash_infos-->
 <div class="accordion colwidth" id="flash_info">
                 <div class="accordion-group" >
-                  <div class="accordion-heading"><div class="right_block_title"><a data-toggle="collapse" data-parent="#flash_info" href="#collapseflashinfos"><img src="images/icon_rss.png" width="20" height="20" alt="Rss Sport été"> Flash <span class="infos">infos</span></a></div>
+                  <div class="accordion-heading">
+                    <div class="right_block_title"><a data-toggle="collapse" data-parent="#flash_info" href="#collapseflashinfos"><img src="images/icon_rss.png" width="19" height="19" alt="Rss Sport été"> <img src="images/titre_flash_infos.png" width="103" height="19" alt="flash infos"></a></div>
                   </div>
                   <div id="collapseflashinfos" class="accordion-body collapse in">
           <div id="flashinfoscontent"><h5>Passion Bad :</h5><p>Ouverture de 8 places supplémentaires</p></div> 
@@ -381,9 +383,10 @@
     <!--/ Flash_infos--> 
       
       <!-- Destination et blogs-->
-<div class="accordion colwidth" id="#destinationsetblogs"  >
+<div class="accordion colwidth" id="destinationsetblogs"  >
                 <div class="accordion-group" >
-                  <div class="accordion-heading"><div class="right_block_title"><a data-toggle="collapse" data-parent="#destinationsetblogs" href="#collapsedestinationsetblogs">Destinations et blogs</a></div>
+                  <div class="accordion-heading">
+                    <div class="right_block_title"><a data-toggle="collapse" data-parent="#destinationsetblogs" href="#collapsedestinationsetblogs"><img src="images/titre_dests_et_blogs.png" width="207" height="19" alt="Destinations et blogs"></a></div>
                   </div>
                   <div id="collapsedestinationsetblogs" class="accordion-body collapse in">
            
@@ -444,9 +447,9 @@
       
       
       
-      <div class="accordion colwidth" id="partenaires"  >
+      <div class="accordion" id="partenaires"  >
                 <div class="accordion-group" >
-                  <div class="accordion-heading"><div class="right_block_title"><a data-toggle="collapse" data-parent="#partenaires" href="#collapsepartenaires">Partenaires</a></div>
+                  <div class="accordion-heading"><div class="right_block_title"><a data-toggle="collapse" data-parent="#partenaires" href="#collapsepartenaires"> <img src="images/titre_partenaires.png" width="95" height="17" alt="Partenaires sport été"></a></div>
                   </div>
                   <div id="collapsepartenaires" class="accordion-body collapse in">
            <table class="tablepartenaire">
@@ -469,24 +472,27 @@
           </tr>
         </table>
         <a href="#" class="lirelasuite" >Tous nos partenaires</a></div></div></div> 
-    
-      
- 
-   
-      <!--/ Partenaires --> 
+ <!--/ Partenaires -->
+ <p class="separateur"></p> 
     </aside>
-    <!--/ Aside droite--> 
+    
+
   </div>
   <!--/row Contenu--> 
 </div>
 <!--/ container Contenu--> 
 
+
+
+
+
+
+
 <!--/ footer-->
 <footer class="container-fluid">
-  <div id="degrade_clair_enbas" class="row-fluid"></div>
+  <div id="degrade_clair_enbas" class="row-fluid footersurlignage"></div>
   <div class="container">
-    <div class="row-fluid">
-      <div id="footer_content" class="span12">
+      <div id="footer_content" class="row">
         <div class="span2footergauche"><img src="images/mini_logo_sportete_nb.png" width="92" height="58" alt="Sport été">
           <div class="footer_a_set"><a href="#">Portail Sport été</a><a href="#">Accueil site général Sport-été</a><a href="#">Tous les stages, séjours, colonies et camps</a><a href="#">Qui Sommes nous ?</a><a href="#">Nous recrutons</a><a href="#">Le projet éducatif</a><a href="#">Mentions légales</a></div>
           MON ESPACE SPORT’ETE
@@ -526,9 +532,10 @@
           <div class="footer_a_set"> <a href="#">Gestion de projet  / Prog : l.Chedanne</a> <a href="http://id4communication.fr" target="_blank" >Design : <img src="images/signatureiD4com.png" width="45" height="20" alt="iD4COM"></a></div>
           ©2012 Sport’été<br />
           Tous droits de reproduction réservés</div>
+          <p class="separateur"></p>
       </div>
-    </div>
-    <!--/ .row-fluid--> 
+   
+    <!--/ .row--> 
   </div>
   <!--/ .container--> 
 </footer>

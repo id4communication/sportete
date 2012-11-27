@@ -40,7 +40,7 @@ background-image: url(../images/sejourssportifs/logo.png);
 	}
 	
 #slogans {
-	padding: 89px 0px 0px 20px;
+	margin: 0px 0px 27px 25px;
 	}
 	
 	
@@ -65,3 +65,5 @@ a:hover {
 	background-image: url(../images/sejourssportifs/picto_jour.png);}
 
 .nuit {background-image:url(../images/sejourssportifs/picto_nuit.png);}
+
+#sousmenu_page {background-color:#000000;}
