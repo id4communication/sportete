@@ -446,13 +446,14 @@ background-color:#faf8f8;
 
 
 
-a.sejours {
+a.sejours,
+.sejours {
 	display:block;
 	float:left;
 	padding:0px;
-	margin:0px 8px 18px 0px;
-	 width: 222px;
-    *width: 222px;
+	margin:0px 7px 18px 0px;
+	 width: 223px;
+    *width: 223px;
 	}
 
 a.sejours:hover {
@@ -588,7 +589,8 @@ ul#univers li a {
 	} 
 	
 
-ul#univers li a:hover {
+ul#univers li a:hover,
+ul#univers li a:focus {
 	  color: #000;
 	background-color: rgba(150, 150, 150, 1);
 	text-decoration:none;
@@ -1526,7 +1528,8 @@ margin:0px;}
 	background-color:none;
 }
 
-.plusderesultat:hover {
+.plusderesultat:hover,
+.plusderesultat:focus {
 		color:#000;
 	background-color:#ffffff;
  -webkit-transition: background-color 0.5s ease-in-out;
@@ -1574,15 +1577,17 @@ background-position: top right;}
 .trierparprix {
 	color:#dadada;
 	font-size:13px;
-	line-height:13px;
+	line-height:15px;
 	margin:  0px 0px 0px 30px;
 	padding: 7px 5px 5px 20px;
 	background-image:url(../images/puce_tri_ascend.png);
-	background-position: 5px center;
+	background-position: 2px 11px;
 	background-repeat: no-repeat;
 	}
 	
-.trierparprix:hover {
+.trierparprix:hover,
+.trierparprix:focus
+ {
 	color:#000;
 	background-color:#ffffff;
 	background-image:url(../images/puce_tri_descend.png);
@@ -1609,7 +1614,8 @@ background-position: top right;}
 	  text-shadow: 0px 2px 2px 0px rgba(250, 89, 5, 1);
 	}
 	
-.reservation:hover {
+.reservation:hover,
+.reservation:focus {
 	color:#000;
 	background-color:#ffffff;
 	background-image:url(../images/picto_resa_hover_inverse.png);
@@ -1839,7 +1845,7 @@ float:left;
 .elargir_titre {
 	margin-top: 3px;
 	padding:0px;
-	font-size:24px;
+	font-size:22px;
 	font-variant:small-caps;
 	font-weight: 400;
 	line-height:13px;
@@ -1858,8 +1864,8 @@ a.elargir_liens {
 a.elargir_liens:hover {
 		color:#000000;
 		cursor:pointer;
-	}	
-	
+	}
+
 
 .espace_boutton_recherche {
 	padding:5px;

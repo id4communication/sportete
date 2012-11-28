@@ -29,6 +29,10 @@
 
 @media (min-width:0px) and (max-width: 1024px) {
 	
+	.picto_monespace {
+	background-position: 79% 0px;}
+	
+	
 	 .main_col_width_univers,
 	 main_col_width {
   width: 794px;
@@ -70,6 +74,9 @@ visibility:hidden;}
 
 
 @media (min-width: 1024px) and (max-width: 1200px) {	
+	
+	.picto_monespace {
+	background-position: 79% 0px;}	
 	
 .main_col_width_univers,
 main_col_width {
