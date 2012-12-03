@@ -1,0 +1,1 @@
+$(document).ready(function(){	$('#recherche_avancee').searchbox();});
