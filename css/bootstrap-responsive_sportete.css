@@ -9,188 +9,128 @@
  */
 
 
-@media (min-width: 0px) and (max-width: 1024px) {
-
-.hidden {
-	display:none;}
-
-  .row-fluid-sportete {
-  width: 1024px;
+.clearfix {
   *zoom: 1;
 }
 
-.row-fluid-sportete [class*="span"] {
-  display: block;
-  float: left;
-  width: 1024px;
-  min-height: 30px;
-  margin-left: 2.127659574468085%;
-  *margin-left: 2.074468085106383%;
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
 }
 
-  .container-sportete,
-  .navbar-fixed-top .container-sportete,
-  .navbar-fixed-bottom .container-sportete {
+.clearfix:after {
+  clear: both;
+}
+
+
+
+
+@media (min-width:0px) and (max-width: 1024px) {
+	
+	.picto_monespace {
+	background-position: 79% 0px;}
+	
+	
+	 .main_col_width_univers,
+	 main_col_width {
+  width: 794px;
+  *width: 794px;
+  	 float:left;
+}	
+	 
+	.container-fluid,
+	.container,
+  .navbar-fixed-top .container,
+  .navbar-fixed-bottom .container {
     width: 1024px;
-	margin-left:auto;
-	margin-right: auto;
   }
-  
-
-  
-.row-fluid-sportete .span8sportete {
-  width: 740px;
-  *width: 740px;
-  float:left;
-  margin:0px;
-}
-
-.row-fluid-sportete .sejours {
-    width: 225px;
-    *width: 225px;
-	margin-right:5px;
-  }
-  
-.row-fluid-sportete .colonnes_portail {
-    width: 33%;
-    *width: 33%;
-	float:left;
-  }
-  
-  
-.row-fluid-sportete .span2droite,
-.row-fluid-sportete .span2sportete,
-.row-fluid-sportete .span2gauche {
-     width: 230px;
-	 *width: 230px;
-	 float:left;
-  }
-  
-  
-.row-fluid-sportete .span2footergauche {
-     width: 219px; 
-	 border-right: 1px #9b9b9b solid;
-	 padding:0px 5px 0px 5px;
-  }
-  
-.row-fluid-sportete .span2footercenter {
-	 margin-left:10px;
-	 width:175px;
-	 float:left; }
-	 
-
-.droite { 
-width:230px;
-		float:left; 
-		margin-top:-300px; }
-		  
   
 #contacts {
-background-position: top left;
-margin-top:0px;
-margin-bottom:30px;
-margin-left:0px;
+margin-top:-12px;
+margin-bottom:10px;
+background-image:none;
+
 }
+  
+#page {
+	margin-top:-146px;
+	} 
 
+.hidden { 
+display:none;
+visibility:hidden;}
 
-#catalogue {
-	margin-top:20px
+.droite {width:100%;}
+
+#catalogue,
+#flash_info {
+	margin-top:-20px;
 	 }
-	 
-  
-.row-fluid-sportete .entetedepage {
-	margin-top:-166px;
-	} 
 
-.row-fluid-sportete .pagecontent {
-	margin-top:-76px;
-	} 
-
-
-  
-  
-}
+	}
 
 
 
+@media (min-width: 1024px) and (max-width: 1200px) {	
+	
+	.picto_monespace {
+	background-position: 79% 0px;}	
+	
+.main_col_width_univers,
+main_col_width {
+  width: 794px;
+  *width: 794px;
+  	 float:left;
+}	
+	
+	
+.hidden { 
+display:none;
+visibility:hidden;}
+	
+.container,
+  .navbar-fixed-top .container,
+  .navbar-fixed-bottom .container {
+    width: 1024px;
+  }
+	
+	
+	
+#catalogue,
+#flash_info {
+	margin-top:-20px;
+	 }
 
-
-@media (min-width: 1024px) and (max-width: 1200px) {
-  
-.droite { 
-width:100%;
-		  }
-		  
-  
 #contacts {
-background-position: top left;
-margin-top:0px;
-margin-bottom:30px;
+margin-top:-12px;
+margin-bottom:10px;
+background-image:none;
 
 }
-
-
-#catalogue {
-	margin-top:20px
-	 }
-	 
   
-.row-fluid-sportete .entetedepage {
-	margin-top:-166px;
+#page {
+	margin-top:-146px;
 	} 
-
-.row-fluid-sportete .pagecontent {
-	margin-top:-76px;
-	} 
-
- 
+  
+.droite {width:100%;}
+  
   
   
 }
 
 @media (max-width: 1200px) {
 	
-  .container-sportete,
-  .navbar-fixed-top .container-sportete,
-  .navbar-fixed-bottom .container-sportete {
-    width: 100%;
-  }
-  
  
-   .row-fluid-sportete .sejours {
-    width: 225px;
-    *width: 225px;
-	margin-right:5px;
-  }
-  
-   .row-fluid-sportete .colonnes_portail {
+.colonnes_portail {
     width: 33%;
     *width: 33%;
 	float:left;
   }
-  
-  .row-fluid-sportete .span2sportete ,
-  .row-fluid-sportete .span2droite,
-  .row-fluid-sportete .span2gauche {
-     width: 230px;
-	  *width: 230px;
-	 float:left;
-  }
- 
-   .row-fluid-sportete .span2footergauche {
-     width:219px; 
-	 border-right: 1px #9b9b9b solid;
-	 padding:0px 5px 0px 5px;
-  }
-  
-  .row-fluid-sportete .span2footercenter {
-	 margin-left:10px;
-	 width:175px; }
-  
 
+  
+  
   
 }
 

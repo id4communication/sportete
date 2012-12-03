@@ -40,7 +40,7 @@ background-image: url(../images/sejourssportifs/logo.png);
 	}
 	
 #slogans {
-	padding: 89px 0px 0px 20px;
+	margin: 0px 0px 27px 25px;
 	}
 	
 	
@@ -58,10 +58,33 @@ a:hover {
 .dropdown-menu li > a:hover,
 .dropdown-menu .active > a,
 .dropdown-menu .active > a:hover {
-  background-color: #ee8021;
-}	
+	color:#fff;
+	 background-color:#cc3333;
+   background-image: -moz-linear-gradient(top, #fbc010, #ee8021);
+  background-image: -ms-linear-gradient(top,  #fbc010, #ee8021);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fbc010), to(#ee8021));
+  background-image: -webkit-linear-gradient(top,  #fbc010, #ee8021);
+  background-image: -o-linear-gradient(top,  #fbc010, #ee8021);
+  background-image: linear-gradient(top,  #fbc010, #ee8021);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#fbc010', endColorstr='#ee8021', GradientType=0);
+  background-repeat: repeat;
+}
+
+.nav .dropdown-toggle .caret {
+  margin-top: 6px;
+  border-top-color: #900;
+  border-bottom-color: #900;
+}
+
+.nav .dropdown-toggle:hover .caret {
+  border-top-color: #900;
+  border-bottom-color: #900;
+}
+
 	
 .jour {
 	background-image: url(../images/sejourssportifs/picto_jour.png);}
 
 .nuit {background-image:url(../images/sejourssportifs/picto_nuit.png);}
+
+#sousmenu_page {background-color:#000000;}

@@ -1,7 +1,6 @@
 
-.couleur_univers,
-.academy {
-	color:#cc3333;
+.couleur_univers {
+	color:#900;
 	}
 
 header {
@@ -41,7 +40,7 @@ background-image: url(../images/academy/logo.png);
 	}
 	
 #slogans {
-	padding:102px 0px 0px 20px;
+	margin: 0px 0px 26px 25px;
 	}
 
 
@@ -50,7 +49,7 @@ background-image: url(../images/academy/logo.png);
 h1,
 h3,
 h5 {
-  color:#cc3333;
+  color:#900;
 }
 
 a {
@@ -77,13 +76,13 @@ a:hover {
 
 .nav .dropdown-toggle .caret {
   margin-top: 6px;
-  border-top-color: #cc3333;
-  border-bottom-color: #cc3333;
+  border-top-color: #900;
+  border-bottom-color: #900;
 }
 
 .nav .dropdown-toggle:hover .caret {
-  border-top-color: #cc3333;
-  border-bottom-color: #cc3333;
+  border-top-color: #900;
+  border-bottom-color: #900;
 }
 
 
@@ -93,5 +92,18 @@ a:hover {
 
 .nuit {background-image:url(../images/academy/picto_nuit.png);}
 
+
+a.souligne {
+	border-top: 1px solid #900;
+	font-weight:bold;
+	}
+	
+a.souligne:hover {
+	background-color: #900;
+	color:#fff;
+	}	
+	
+		
+	
 /*! surcharge bootstrap couleurs des titres */
 

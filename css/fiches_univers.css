@@ -4,9 +4,61 @@
  * Copyright 2012 iD4COM, 
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
+
+
+#degrade_clair_enbas, .degrade_clair_enbas {
+background-color:#000;
+color:#fff;
+ background-image: -moz-linear-gradient(top, #4A5B27, #90BC13);
+  background-image: -ms-linear-gradient(top, #4A5B27, #90BC13);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#4A5B27), to( #90BC13));
+  background-image: -webkit-linear-gradient(top, #4A5B27, #90BC13);
+  background-image: -o-linear-gradient(top, #4A5B27, #90BC13);
+  background-image: linear-gradient(top, #4A5B27, #90BC13);
+   background-repeat: repeat-x;
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#4A5B27', endColorstr='#90BC13', GradientType=0);
+}
+
+#degrade_clair_enbas {
+height:11px;
+}
+
+.dropdown-menu li > a:hover,
+.dropdown-menu .active > a,
+.dropdown-menu .active > a:hover {
+
+	 background-color:#90BC13;
+    background-image: -moz-linear-gradient(top, #90BC13, #4A5B27);
+  background-image: -ms-linear-gradient(top, #90BC13, #4A5B27);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#90BC13), to( #4A5B27));
+  background-image: -webkit-linear-gradient(top, #90BC13, #4A5B27);
+  background-image: -o-linear-gradient(top, #90BC13, #4A5B27);
+  background-image: linear-gradient(top, #90BC13, #4A5B27);
+  background-repeat: repeat-x;
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#90BC13', endColorstr=' #4A5B27', GradientType=0);
+}
+
+.nav .dropdown-toggle .caret {
+  margin-top: 6px;
+  border-top-color: #90BC13;
+  border-bottom-color: #90BC13;
+}
+
+.nav .dropdown-toggle:hover .caret {
+  border-top-color: #90BC13;
+  border-bottom-color: #90BC13;
+}
+
+
+
+
+
+
 /* COLONIES */
 
 /*! Couleurs */
+
+
 
 .fichecolonie {
 	color:#85187F;
@@ -31,6 +83,9 @@ a.fichecolonie:hover {
 
 
 /*! Dégradés couleur */
+
+
+
 
 
 .fichecolonie .enteteoffres {
@@ -171,3 +226,5 @@ a.ficheacademy:hover {
 }
 
 .ficheacademy .nuit {background-image:url(../images/academy/picto_nuit.png);}
+
+#sousmenu_page {background-color:#000000;}
