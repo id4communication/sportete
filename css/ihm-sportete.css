@@ -1,0 +1,56 @@
+#flashinfoscontent {
+	font-size:100%; line-height:125%; height: 100px; overflow: hidden; padding: 0;
+}
+#flashinfoscontent .carousel-inner { height: 100px; }
+#flashinfoscontent h5 {
+	font-size:110%; padding-right: 38px;
+}
+#flashinfoscontent a { color: #333333; display: block; padding: 4px; height: 92px; }
+#flashinfoscontent a:hover { 
+	background-color: #707173; color: #FFF;
+}
+#flashinfoscontent a:hover h5 { color: #FFF; }
+#flashinfoscontent .carousel-inner div.item { height: 100px; }
+#flashinfoscontent.carousel { margin-bottom: 2px; }
+#flashinfoscontent .carousel-control {
+	position: absolute; z-index: 1; top: 8px; color: #FFF;
+	height: 15px; width: 15px; line-height: 13px;
+	display: block; margin: 0px 4px 0px 0px; padding: 0;
+	border-radius: 8px 8px 8px 8px;
+	font-size: 20px; background-color: #000;
+}
+#flashinfoscontent .carousel-control.left {
+	left: auto; right:20px;
+}
+#flashinfoscontent .carousel-control.right {
+	left: auto; right:2px;
+}
+
+/* PAGE/ARTICLE */
+.pagecontent img {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  padding: 4px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.pagecontent ul li { list-style-position:inside; }
+.pagecontent table {
+  margin: 0; width: 100%;
+  border: none; /* Pas de bordure = "none". */
+  border-collapse: separate; /* Valeur par défaut: "separate". */
+  border-spacing: 0;
+}
+.pagecontent table td, .pagecontent table th {
+  padding: 4px; /* Pas de retrait autour du texte = "0". */
+  vertical-align: top; /* Valeur par défaut: "middle" */
+}
+
+/* ARTICLE */
+article .excerpt { float: right; width: 90px; margin-left: 5px; }
+
