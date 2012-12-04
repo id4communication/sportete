@@ -7,6 +7,9 @@
 	text-align:center;
 	margin:20px 0
 }
+.website_forms fieldset {
+	margin-top:10px
+}
 
 .website_forms #activities-list select {
 	margin:0;
@@ -34,4 +37,6 @@
 .website_forms .custom_warning {
 	color: #B94A48
 }
-.test{}
+#wrapper-catalogs legend {
+	margin-bottom:0
+}
