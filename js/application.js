@@ -21,6 +21,7 @@
     // carousel
     $('.carousel').each(function() {$(this).carousel()});
     
+    $('#recherche_avancee').searchbox();
   });
 
 }(window.jQuery)
