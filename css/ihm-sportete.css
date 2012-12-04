@@ -54,3 +54,6 @@
 /* ARTICLE */
 article .excerpt { float: right; width: 90px; margin-left: 5px; }
 
+.footer_a_set .sous_slogan {
+	font-size: inherit
+}
