@@ -179,6 +179,12 @@ $.ajaxTransport('jsonpi', function(opts, originalOptions, jqXHR) {
       form.appendTo('body').submit()
     }
   }
+
 })
 
 }(window.jQuery)
+
+$(document).ready(function(){
+	// Chargement du plugin de recherche
+	$('#recherche_avancee').searchbox();
+});
