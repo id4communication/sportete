@@ -59,8 +59,6 @@ $(document).ready(function(){
 	
 	var remove = function(e) {
 		e.preventDefault();
-		if (!confirm('Confirmez-vous la suppression ?'))
-			return false;
 		$(this).parent().remove();
 		return false;
 	};
