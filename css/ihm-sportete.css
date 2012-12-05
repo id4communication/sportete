@@ -27,7 +27,7 @@
 }
 
 /* PAGE/ARTICLE */
-.pagecontent img {
+/*.pagecontent img {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
@@ -38,7 +38,7 @@
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-}
+}*/
 .pagecontent ul li { list-style-position:inside; }
 .pagecontent table {
   margin: 0; width: 100%;
