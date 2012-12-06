@@ -40,3 +40,6 @@
 #wrapper-catalogs legend {
 	margin-bottom:0
 }
+#sportete_website_contact_form_type_phone_indicatif, #sportete_website_catalog_form_type_phone_indicatif, #sportete_website_callback_form_type_phone_indicatif {
+	width:100px
+}
