@@ -27,18 +27,8 @@
 }
 
 /* PAGE/ARTICLE */
-/*.pagecontent img {
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
-  padding: 4px;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-}*/
+.pagecontent .align-left { float: left; }
+.pagecontent .align-right {	float: right; }
 .pagecontent ul li { list-style-position:inside; }
 .pagecontent table {
   margin: 0; width: 100%;
