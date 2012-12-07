@@ -44,6 +44,7 @@ h6 {
   line-height: 1;
   color: inherit;
   text-rendering: optimizelegibility;
+
 }
 
 
@@ -86,7 +87,7 @@ ul li {
 
 .img-content {
 	float:left;
-	margin: 0px 15px 10px 0px;}
+	margin: 0px 15px 0px 0px;}
 
 
 #page footer {
@@ -164,7 +165,10 @@ padding: 15px 5px 0px 25px;
 #mon_espace {
 	z-index:11000;
 	width: 230px;
-	color: #FFF;
+	color: #fff;
+	background:#000;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#330000ff,endColorstr=#330000ff);
+    zoom: 1;
 	background-color: rgba(0, 0, 0, 0.5);
 	-webkit-border-radius:4px 4px 4px 4px;
     -moz-border-radius: 4px 4px 4px 4px;
@@ -1233,6 +1237,11 @@ background-color: #000;
   line-height: 12px;
   text-align:left;
 }
+
+.dropdown-menu li a.active {
+  color:#fff;
+}
+
 
 .search .btn-group {
   float:left;
