@@ -50,3 +50,14 @@ article .excerpt { float: right; width: 90px; margin-left: 5px; }
 .footer_a_set .sous_slogan {
 	font-size: inherit
 }
+
+/* FOOTER */
+#footer-univers .footer_a_set { 
+	font-weight: bold; color: #666666;
+    display: block;
+    font-size: 80%;
+    line-height: 11px; 
+}
+#footer-univers .footer_a_set .sous_slogan { font-weight: normal; }
+#footer-univers .footer_a_set .sous_slogan br { display: none; }
+#footer-univers .footer_a_set .sous_slogan br:after { content: ' '; }
