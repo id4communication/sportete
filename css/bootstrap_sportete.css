@@ -44,6 +44,7 @@ h6 {
   line-height: 1;
   color: inherit;
   text-rendering: optimizelegibility;
+
 }
 
 
@@ -70,11 +71,25 @@ li {
   line-height: 15px;
 }
 
+ol,
+ul {
+	list-style-position:inside;}
+	
+ol li,
+ul li {
+	margin-bottom:5px;}	
+
 .center {text-align:center;}
 .droit {text-align:right;}
 
 
 /*! contenus */
+
+.img-content {
+	float:left;
+	margin: 0px 15px 0px 0px;}
+
+
 #page footer {
 	color:#fff;
 	background-image: none;
@@ -150,7 +165,10 @@ padding: 15px 5px 0px 25px;
 #mon_espace {
 	z-index:11000;
 	width: 230px;
-	color: #FFF;
+	color: #fff;
+	background:#000;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#330000ff,endColorstr=#330000ff);
+    zoom: 1;
 	background-color: rgba(0, 0, 0, 0.5);
 	-webkit-border-radius:4px 4px 4px 4px;
     -moz-border-radius: 4px 4px 4px 4px;
@@ -972,11 +990,13 @@ text-decoration:none;
 cursor:pointer;	
 	}	
 	
-	a.blog:active {
+	a.blog:focus {
 	background-image:url(../images/puce_dest_blog_open.png);
+	background-color: #b1b3b4;
+	background-color: #dadada;
 	background-repeat:no-repeat;
 	background-position: 20px center;
-color:#000;	
+	color:#000;	
 	}
 	
 
@@ -1218,6 +1238,11 @@ background-color: #000;
   text-align:left;
 }
 
+.dropdown-menu li a.active {
+  color:#fff;
+}
+
+
 .search .btn-group {
   float:left;
 }
@@ -1368,24 +1393,22 @@ background-color: rgba(0, 0, 0, 0.6);
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
      -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
           box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
-		  overflow::visible;}
+		  overflow:hidden;}
 	
  
-#sejours_consultes {
-padding:10px 5px 0px 5px;
-font-size: 11px;	
-line-height: 12px;
-	}
-	
-#sejours_consultes p {
+
+.sejours_consultes p {
 padding-left: 17px;
 	}
 	
-#sejours_consultes { }
-#sejours_consultes a { color: #000; }
+.sejours_consultes a { color: #000;
+display:block;
+padding:10px 5px 0px 5px;
+font-size: 11px;	
+line-height: 12px; }
 
-#sejours_consultes:hover,
-#sejours_consultes a:hover { 
+.sejours_consultes:hover,
+.sejours_consultes a:hover { 
 background-color: #696969;
 color:#fff;
 	text-decoration:none; 
@@ -1815,6 +1838,7 @@ filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',
    }
    
 #sousmenu_page {background-color:#b1b3b4;padding:0px;margin:0px;}
+
 .tab-pane {
 	margin:0px;
 	padding:0px;}
@@ -1834,10 +1858,7 @@ float:left;
      -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
           box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);}
 	
-.elargir:hover {
-	 background-color:#dadada;
-	 cursor:pointer;}	
-	
+
 .elargir_titre {
 	margin-top: 3px;
 	padding:0px;
