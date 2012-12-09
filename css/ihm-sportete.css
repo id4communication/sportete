@@ -1,3 +1,10 @@
+body.html-body { visibility: hidden; }
+h1 { font-size: 28px; }
+h2 { font-size: 24px; }
+h3 { font-size: 18px; }
+h4 { font-size: 15px; }
+h5 { font-size: 12px; }
+
 #flashinfoscontent {
 	font-size:100%; line-height:125%; height: 100px; overflow: hidden; padding: 0;
 }
@@ -25,6 +32,74 @@
 #flashinfoscontent .carousel-control.right {
 	left: auto; right:2px;
 }
+
+/* EXTENSION BOOTSTRAP */
+.pull-left { margin-right: 8px; margin-bottom: 8px; }
+.pull-right { margin-left: 8px; margin-bottom: 8px; }
+
+/* EXTENSION STYLE OXYGEN WEBSITE */
+article.main-entry.light { text-align: center; }
+article.main-entry.light > header h1 {
+	color: #5D7833; font-size: 1.8em; vertical-align: middle;
+}
+
+/* REMPLACEMENT BOOTSTRAP SPORTETE */
+#destinationsetblogs .accordion { padding-top: 5px; }
+#destinationsetblogs .destination {	background-color: #8EBC11; padding: 2px; }
+#destinationsetblogs .destination .correction_padding { !important; padding:5px; }	
+#destinationsetblogs .destination a { display: block; color:#fff; height: 30px; line-height: 30px; vertical-align: middle; }
+#destinationsetblogs .destination a:hover { font-style: italic; }
+#destinationsetblogs .destination .carte_destination { float:left; margin-left:10px; heigth: 55px; width: 55px; }
+#destinationsetblogs .accordion-heading > a {
+	display:block;
+	padding:0px 0px 0px 35px;
+	background-image:url(../images/puce_dest_blog_open.png);
+	background-color: #b1b3b4;
+	background-color: #dadada;
+	background-repeat:no-repeat;
+	background-position: 20px center;
+	color:#6b6b6b;	
+	line-height:18px;
+}
+#destinationsetblogs .accordion-heading > a.collapsed {
+	background-image:url(../images/puce_dest_blog.png);
+	background-color: transparent;
+}
+#destinationsetblogs .accordion-heading > a:hover {
+	background-color: #666;
+	color:#fff;
+	font-weight:bold;
+	text-decoration:none;
+	cursor:pointer;	
+}
+
+/* DESTINATION */
+.entete_destination_resume { margin-bottom: 1em; }
+.entete_destination_resume .gallery { 
+	height: 215px; margin: 0;
+  	border: none; /* Pas de bordure = "none". */
+  	border-collapse: separate; /* Valeur par défaut: "separate". */
+  	border-spacing: 0; 
+}
+.entete_destination_resume .gallery td, .entete_destination_resume .gallery th {
+	 vertical-align: top; /* Valeur par défaut: "middle" */;
+	 height: 100%; padding: 1px 0 1px 0;
+}
+.entete_destination_resume .gallery .main-picture { 
+	display: block; width: 565px; height: 100%; overflow: hidden;
+	margin: 0;
+}
+.entete_destination_resume .gallery ul.thumbnails-centre { display: block;  width: 120px; height: 100%; margin: 0; padding: 0; overflow: hidden; list-style: none; }
+.entete_destination_resume .gallery ul.thumbnails-centre > li { display: block; height: 71px; width: 100%; float: left; overflow: hidden; margin: 0; padding: 0; }
+
+.entete_destination_resume table.addons { color: #FFF; border-top: 1px solid #FFF; }
+.entete_destination_resume .addons td { width: 33%; }
+.entete_destination_resume .addons td.middle { width: 34%; }
+.entete_destination_resume .addons .addons-content { background-color:#b1b3b4; color:#000; }
+.entete_destination_resume .addons ul { list-style: none; margin-left: 0; }
+
+.address-centre { border-left:1px solid #000; padding-left:10px; width: 33%; }
+.centre-buttons { margin-top: 1em; }
 
 /* CONTENT */
 article.main-entry header blockquote a { color: #FFF; }
