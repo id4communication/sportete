@@ -954,85 +954,9 @@ a.pointel:hover {
 
 /*! Destinations et Blogs */		
 
-#partenaires, #destinations {
-	padding-top: 0px;}
-	
-#partenaires {
-	background-color:#fff;}
-	
-.espacementvertical {
-	padding:5px;}	
-
-#destination_content_1,
-#destination_content_2 {
-background-color:#8ebc11;
-
-}
-
-.wrapper_blog { 
-padding: 10px 0px 0px 0px;
-}
-
-#destination_content_1 a,
-#destination_content_2 a {
-color:#fff;
-}
-
-#destination_content_1 a:active,
-#destination_content_2 a:active {
-color:#90BC13;
-}
-
-#destination_content_1 a:hover,
-#destination_content_2 a:hover {
-color:#fff;
-}
-
-.carte_destination {
-	float:left;
-	margin-left:10px;}
-
-.listing_lien_blog {
-	padding: 10px 0px 0px 0px;}
-	
-.correction_padding {
-	!important;
-	padding:5px;
-	}	
-
-.listing_lien_blog a {
-	display: block;}
-	
-.listing_lien_blog a:hover {
-	color: #6b6b6b;}
-
-a.blog {
-	display:block;
-	padding:0px 0px 0px 35px;
-	background-image:url(../images/puce_dest_blog.png);
-	background-repeat:no-repeat;
-	background-position: 20px center;
-	color:#6b6b6b;	
-	line-height:18px;
-	}
-	
-a.blog:hover {
-background-color: #666;
-color:#fff;
-font-weight:bold;
-text-decoration:none;
-cursor:pointer;	
-	}	
-	
-	a.blog:focus {
-	background-image:url(../images/puce_dest_blog_open.png);
-	background-color: #b1b3b4;
-	background-color: #dadada;
-	background-repeat:no-repeat;
-	background-position: 20px center;
-	color:#000;	
-	}
-	
+#partenaires { padding-top: 0px; }
+#partenaires { background-color:#fff; }
+.espacementvertical { padding:5px; }	
 
 /*! Catalogues */	
 	

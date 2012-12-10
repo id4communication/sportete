@@ -21,5 +21,17 @@ $(document).ready(function() {
 	var uri_map_destination = Routing.generate('sportete_website_centre_map', { centre_id: centre_id , mode: 'small' });
 	$('#destination-map').attr('src', uri_map_destination);
 	$('#destination-full-map').click(DestinationMap.toFullScreen);
-	$('.main-picture').carousel({interval: 10000});
+	$('.thumbnails-centre > li').each(function() {
+		$(this).css('cursor', 'pointer');
+		$(this).click(function() {
+			$('.main-picture').carousel(parseInt($(this).attr('data-image-i')));
+		});
+	});
+	$('.main-picture').on('slide', function(e) {
+		$('#thumbnails-focus').animate({
+		    top: ($(e.relatedTarget).attr('data-image-i')*71),
+		}, 2500, function() {
+			// Animation complete.
+		});
+	});
 });

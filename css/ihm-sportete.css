@@ -1,9 +1,4 @@
 body.html-body { visibility: hidden; }
-h1 { font-size: 28px; }
-h2 { font-size: 24px; }
-h3 { font-size: 18px; }
-h4 { font-size: 15px; }
-h5 { font-size: 12px; }
 
 #flashinfoscontent {
 	font-size:100%; line-height:125%; height: 100px; overflow: hidden; padding: 0;
@@ -76,7 +71,7 @@ article.main-entry.light > header h1 {
 /* DESTINATION */
 .entete_destination_resume { margin-bottom: 1em; }
 .entete_destination_resume .gallery { 
-	height: 215px; margin: 0;
+	position: relative; height: 215px; margin: 0;
   	border: none; /* Pas de bordure = "none". */
   	border-collapse: separate; /* Valeur par défaut: "separate". */
   	border-spacing: 0; 
@@ -86,16 +81,21 @@ article.main-entry.light > header h1 {
 	 vertical-align: top; /* Valeur par défaut: "middle" */;
 	 height: 100%; padding: 1px 0 1px 0;
 }
+.entete_destination_resume .gallery .main-picture img { width: 100%; height: 100%; }
 .entete_destination_resume .gallery .main-picture { 
-	display: block; width: 565px; height: 100%; overflow: hidden;
+	display: block; width: 100%; height: 100%; overflow: hidden;
 	margin: 0;
 }
-.entete_destination_resume .gallery ul.thumbnails-centre { display: block;  width: 120px; height: 100%; margin: 0; padding: 0; overflow: hidden; list-style: none; }
-.entete_destination_resume .gallery ul.thumbnails-centre > li { line-height: 71px; vertical-align: middle; display: block; height: 71px; width: 100%; float: left; overflow: hidden; margin: 0; padding: 0; }
-.entete_destination_resume .gallery ul.thumbnails-centre > li img { line-height: 71px; vertical-align: middle;}
+.entete_destination_resume .gallery ul.thumbnails-centre { position: relative; display: block; z-index: 2;  width: 100%; height: 100%; margin: 0; padding: 0; overflow: hidden; list-style: none; }
+.entete_destination_resume .gallery ul.thumbnails-centre > li { line-height: 71px;  z-index: 2; vertical-align: middle; display: block; height: 71px; width: 100%; float: left; overflow: hidden; margin: 0; padding: 0; }
+.entete_destination_resume .gallery ul.thumbnails-centre > li img { line-height: 71px;  z-index: 2; vertical-align: middle; width: 90%; margin: 0 5% 0 5%; }
 .main-picture.carousel .item {-webkit-transition: opacity 3s; -moz-transition: opacity 3s; -ms-transition: opacity 3s; -o-transition: opacity 3s; transition: opacity 3s;}
 .main-picture.carousel .active.left {left:0;opacity:0;z-index:2;}
 .main-picture.carousel .next {left:0;opacity:1;z-index:1;}
+#thumbnails-focus { 
+	position: absolute; top: 0; left: 0; height: 71px; width: 100%; z-index: 1; background-color: #FFF;
+	-ms-filter: "alpha(opacity=25)"; filter: progid:DXImageTransform.Microsoft.Alpha(opacity=25); opacity: 0.25;
+}
 
 /* --- header addons */
 .entete_destination_resume table.addons { color: #FFF; border-top: 1px solid #FFF; }

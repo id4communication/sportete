@@ -17,7 +17,11 @@ $(document).ready(function() {
 	    $('[rel="popover"]').popover();
 	
 	    // carousel
-	    $('.carousel').each(function() {$(this).carousel()});
+	    $('[data-toggle="carousel"]').each(function() {
+	    	$(this).carousel( {
+	    		interval: $(this).attr('data-interval')
+	    	});
+	    });
 	    
 	    $('#recherche_avancee').searchbox();
 	} catch (e) {
