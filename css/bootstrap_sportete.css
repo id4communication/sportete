@@ -327,7 +327,8 @@ z-index:0;
   }
   
 .navbar {
-	 padding-bottom:30px;
+	 padding-bottom:0px;
+	 
 	 } 
 
 .navbar-inverse .navbar-inner {
@@ -505,12 +506,7 @@ a.sejours:hover {
   -ms-transition:  background-color 0.5s ease-in-out, color 0.5s ease-in-out;
   -moz-transition:  background-color 0.5s ease-in-out, color 0.5s ease-in-out;
   transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
- 
 }
-
-.table-condensed {
-	
-	}
 	
 	/*! Surcharge bootstrap JS modal box  */
 	
