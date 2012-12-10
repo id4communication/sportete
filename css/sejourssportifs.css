@@ -57,7 +57,10 @@ a:hover {
 
 .dropdown-menu li > a:hover,
 .dropdown-menu .active > a,
-.dropdown-menu .active > a:hover {
+.dropdown-menu .active > a:hover,
+.dropdown-menu li > a:hover,
+.dropdown-menu li > a:focus,
+.dropdown-submenu:hover > a {
 	color:#fff;
 	 background-color:#cc3333;
    background-image: -moz-linear-gradient(top, #fbc010, #ee8021);

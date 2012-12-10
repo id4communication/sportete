@@ -62,7 +62,11 @@ a:hover {
 
 .dropdown-menu li > a:hover,
 .dropdown-menu .active > a,
-.dropdown-menu .active > a:hover {
+.dropdown-menu .active > a:hover,
+.dropdown-menu li > a:hover,
+.dropdown-menu li > a:focus,
+.dropdown-submenu:hover > a {
+	color:#fff;
 	 background-color:#cc3333;
    background-image: -moz-linear-gradient(top, #cc3333, #3d120b);
   background-image: -ms-linear-gradient(top, #cc3333, #3d120b);
@@ -73,6 +77,7 @@ a:hover {
   filter: progid:dximagetransform.microsoft.gradient(startColorstr='#cc3333', endColorstr='#3d120b', GradientType=0);
   background-repeat: repeat;
 }
+
 
 .nav .dropdown-toggle .caret {
   margin-top: 6px;
