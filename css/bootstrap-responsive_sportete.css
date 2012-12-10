@@ -62,12 +62,22 @@ background-image:none;
 display:none;
 visibility:hidden;}
 
-.droite {width:100%;}
+.droite {width:1024px;}
 
 #catalogue,
 #flash_info {
 	margin-top:-20px;
 	 }
+	 
+#flash_info,
+#partenaires,
+#destinationsetblogs {
+	margin-left:20px;
+	 }
+	 
+#partenaires {
+	width:270px;
+	 }	 	 
 
 	}
 
@@ -114,9 +124,19 @@ background-image:none;
 	margin-top:-146px;
 	} 
   
-.droite {width:100%;}
+.droite {width:1024px;}
   
-  
+  #flash_info,
+#partenaires,
+#destinationsetblogs {
+	margin-left:20px;
+	 }
+
+#partenaires {
+	width:270px;
+	 }	 	 
+	 
+	 	 
   
 }
 
