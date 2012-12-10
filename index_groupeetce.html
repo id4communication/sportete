@@ -26,8 +26,10 @@
 <!-- Le fav and touch icons -->
 <link rel="shortcut icon" href="ico/favicon.ico">
 
+<!--[if lte IE 8]> 
+ <script src="../js/css3-mediaqueries.js"></script>
+<![endif]-->
 </head>
-
 <body>
 
 <!-- Bar de navigation générale haut de page -->
@@ -158,11 +160,11 @@
           </tr>
           <tr>
             <td align="right">Rappelez moi</td>
-            <td><a data-original-title="Rappelez moi !" href="#" rel="popover" data-placement="left" data-content="Suivez ce lien et demander un rappel téléphonique..."><i class="icon-play icon-white"></i> Demandez un rappel</a></td>
+            <td><a data-original-title="Demandez un rappel téléphonique !" href="#" rel="tooltip" data-placement="left"><i class="icon-play icon-white"></i> Demandez un rappel</a></td>
           </tr>
           <tr>
             <td align="right">Suivez nous</td>
-            <td><i class="icon-play icon-white pull-left"></i><a  class="facebook" data-original-title="Suivez nous sur Facebook" href="#" rel="popover" data-placement="bottom"></a><a class="tweeter" data-original-title="Suivez nous sur tweeter" href="#" rel="popover" data-placement="bottom" data-content=""></a><a class="pointel" data-original-title="Toutes nos coordonnées téléphoniques" href="#" rel="popover" data-placement="bottom" data-content=""></a></td>
+            <td><i class="icon-play icon-white pull-left"></i><a  class="facebook" data-original-title="Suivez nous sur Facebook" href="#" rel="tooltip" data-placement="left"></a><a class="tweeter" data-original-title="Suivez nous sur tweeter" href="#" rel="tooltip" data-placement="left" ></a><a class="pointel" data-original-title="Toutes nos coordonnées téléphoniques" href="#" rel="tooltip" data-placement="left"></a></td>
           </tr>
           <tr>
             <td align="right">Newsletter</td>
@@ -300,7 +302,7 @@
      <!--Bloc séjours_consultés-->
     <div class="accordion colwidth" id="sejoursconsultes" >
                 <div class="accordion-group" >
-                  <div class="accordion-heading"><div class="right_block_title"><a data-toggle="collapse" data-parent="#sejoursconsultes" href="#collapsesejoursconsultes"><img src="images/titre_sejours_consultes.png" width="220" height="19" alt="Sejours sport été consultés"></a></div></div>
+                  <div class="accordion-heading"><div class="right_block_title"><a data-toggle="collapse" data-parent="#sejoursconsultes" href="#collapsesejoursconsultes" class="collapsible"><img src="images/titre_sejours_consultes.png" width="220" height="19" alt="Sejours sport été consultés"></a></div></div>
                   <div id="collapsesejoursconsultes" class="accordion-body collapse in">
           <div class="sejours_consultes"><a href="fiche_sejour.html" target="_self">
           <i class="icon-circle-arrow-right"></i>&nbsp;<b>STAGE Tennis de table</b><br>
@@ -363,7 +365,7 @@
           <div id="gratuit"><img src="images/gratuit.png" width="128" height="29" alt="gratuit"></div></a></div>
       
         <p class="separateur"></p>
-        <div id="catalogues_interactifs" ><a data-toggle="collapse" data-target="#liens_catalogues_interactifs"><img src="images/titre_cat_en_ligne.png" width="184" height="15" alt="Catalogues sport étéen ligne"></a></div>
+        <div id="catalogues_interactifs" ><a data-toggle="collapse" data-target="#liens_catalogues_interactifs" class="collapsible"><img src="images/titre_cat_en_ligne.png" width="184" height="15" alt="Catalogues sport étéen ligne"></a></div>
         <div id="liens_catalogues_interactifs" class="collapse">
           <ul>
             <li><a href="http://asp.zone-secure.net/v2/index.jsp?id=3803/4957/20890&lng=fr" target="_blank">Séjours sportifs</a></li>
@@ -377,7 +379,7 @@
 <div class="accordion colwidth" id="flash_info">
                 <div class="accordion-group" >
                   <div class="accordion-heading">
-                    <div class="right_block_title"><a data-toggle="collapse" data-parent="#flash_info" href="#collapseflashinfos"><img src="images/icon_rss.png" width="19" height="19" alt="Rss Sport été"> <img src="images/titre_flash_infos.png" width="103" height="19" alt="flash infos"></a></div>
+                    <div class="right_block_title"><a data-toggle="collapse" data-parent="#flash_info" href="#collapseflashinfos" class="collapsible"><img src="images/icon_rss.png" width="19" height="19" alt="Rss Sport été"> <img src="images/titre_flash_infos.png" width="103" height="19" alt="flash infos"></a></div>
                   </div>
                   <div id="collapseflashinfos" class="accordion-body collapse in">
           <div id="flashinfoscontent"><h5>Passion Bad :</h5><p>Ouverture de 8 places supplémentaires</p></div> 
@@ -392,7 +394,7 @@
 <div class="accordion colwidth" id="destinationsetblogs"  >
                 <div class="accordion-group" >
                   <div class="accordion-heading">
-                    <div class="right_block_title"><a data-toggle="collapse" data-parent="#destinationsetblogs" href="#collapsedestinationsetblogs"><img src="images/titre_dests_et_blogs.png" width="207" height="19" alt="Destinations et blogs"></a></div>
+                    <div class="right_block_title"><a data-toggle="collapse" data-parent="#destinationsetblogs" href="#collapsedestinationsetblogs" class="collapsible"><img src="images/titre_dests_et_blogs.png" width="207" height="19" alt="Destinations et blogs"></a></div>
                   </div>
                   <div id="collapsedestinationsetblogs" class="accordion-body collapse in">
            
@@ -455,7 +457,7 @@
       
       <div class="accordion colwidth" id="partenaires"  >
                 <div class="accordion-group" >
-                  <div class="accordion-heading"><div class="right_block_title"><a data-toggle="collapse" data-parent="#partenaires" href="#collapsepartenaires"> <img src="images/titre_partenaires.png" width="95" height="17" alt="Partenaires sport été"></a></div>
+                  <div class="accordion-heading"><div class="right_block_title"><a data-toggle="collapse" data-parent="#partenaires" href="#collapsepartenaires" class="collapsible"> <img src="images/titre_partenaires.png" width="95" height="17" alt="Partenaires sport été"></a></div>
                   </div>
                   <div id="collapsepartenaires" class="accordion-body collapse in">
            <table class="tablepartenaire">
