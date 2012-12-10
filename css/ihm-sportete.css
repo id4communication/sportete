@@ -29,8 +29,8 @@ body.html-body { visibility: hidden; }
 }
 
 /* EXTENSION BOOTSTRAP */
-.pull-left { margin-right: 8px; margin-bottom: 8px; }
-.pull-right { margin-left: 8px; margin-bottom: 8px; }
+.pagecontent .pull-left { margin-right: 8px; margin-bottom: 8px; }
+.pagecontent .pull-right { margin-left: 8px; margin-bottom: 8px; }
 
 /* EXTENSION STYLE OXYGEN WEBSITE */
 article.main-entry.light { text-align: center; }
