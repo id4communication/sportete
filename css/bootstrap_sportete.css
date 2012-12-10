@@ -33,6 +33,12 @@ body {
 }
 
 
+h1 { font-size: 28px; }
+h2 { font-size: 24px; }
+h3 { font-size: 18px; }
+h4 { font-size: 15px; }
+h5 { font-size: 12px; }
+
 h1,
 h2,
 h3,
@@ -163,19 +169,20 @@ padding: 15px 5px 0px 25px;
 	background-position: 83% 0px;}
 
 #mon_espace {
+	float:right;
+	padding-left:0px;
 	z-index:11000;
 	width: 230px;
 	color: #fff;
-	background:#000;
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#330000ff,endColorstr=#330000ff);
     zoom: 1;
-	background-color: rgba(0, 0, 0, 0.5);
+	 background: #000000;
+ opacity: 0.6;
+  filter: alpha(opacity=60);
+    behavior: url(pie/PIE.php);
 	-webkit-border-radius:4px 4px 4px 4px;
     -moz-border-radius: 4px 4px 4px 4px;
     border-radius: 4px 4px 4px 4px;
 	behavior: url(pie/PIE.php);
-	float:right;
-	padding-left:0px;
 	}
 
 .titre_monespace {
@@ -199,6 +206,7 @@ a.acces {
 
 a.acces:hover {
 	background-color: #dadada;
+	background-image:url(../images/cadenas_ouvert_inverse.png);
 	color: #333;}
 
 
@@ -216,7 +224,6 @@ a.acces:hover {
 	background-position: 70px center;
 	padding: 5px 5px 5px 30px;
 	color:#dadada;
-	opacity:1;
 	-webkit-border-radius:0px 0px 4px 4px;
     -moz-border-radius: 0px 0px 4px 4px;
     border-radius: 0px 0px 4px 4px;
@@ -225,7 +232,8 @@ a.acces:hover {
 	
 #mon_panier a:hover {
 	background-color: #dadada;
-	color: #333;}
+	color: #333;
+	background-image:url(../images/panier_inverse.png);}
 
 /*! Boutton découvrez nos univers  */
 
@@ -294,6 +302,7 @@ header {
 background-repeat:repeat;
 padding:0px;
 margin:0px;
+z-index:0;
 }
 
 #page header {
@@ -379,15 +388,18 @@ background-color:#faf8f8;
      -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
           box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
 		  overflow:hidden;
+		  	behavior: url(pie/PIE.php);
 		  }
 
 .gauche {
 	width: 230px;
+	background-color:#faf8f8;
 	float:left;
 	-webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
      -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
           box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25); 
-	
+		behavior: url(pie/PIE.php);
+		z-index:10000;
 	 }
 
 .offset12sportete {
@@ -923,11 +935,11 @@ a.pointel:hover {
   -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
           border-radius: 4px;
+		   behavior: url(pie/PIE.php);
   filter: progid:dximagetransform.microsoft.gradient(startColorstr='#696969', endColorstr='#d5d4d4', GradientType=1);
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
      -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
           box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
-		  overflow::visible;
 		  -pie-background: linear-gradient(#696969, #d5d4d4);
   behavior: url(pie/PIE.php);
 	}
@@ -1038,27 +1050,6 @@ cursor:pointer;
 	 
 .catalogue2 {font-size:31px;}
 
-#rotation:hover {
-	background-color: #000;
-  background-image: -moz-linear-gradient(left, #000000, #b8babb);
-  background-image: -ms-linear-gradient(left, #000000, #b8babb);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000000), to(#b8babb));
-  background-image: -webkit-linear-gradient(left, #000000, #b8babb);
-  background-image: -o-linear-gradient(left, #000000, #b8babb);
-  background-image: linear-gradient(left, #000000, #b8babb);
-  background-repeat: repeat-x;
-  -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-          border-radius: 4px;
-		    behavior: url(pie/PIE.php);
-  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#000000', endColorstr='#b8babb', GradientType=1);
-  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
-     -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
-          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
-		  overflow::visible; 
-		  -pie-background: linear-gradient(#000000, #b8babb);
-  behavior: url(pie/PIE.php);}		 
-	 
 #catalogues_interactifs {
 	font-family: chinese_rocks_rgregular, Edo, Arial;
 	font-size: 13px;
@@ -1104,10 +1095,12 @@ text-align:left;
 font-family: chinese_rocks_rgregular, EdoRegular, Arial;
 overflow:hidden;
 margin-right:-10px;
-
-
  }
  
+#rotation:hover {
+background-color:#908e8e;	  
+	overflow:hidden; }		 
+	 
 
 #demandez {
 font-size: 45px;
@@ -1120,7 +1113,6 @@ padding:1px 1px 1px 5px;
 width: 220px;
 float:right;
 margin:0px 0px 0px 30px;
-
 } 
  
 #votrecatalogue {	
@@ -1233,7 +1225,6 @@ background-color:#707173;
 /*! Recherche Rapide */	
 
 #quick_search {
-	
 	z-index:1000;
 	text-align:center;
 margin-top:5px;
@@ -1246,21 +1237,21 @@ background-color: #000;
   background-image: -o-linear-gradient(left, #000000, #b8babb);
   background-image: linear-gradient(left, #000000, #b8babb);
   background-repeat: repeat-x;
-  -webkit-border-radius: 4px;
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#000000', endColorstr='#b8babb', GradientType=1);
+   -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
           border-radius: 4px;
 		  behavior: url(pie/PIE.php);
-  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#000000', endColorstr='#b8babb', GradientType=1);
-  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
-     -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
-          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
-		    behavior: url(pie/PIE.php);
-		  overflow::visible;}
+ }
 
 
 .search {
 	vertical-align: bottom;
-	line-height:30px;}
+	line-height:30px;
+	 -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+		  behavior: url(pie/PIE.php);}
 
 .search .dropdown-menu li > a {
   font-size: 11px;
@@ -1286,7 +1277,11 @@ background-color: #000;
 	font-weight:500;
 	padding:15px 5px 15px 5px;
 	text-align:center;
-	display:block; 
+	display:block;
+	 -webkit-border-radius: 4px 4px 0px 0px;
+     -moz-border-radius: 4px 4px 0px 0px;
+          border-radius: 4px 4px 0px 0px;
+		  behavior: url(pie/PIE.php);
 	}
 	
 .titres_recherches:hover {
@@ -1361,14 +1356,10 @@ background-color: #fff;
   line-height: 15px;
   color: #ffffff;
 position: absolute;
-background-color : #000000 ;
-background-color : transparent ; /* nécessaire pour que le filtre fonctionne background-color : rgba(255, 0, 0, 0.3) ;
-/* filtre pour IE8 */
--ms-filter : "progid:DXImageTransform.Microsoft.gradient(startColorstr=#000000, endColorstr=#000000)" ;
-/* filtre pour les IE plus vieux */
-filter : progid:DXImageTransform.Microsoft.gradient(startColorstr=#000000, endColorstr=#000000) ;
-background-color: rgba(0, 0, 0, 0.6);	
-  
+  background: #222222;
+ opacity: 0.6;
+  filter: alpha(opacity=60);
+    behavior: url(pie/PIE.php);
 	}
 
 .carousel-control-promotion {
@@ -1708,10 +1699,11 @@ background-position: top right;}
 
 
 input.newsletter {
-	height:10px;
+	height: 10px;
 	width: 90px;
 	font-size: 11px;
-	margin-top:7px;
+	margin-top: 7px;
+	line-height: 11px;
 	}
 
 .newsletterboutton {
@@ -1886,7 +1878,6 @@ text-align: center;
    transform: scale(1.2);
    -ms-transform: scale(1.2);
    background-color : transparent ; /* nécessaire pour que le filtre fonctionne */
-
     -webkit-transition: all .3s ease-out;
    -moz-transition: all .3s ease-out;
    -o-transition: all .3s ease-out;
@@ -2106,7 +2097,7 @@ ul.choixdestinations li a:hover {
 	color:#fff;
 }	
 	
-#resa {
+.resa {
 	background-color: #58585a;
 padding-top : 5px;
 	-webkit-border-radius:4px 4px 0px 0px;
@@ -2199,3 +2190,6 @@ a.developpe_destinations:hover {color:#dadada;}
 .t3l1c6 {border-left:1px dashed #dadada;width:70px;}
 .t3l1c7 {border-left:1px dashed #dadada;width:85px;}
 .t3l1c8 {width:70px;}
+
+.collapsible {
+	display:block;}
