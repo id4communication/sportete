@@ -1,5 +1,12 @@
 body.html-body { visibility: hidden; }
 
+/* FORM */
+form label.required:after { content: '*' }
+form input[type="radio"], form input[type="checkbox"] { vertical-align:top; display: inline; }
+form input[type="radio"] + label { display: inline; vertical-align:middle; }
+form input[type="checkbox"] + label { display: inline; vertical-align:middle; }
+form .alert-form.alert-error ul { margin: 12px 0 12px 0; }
+
 #flashinfoscontent {
 	font-size:100%; line-height:125%; height: 100px; overflow: hidden; padding: 0;
 }

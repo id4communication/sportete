@@ -54,7 +54,7 @@ $(document).ready(function(){
 	var addRemoveActivityLink = function($activity) {
 		var $delete = $('<a href="#" class="activity-delete"><i class="icon-remove"></i></a>');
 		$delete.on('click',remove);
-		$activity.prepend($delete);
+		$activity.append($delete);
 	};
 	
 	var remove = function(e) {
@@ -63,13 +63,11 @@ $(document).ready(function(){
 		return false;
 	};
 	
-	$('#activities-list').before('<div class="activities-cmd"><a href="#" id="activity-add" title="Ajouter une activité">Ajouter une activité</a></div>');
 	$('#activity-add').click(onClickAddActivity);
 	$('#activities-list .activity').each(function() {
 		addRemoveActivityLink($(this));
 	});
 	
-	$('.datepicker').datepicker({
-		dateFormat: 'dd-mm-yy'
-	});
+	if (!(typeof($('.datepicker').datepicker == undefined)))
+		$('.datepicker').datepicker( { dateFormat: 'dd-mm-yy' } );
 });
