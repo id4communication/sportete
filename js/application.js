@@ -31,6 +31,7 @@ $(document).ready(function() {
 	    		$.scrollTo($(this), 1000, { offset: -400 });
 	    	}
 	    });
+	    
 	} catch (e) {
 		console.log(e);
 	}
