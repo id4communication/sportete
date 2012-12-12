@@ -144,6 +144,13 @@ article.main-entry header blockquote a { color: #FFF; }
   vertical-align: top; /* Valeur par défaut: "middle" */
 }
 
+/* PAGE/RESULT */
+.header-tools {
+	display: block;
+	float:right;
+	margin:10px 20px 0 0
+}
+
 /* ARTICLE */
 article .excerpt { float: right; width: 90px; margin-left: 5px; }
 

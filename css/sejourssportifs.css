@@ -19,7 +19,7 @@ background-image: url(../images/sejourssportifs/logo.png);
   background-image: url(../images/sejourssportifs/background-menu.jpg);
 	} 
 
-#degrade_clair_enbas, .degrade_clair_enbas {
+.degrade_clair_enbas {
   background-image: -moz-linear-gradient(top, #ee8021, #fbc010);
   background-image: -ms-linear-gradient(top, #ee8021, #fbc010);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ee8021), to(#fbc010));
