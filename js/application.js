@@ -25,6 +25,8 @@ $(document).ready(function() {
 	    
 	    $('#recherche_avancee').searchbox();
 	    
+	    $('input[rel="date"]').datepicker({});
+	    
 	    //Scroll to form error
 	    $('form .alert-form').each(function(i, item) {
 	    	if (i == 0) {
