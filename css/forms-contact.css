@@ -2,9 +2,6 @@
 	height:180px;
 	width:98%;
 }
-.website_forms fieldset {
-	margin-top:10px
-}
 .website_forms #activities-list select {
 	margin:0;
 	margin-right:2px;
@@ -25,9 +22,9 @@
 	border:0;
 }
 .website_forms #activity-add { margin-bottom: 1em;}
-.website_forms .custom_warning {
-	color: #B94A48
-}
-#wrapper-catalogs legend {
-	margin-bottom:0;
+#wrapper-catalogs {
+	background-color: #eeeeee; padding: 8px; margin-left: 10px; margin-right: 10px;
+	-webkit-border-radius: 4px;
+  	-moz-border-radius: 4px;
+  	border-radius: 4px;
 }
