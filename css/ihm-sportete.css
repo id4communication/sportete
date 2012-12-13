@@ -3,51 +3,51 @@ body.html-body { visibility: hidden; }
 /* EXTENSION BOOTSTRAP */
 .pagecontent .pull-left { margin-right: 8px; margin-bottom: 8px; }
 .pagecontent .pull-right { margin-left: 8px; margin-bottom: 8px; }
-.pagecontent .row-fluid .span12 {
+.pagecontent .row-fluid.padding .span12 {
     width: 98%; padding: 1%;
     *width: 98%;
 }
-.pagecontent .row-fluid .span11 {
+.pagecontent .row-fluid.padding .span11 {
     width: 89.66666666666666%; padding: 1%;
     *width: 89.62499999999999%;
 }
-.pagecontent .row-fluid .span10 {
+.pagecontent .row-fluid.padding .span10 {
     width: 81.33333333333331%; padding: 1%;
     *width: 81.29166666666664%;
 }
-.pagecontent .row-fluid .span9 {
+.pagecontent .row-fluid.padding .span9 {
     width: 72.99999999999999%; padding: 1%;
     *width: 72.95833333333331%;
 }
-.pagecontent .row-fluid .span8 {
+.pagecontent .row-fluid.padding .span8 {
     width: 64.66666666666666%; padding: 1%;
     *width: 64.62499999999999%;
 }
-.pagecontent .row-fluid .span7 {
+.pagecontent .row-fluid.padding .span7 {
     width: 56.33333333333333%; padding: 1%;
     *width: 56.291666666666664%;
 }
-.pagecontent .row-fluid .span6 {
+.pagecontent .row-fluid.padding .span6 {
     width: 47.99999999999999%;  padding: 1%;
     *width: 47.95833333333333%;
   }
-.pagecontent .row-fluid .span5 {
+.pagecontent .row-fluid.padding .span5 {
     width: 39.66666666666666%; padding: 1%;
     *width: 39.62499999999999%;
   }
-.pagecontent .row-fluid .span4 {
+.pagecontent .row-fluid.padding .span4 {
     width: 31.33333333333333%; padding: 1%;
     *width: 31.291666666666664%;
   }
-.pagecontent .row-fluid .span3 {
+.pagecontent .row-fluid.padding .span3 {
     width: 22.999999999999996%; padding: 1%;
     *width: 22.95833333333333%;
   }
-.pagecontent .row-fluid .span2 {
+.pagecontent .row-fluid.padding .span2 {
     width: 14.666666666666664%; padding: 1%;
     *width: 14.624999999999996%;
   }
-.pagecontent .row-fluid .span1 {
+.pagecontent .row-fluid.padding .span1 {
     width: 6.333333333333332%; padding: 1%;
     *width: 6.291666666666666%;
   }
@@ -81,6 +81,82 @@ body.html-body { visibility: hidden; }
 .pagecontent fieldset fieldset legend { font-size: 1.2em; margin-bottom: 4px; margin-top: 0px;; }
 .pagecontent label { font-size: 12px; }
 .pagecontent .btn { font-size: 12px; }
+
+/* VIGNETTE SEJOUR */
+.vignette-sejour { 
+	margin-bottom: 1em;
+}
+.vignette-sejour .aeration {
+	margin: 0px 8px 0px 8px; padding: 3px;
+	border: 1px solid #DDDDDD;
+	-webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+	behavior: url(pie/PIE.php);
+}
+.vignette-sejour [class*="span"] {
+	display: block; overflow: hidden; text-align: center;
+}
+.vignette-sejour .enteteoffres {
+	height: 40px;  text-align: left;
+	-webkit-border-radius-topleft: 8px;
+	-webkit-border-radius-topright: 8px;
+    -moz-border-radius-topleft: 8px;
+    -moz-border-radius-topright: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+	behavior: url(pie/PIE.php);
+	border:0px;
+	font-size: 15px;
+	font-weight:normal;
+	padding: 2px 2px 0px 5px;
+	line-height: 15px;
+}
+.vignette-sejour .enteteoffres .destinationentete {
+	color: #dadada;
+	font-style: italic;
+	border: 0px;
+	font-size: 12px;
+	font-weight: normal;
+	padding: 5px 2px 0px 0px;
+	line-height:12px;
+	margin:0px;
+	display:block;
+	overflow:hidden;
+}
+.vignette-sejour .sejour-vignette-image {
+	height: 145px; vertical-align: middle; text-align: center; line-height: 140px;
+	border-bottom: 1px solid #DDDDDD;
+}
+.vignette-sejour .sejour-vignette-image img { vertical-align: middle; }
+.vignette-sejour .periods {
+	height: 65px; border-bottom: 1px solid #DDDDDD;
+}
+.vignette-sejour .duration, .vignette-sejour .formule, .vignette-sejour .public, .vignette-sejour .price {
+	height: 40px; border-bottom: 1px solid #DDDDDD;
+}
+.vignette-sejour .formule, .vignette-sejour .price {
+	border-left: 1px solid #DDDDDD;
+}
+.vignette-sejour .duration {
+	padding-top: 3px;
+}
+.vignette-sejour .descriptif {
+	line-height: 17px; height: 112px; padding: 5px; text-align: left; font-size: 11px;
+}
+
+a.sejours, .sejours {
+	display:block; margin: 0; padding: 0;
+}
+a.sejours:hover {
+	background-color:#dadada;
+	text-decoration:none;
+	-webkit-transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+	-o-transition:  background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+	-ms-transition:  background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+	-moz-transition:  background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+	transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
 
 /* FORM */
 form label.required:after { content: '*' }
