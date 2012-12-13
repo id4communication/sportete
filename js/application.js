@@ -4,9 +4,7 @@
 
 $(document).ready(function() {
 	try {
-		// Configuration des requêtes Ajax pour tout le site
-		$(document).commonsAjaxRequest();
-		
+	
 		// Disable certain links in docs
 	    $('section [href^=#]').click(function (e) {
 	      e.preventDefault();
@@ -26,13 +24,14 @@ $(document).ready(function() {
 	    	});
 	    });
 	    
-	    if (!(typeof($.searchbox) == 'undefined')) {
+	    if (!(typeof($('#recherche_avancee').searchbox) == undefined)) {
 	    	$('#recherche_avancee').searchbox();
 	    }
-	    
-	    if (!(typeof($.datepicker) == 'undefined')) {
-	    	$('input[rel="date"]').datepicker({});
-	    }
+    	$('input[rel="date"]').each(function() {
+    		 if (!(typeof($(this).datepicker) == undefined)) {
+    			 $(this).datepicker({});
+    		 }
+    	});
 	    
 	    //Scroll to form error
 	    $('form .alert-form').each(function(i, item) {
