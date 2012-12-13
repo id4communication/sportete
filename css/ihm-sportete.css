@@ -230,7 +230,14 @@ article.main-entry header blockquote a { color: #FFF; }
 	float:right;
 	margin:10px 20px 0 0
 }
-
+#wrapper-more-result .elargir_titre{
+	font-size: 22px;
+    font-variant: small-caps;
+    font-weight: 400;
+    margin-top: 3px;
+    padding: 0;
+    line-height:normal
+}
 /* ARTICLE */
 article .excerpt { float: right; width: 90px; margin-left: 5px; }
 
