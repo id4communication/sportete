@@ -1843,7 +1843,6 @@ background-position: right top;
 
 ul.rechercheavanceecorpsdetails {
 	z-index:100;
-	text-transform: capitalize;
 	background-color:#eaeaea;
 background-image: url(../images/marqueur_recherche.png);
 background-repeat: no-repeat;
@@ -1859,9 +1858,9 @@ border-bottom: 1px dashed #fff;
 
 #codesejours {
 	text-transform: capitalize;
-padding: 5px 5px 5px 15px;
-margin:0px;
-border-top: 1px dashed #fff;
+	padding: 5px 5px 5px 15px;
+	margin:0px;
+	border-top: 1px dashed #fff;
 }
 
 ul.rechercheavanceecorpsdetails li a {
