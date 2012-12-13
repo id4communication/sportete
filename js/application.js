@@ -4,6 +4,9 @@
 
 $(document).ready(function() {
 	try {
+		// Configuration des requêtes Ajax pour tout le site
+		$(document).commonsAjaxRequest();
+		
 		// Disable certain links in docs
 	    $('section [href^=#]').click(function (e) {
 	      e.preventDefault();
