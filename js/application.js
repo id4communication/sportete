@@ -23,9 +23,13 @@ $(document).ready(function() {
 	    	});
 	    });
 	    
-	    $('#recherche_avancee').searchbox();
+	    if (!(typeof($.searchbox) == 'undefined')) {
+	    	$('#recherche_avancee').searchbox();
+	    }
 	    
-	    $('input[rel="date"]').datepicker({});
+	    if (!(typeof($.datepicker) == 'undefined')) {
+	    	$('input[rel="date"]').datepicker({});
+	    }
 	    
 	    //Scroll to form error
 	    $('form .alert-form').each(function(i, item) {
