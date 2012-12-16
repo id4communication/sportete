@@ -114,7 +114,7 @@ body.html-body { visibility: hidden; }
 	line-height: 15px;
 }
 .vignette-sejour .enteteoffres .title {
-	display: block; height: 22px; line-height: 22px; vertical-align:middle; overflow:hidden;
+	position: relative; display: block; height: 22px; line-height: 22px; vertical-align:middle; overflow:hidden;
 }
 .vignette-sejour .enteteoffres .destinationentete {
 	position: absolute; bottom: 2px; height: 14px;
@@ -147,13 +147,14 @@ body.html-body { visibility: hidden; }
 	padding-top: 3px;
 }
 .vignette-sejour .descriptif {
-	line-height: 17px; height: 112px; padding: 5px; text-align: left; font-size: 11px;
+	line-height: 17px; height: 112px; text-align: left; font-size: 11px;
+	color: #333333;
 }
 
-a.sejours, .sejours {
+.vignette-sejour a.sejours {
 	display:block; margin: 0; padding: 0;
 }
-a.sejours:hover {
+.vignette-sejour a.sejours:hover {
 	background-color:#dadada;
 	text-decoration:none;
 	-webkit-transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;

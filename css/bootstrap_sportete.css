@@ -206,8 +206,9 @@ a.acces {
 
 a.acces:hover {
 	background-color: #dadada;
-	background-image:url(../images/cadenas_ouvert_inverse.png);
-	color: #333;}
+	/*background-image:url(../images/cadenas_ouvert_inverse.png);*/
+	color: #333;
+}
 
 
 #mon_panier {
