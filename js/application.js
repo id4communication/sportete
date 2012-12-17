@@ -7,6 +7,13 @@ $(document).ready(function() {
 	    if (!(typeof($('#recherche_avancee').searchbox) == undefined)) {
 	    	$('#recherche_avancee').searchbox();
 	    }
+	    
+	    $('#form-newsletter').submit(function(e){
+	    	e.preventDefault();
+	    	var email = $('#subscriber_email').val();
+	    	window.location = $(this).attr('action') + '/' + email;
+	    });
+	    
 	} catch (e) {
 		console.log(e);
 	}
