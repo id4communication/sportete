@@ -637,8 +637,6 @@ a.groupeetce:hover {
 
 
 /*! Contenus  */
-
-	  
 .pagecontent {
 	  width: 690px;
 	   *width: 690px;
@@ -647,54 +645,7 @@ a.groupeetce:hover {
 	  padding:25px;}
   
 
-/*! Offres  */
-
-#collapsedestinationdetails {	
-background-color:#eaeaea;
-  -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-          border-radius: 4px;
-		  behavior: url(pie/PIE.php);
-		  border: 1px solid #dadada;
-		   border-top: 0px;}
-		 
-
-#ensavoirplusdestination {
-	margin-bottom:20px;
-}
-
-a.ensavoirplus  {
-	display:block;
-	width: 100px;
-	padding: 5px;
-	color: #fff;
-	background-color: #000;
-  background-image: -moz-linear-gradient(left, #000000, #b8babb);
-  background-image: -ms-linear-gradient(left, #000000, #b8babb);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000000), to(#b8babb));
-  background-image: -webkit-linear-gradient(left, #000000, #b8babb);
-  background-image: -o-linear-gradient(left, #000000, #b8babb);
-  background-image: linear-gradient(left, #000000, #b8babb);
-  background-repeat: repeat-x;
-  -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-          border-radius: 4px;
-  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#000000', endColorstr='#b8babb', GradientType=1);
-  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
-     -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
-          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
-		  overflow::visible;
-		  -pie-background: linear-gradient(#000000, #b8babb);
-  behavior: url(pie/PIE.php);
-		}
-		  
-.ensavoirplus:hover {}	
- 
-.entete_destination_resume {background-color:#737373;}
-.tab-pane { padding:20px;}
-
 /* Séjours / stages résumés */
-  
 .jour {
 	background-image: url(css/../images/picto_jour.png);
 	background-repeat:no-repeat;
@@ -1122,22 +1073,6 @@ color:#fff;
   background-repeat: repeat-x;
   filter: progid:dximagetransform.microsoft.gradient(startColorstr='#90BC13', endColorstr=' #4A5B27', GradientType=0);
 }
-
-.nav .dropdown-toggle .caret {
-  margin-top: 6px;
-  border-top-color: #90BC13;
-  border-bottom-color: #90BC13;
-}
-
-.nav .dropdown-toggle:hover .caret {
-  border-top-color: #90BC13;
-  border-bottom-color: #90BC13;
-}
-
-
-
-
-
 
 .search .btn-group {
   float:left;
@@ -1759,11 +1694,6 @@ text-align: center;
    transition: all .3s ease-out;
    }
    
-#sousmenu_page {
-	background-color:#b1b3b4;
-padding:0px;
-margin:0px;}
-
 .tab-pane {
 	margin:0px;
 	padding:0px;}

@@ -71,12 +71,12 @@ a:hover { font-style: italic; color: #ee8021; }
 }
 
 /* TABS HEADER */
-#sousmenu_page {background-color:#000000;}
-/* Style du caret dans dropdown */
-#sousmenu_page .nav .dropdown-toggle .caret {
-  margin-top: 6px;
-  border-top-color: #ee8021;
-  border-bottom-color: #ee8021;
+#sousmenu_page { background-color:#000000; }
+#sousmenu_page .nav-tabs > li > a, #sousmenu_page .nav-tabs > li > a:hover {
+	color: #ee8021;
+}
+#sousmenu_page .nav-tabs > li > a:hover {
+	background-color: #FFF; font-style:italic;
 }
 #sousmenu_page .nav-tabs .open .dropdown-toggle,
 #sousmenu_page .nav-pills .open .dropdown-toggle,
@@ -85,7 +85,12 @@ a:hover { font-style: italic; color: #ee8021; }
   background-color: #FFF;
   border-color: #999999;
 }
-
+/* Style du caret dans dropdown */
+#sousmenu_page .nav .dropdown-toggle .caret {
+  margin-top: 6px;
+  border-top-color: #ee8021;
+  border-bottom-color: #ee8021;
+}
 #sousmenu_page .nav .dropdown-toggle:hover .caret {
   border-top-color: #ee8021;
   border-bottom-color: #ee8021;
