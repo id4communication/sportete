@@ -3,20 +3,12 @@
 	color:#385a2d;
 	}
 
-h1,
-h3,
-h5 {
-  color: #385a2d;
+/*! surcharge bootstrap couleurs des liens et titres */
+h1, h2, h3, h4, h5, h6 {
+  color:#385a2d;
 }
-
-a {
-  color: #385a2d;
-  }
-
-a:hover {
-  color: #449a2b;
-  }
-	
+a { color: #385a2d; }
+a:hover { font-style: italic; color: #385a2d; }
 	
 .dropdown-menu li > a:hover,
 .dropdown-menu .active > a,

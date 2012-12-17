@@ -164,6 +164,15 @@ body.html-body { visibility: hidden; }
 	transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 
+/* TABS HEADER */
+#sousmenu_page .nav-tabs > li > a:hover {
+	background-color: #FFF;
+}
+#sousmenu_page .nav-tabs > li.disable.open > a,
+#sousmenu_page .nav-tabs > li.disable.open > a:hover {
+	background-color: #FFF;
+}
+
 /* FORM */
 form label.required:after { content: '*' }
 form input[type="radio"], form input[type="checkbox"] { vertical-align:top; display: inline; }

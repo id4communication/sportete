@@ -44,21 +44,12 @@ background-image: url(../images/academy/logo.png);
 	}
 
 
-/*! surcharge bootstrap couleurs des liens */
-
-h1,
-h3,
-h5 {
+/*! surcharge bootstrap couleurs des liens et titres */
+h1, h2, h3, h4, h5, h6 {
   color:#900;
 }
-
-a {
-  color: #900;
-  }
-
-a:hover {
-  color: #3d120b;
-  }
+a { color: #900; }
+a:hover { font-style: italic; color: #900; }
 
 .dropdown-menu li > a:hover,
 .dropdown-menu .active > a,

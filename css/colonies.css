@@ -7,23 +7,12 @@
 	color:#85187F;
 	}
 
-/*! surcharge bootstrap couleurs de liens */
-
-a {
-  color:#85187F;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #571D68;
-  text-decoration: none;
-}
-
-h1,
-h3,
-h5 {
+/*! surcharge bootstrap couleurs des liens et titres */
+h1, h2, h3, h4, h5, h6 {
   color:#85187F;
 }
+a { color: #85187F; }
+a:hover { font-style: italic; color: #85187F; }
 
 /*! Dégradés couleur */
 

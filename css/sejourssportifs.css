@@ -44,26 +44,23 @@ background-image: url(../images/sejourssportifs/logo.png);
 	}
 	
 	
-/*! surcharge bootstrap couleurs des liens */
-
-a {
-  color: #ee8021;
+/*! surcharge bootstrap couleurs des liens et titres */
+h1, h2, h3, h4, h5, h6 {
+  color:#ee8021;
 }
+a { color: #ee8021; }
+a:hover { font-style: italic; color: #ee8021; }
 
-a:hover {
-  color: #fbc010;
-
-}
-
+/* Effet survol lien d'un dropdown */
 .dropdown-menu li > a:hover,
 .dropdown-menu .active > a,
 .dropdown-menu .active > a:hover,
 .dropdown-menu li > a:hover,
 .dropdown-menu li > a:focus,
 .dropdown-submenu:hover > a {
-	color:#fff;
-	 background-color:#cc3333;
-   background-image: -moz-linear-gradient(top, #fbc010, #ee8021);
+  color:#fff;
+  background-color:#cc3333;
+  background-image: -moz-linear-gradient(top, #fbc010, #ee8021);
   background-image: -ms-linear-gradient(top,  #fbc010, #ee8021);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fbc010), to(#ee8021));
   background-image: -webkit-linear-gradient(top,  #fbc010, #ee8021);
@@ -73,21 +70,27 @@ a:hover {
   background-repeat: repeat;
 }
 
-.nav .dropdown-toggle .caret {
-  margin-top: 6px;
-  border-top-color: #900;
-  border-bottom-color: #900;
-}
-
-.nav .dropdown-toggle:hover .caret {
-  border-top-color: #900;
-  border-bottom-color: #900;
-}
-
-	
-.jour {
-	background-image: url(../images/sejourssportifs/picto_jour.png);}
-
-.nuit {background-image:url(../images/sejourssportifs/picto_nuit.png);}
-
+/* TABS HEADER */
 #sousmenu_page {background-color:#000000;}
+/* Style du caret dans dropdown */
+#sousmenu_page .nav .dropdown-toggle .caret {
+  margin-top: 6px;
+  border-top-color: #ee8021;
+  border-bottom-color: #ee8021;
+}
+#sousmenu_page .nav-tabs .open .dropdown-toggle,
+#sousmenu_page .nav-pills .open .dropdown-toggle,
+#sousmenu_page .nav > li.dropdown.open.active > a:hover {
+  color: #ee8021;
+  background-color: #FFF;
+  border-color: #999999;
+}
+
+#sousmenu_page .nav .dropdown-toggle:hover .caret {
+  border-top-color: #ee8021;
+  border-bottom-color: #ee8021;
+}
+
+/* VIGNETTE SEJOUR */	
+.jour {	background-image: url(../images/sejourssportifs/picto_jour.png); }
+.nuit { background-image:url(../images/sejourssportifs/picto_nuit.png); }
