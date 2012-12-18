@@ -166,7 +166,8 @@ padding: 15px 5px 0px 25px;
 .picto_monespace {
 	background-image: url(../images/picto_monespace.png);
 	background-repeat: no-repeat;
-	background-position: 83% 0px;}
+	background-position: 83% 0px;
+	 }
 
 #mon_espace {
 	float:right;
@@ -1027,6 +1028,10 @@ background-color: #000;
           border-radius: 4px;
 		  behavior: url(pie/PIE.php);
  }
+ 
+.correctionsearchmodal {
+	margin-top:0px;
+margin-bottom:0px;} 
 
 
 .search {
@@ -1527,8 +1532,13 @@ input.newsletter {
 	background-image:url(../images/background-1_portail_sport_ete.jpg);
 	background-position: top center;
 	background-repeat: repeat;}	
+	
+.arriere_plan2 {
+	background-image:url(../images/background-2_portail_sport_ete.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;}		
 
-/*! Boutton plan du site  */
+/*! Boutton plan du site portail  */
 .plandusite {
 	background-image:url(../images/background_boutton_plandusite.png);
 	background-repeat: no-repeat;
@@ -1545,7 +1555,7 @@ input.newsletter {
 	background-position: center center; 
 	color:#dadada;}
 	
-/*! Boutton contact  */	
+/*!portail : Boutton contact  */	
 .contact_portail {
 	float:right;
 	background-image:url(../images/background_boutton_contact.png);
@@ -1563,7 +1573,7 @@ input.newsletter {
 	background-position: center center; 
 	color:#dadada;}
 	
-/*! boutton catalogue  */
+/*! portail : boutton catalogue  */
 	
 .catalogue {
 	float:right;
@@ -1571,7 +1581,7 @@ input.newsletter {
 	background-repeat: no-repeat;
 	background-position: center center; 
 	width: 157px;
-	height:35px;
+	height: 35px;
 	color:#fff;
 	background-color:none;
 	font-size: 11px;
@@ -1582,53 +1592,46 @@ input.newsletter {
 	background-position: center center; 
 	color:#dadada;}
 	
-/*! Slogan portail  */
+/*! portail : Slogan  */
 	
 #slogans_portail {
 	font-size: 24px;
 	line-height:24px;
-	margin:0px 0px 0px 0px;
+	margin: 75px 0px 0px 0px;
 	font-weight:200;
 	letter-spacing:1px;
 	text-align: center;
+	text-shadow: 0 1px 1px 0px rgba(0, 0, 0, 1);
 	}
 	
 #slogans_portail a {
 	color:#fff;
 	}	
 	
-#slogans_portail a:hover {
-	color:#dadada;
-	}	
 
 /*! recherche portail  */
 
 .portail_recherche {
-	color:#fff;
-	background-image:url(../images/picto_recherche.png);
-	background-repeat:no-repeat;
-	background-position: 20% center;
-	display:block;
-	font-size:20px;
-	line-height:20px;
-	padding: 5px;
-	text-align:center;
-	color:#fff;
-	font-family: chinese_rocks_rgregular;
-	letter-spacing: 2px;
-	margin-bottom:70px;}
+	margin: -50px 0px 70px 0px;}
 	
 .portail_recherche a {
+	text-align: center;
+	padding: 60px 60px;
 	color:#fff;
+	background-image:url(../images/boutonportailrecherche.png);
+	background-repeat:no-repeat;
+	background-repeat:no-repeat;
+	background-position: top center;
+	display:block;
 	}
 	
 	
 .portail_recherche a:hover {
-	color:#dadada;
+	background-image: url(../images/boutonportailrecherche_hover.png);
+
 	}
 	
 .cpmnt {
-	display:block;
 	font-family: Arial;
 	font-size:12px;}
 	
@@ -1655,25 +1658,51 @@ text-align: center;
 }
 
 
-.academy_calage {
-	float:right;
+.academy_calage_horiz {
+	margin-left: 200px;
 	}
+	
+.academy_calage_vertic {
+	margin-top: -20px;
+	}	
+	
+.groupesetce_calage_horiz {
+	margin-left: -70px;
+	}
+	
+.groupesetce_calage_vertic {
+	margin-top: -20px;
+	}		
 
-.sejours_sportifs {
-	display: block;
-	background-image: url(../images/background_boutton_portail_sejourssportifs.png);
-	background-repeat:no-repeat;
-	background-position: center bottom;
-	height: 230px;
-	margin-top: 50px;
-	text-align:center;
+.sejourssportifs_calage_vertic {
+	margin-top: 35px;
+	text-align: center;
 	vertical-align: bottom;
 	}
 	
+.sejourssportifs_calage_horiz {
+	margin-left:90px;}	
 	
-.sejours_sportifs:hover {
-	background-position: center bottom;
+.curieuxdumonde_calage {
+	margin-top: -120px;
 	}
+	
+.colonies_calage_vertic {
+	margin-top: 45px;
+	}
+	
+.colonies_calage_horiz {
+	margin-left: -35px;
+	}	
+	
+.modalintro {
+  
+  width: 235px;
+  margin: -250px 0 0 -100px;
+  background-color: #none;
+}		
+			
+	
 /*! Effet zoom portail à corriger...  */	
 	
 .zoom {
@@ -1693,6 +1722,9 @@ text-align: center;
    -o-transition: all .3s ease-out;
    transition: all .3s ease-out;
    }
+   
+   
+/*! Tableau des Resas...  */	   
    
 .tab-pane {
 	margin:0px;
