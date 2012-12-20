@@ -15,6 +15,7 @@
 <link href="css/bootstrap_sportete.css" rel="stylesheet">
 <!-- InstanceBeginEditable name="styles" -->
 <link href="css/fiches_univers.css" rel="stylesheet">
+<link href="public/themes/mon_espace/css/style.css"  rel="stylesheet">
 <!-- InstanceEndEditable -->
 <link href="css/ihm-sportete.css" rel="stylesheet">
 <link href="css/bootstrap-responsive_sportete.css" rel="stylesheet">
@@ -34,17 +35,19 @@
 
 <!-- Bar de navigation générale haut de page -->
 
-<nav class="navbar navbar-fixed-top navbar-inverse">
+ <!-- Navbar fixed top / Mon_espace -->
+        <nav class="nav navbar navbar-fixed-top navbar-inverse navbar-sportete-top">
   <div class="navbar-inner">
-    <div class="container">
-      <div class="row-fluid">
-        <div class="picto_monespace"> 
-          <!-- bouton sport été portail -->
-          <ul class="lien_portail colwidth center">
+    <div class="container picto_monespace">
+   
+    <!-- Navigation  -->
+     <!-- Lien portail  -->
+    <ul class="lien_portail colwidth center">
             <li><a href="index.html"> <i class="icon-play icon-white"></i> Portail Sport été</a></li>
           </ul>
-          <!-- navigation -->
           
+          
+           <!-- Navigation divers -->
           <ul class="nav" role="navigation" >
             <li class="dropdown"><a class="dropdown-toggle" id="activite" data-toggle="dropdown" href="#">Activités<b class="caret"></b></a>
               <ul class="dropdown-menu" role="menu" aria-labelledby="activite">
@@ -90,23 +93,25 @@
             </li>
             <li><a href="#infos">Infos pratiques</a></li>
            </ul>
-          <!--/.main_col_width --> 
-          
+    
           <!-- Navigation Espace perso / panier -->
-          <div class="container-fluid"> 
-  <!-- row_0 --> 
-  <div class="row-fluid">
- <div id="mon_espace" class="nav navbar-fixed-top colwidth"><div class="titre_monespace">Mon Espace<a href="mon_espace.html" class="acces">Accès</a></div><div id="mon_panier"><a href="mon_panier.html">Mon panier</a></div></div></div>
-          </div>
-         
-        </div>
-      </div>
+ <div id="mon_espace"><span>Mon Espace</span><a href="mon_espace.html" class="acces">Accès</a><br>
+ <a href="mon_panier.html" class="mon_panier"><img src="images/panier.png" width="16" height="18" style="margin-right:5px;" >Mon panier</a>
+ </div>
+    
     </div>
   </div>
 </nav>
-<!-- entete_de_page fluid--> 
+<!-- entete_de_page fluid-->
+ 
+
+
+
+
+
+
 <!-- Bandeau/logo/slogan/-->
-<div class="container-fluid"> 
+<div class="container-fluid" id="header-page"> 
   <!-- row_0 --> 
   <div class="row-fluid">
     <header>
@@ -114,8 +119,6 @@
         <div class="row">
           <div id="logo" class="colwidth"></div>
        <table class="main_col_width alignement_slogan"><tr><td valign="bottom" ><h1 id="slogans"><!-- InstanceBeginEditable name="slogan univers" -->
-
-	   Mon Espace
 	   <!-- InstanceEndEditable --></h1></td></tr></table>
         </div>
       </div>

@@ -171,35 +171,32 @@ padding: 15px 5px 0px 25px;
 
 #mon_espace {
 	float:right;
-	padding-left:0px;
 	z-index:11000;
-	width: 230px;
-	color: #fff;
-    zoom: 1;
-	 background: #000000;
- opacity: 0.6;
-  filter: alpha(opacity=60);
-    behavior: url(pie/PIE.php);
-	-webkit-border-radius:4px 4px 4px 4px;
-    -moz-border-radius: 4px 4px 4px 4px;
-    border-radius: 4px 4px 4px 4px;
-	behavior: url(pie/PIE.php);
+	width:230px;
+	zoom: 1;
 	}
 
-.titre_monespace {
-	font-size:16px;
-		line-height:26px;
-	padding-left: 3px;}	
+#mon_espace span {
+	display:block;
+	float:left;
+	z-index:11000;
+	color: #fff;
+    font-size:16px;
+	line-height:23px;
+	margin:0px;
+	padding:0px;
+	}
 
 
 a.acces {
-	display: block;
 	color: #dadada;
-	float: right;
 	font-size: 12px;
 	height: 20px;
-	line-height:26px;
+	display: block;
+	float:left;
+	line-height: 23px;
 	padding: 3px 37px 3px 47px;
+	margin-left:23px;
 	background-image:url(../images/cadenas_ouvert.png);
 	background-repeat:no-repeat;
 	background-position: 30px center;
@@ -212,30 +209,28 @@ a.acces:hover {
 }
 
 
-#mon_panier {
-	padding: 0px;
-	text-align: center;
-	}
 	
-#mon_panier a {
+a.mon_panier  {
+	width:220px;
 	display:block;
+	position: absolute;
+	top:26px;
+	text-align: center;
 	font-size:12px;
-	line-height: 26px;
-	background-image:url(../images/panier.png);
-	background-repeat:no-repeat;
-	background-position: 70px center;
-	padding: 5px 5px 5px 30px;
+	padding: 5px;
 	color:#dadada;
+	 background: #000000;
+ opacity: 0.6;
+  filter: alpha(opacity=60);
 	-webkit-border-radius:0px 0px 4px 4px;
     -moz-border-radius: 0px 0px 4px 4px;
     border-radius: 0px 0px 4px 4px;
 	behavior: url(pie/PIE.php);
 	}
 	
-#mon_panier a:hover {
+a.mon_panier:hover {
 	background-color: #dadada;
-	color: #333;
-	background-image:url(../images/panier_inverse.png);}
+	color: #333;}
 
 /*! Boutton découvrez nos univers  */
 
@@ -322,54 +317,29 @@ z-index:0;
 }
 
 	
-.nav {
+.navbar-sportete-top .nav {
   margin:0px;
   padding:0px;
   padding-left:15px;
+  margin-bottom:0px;
   }
   
-.navbar {
-	 padding-bottom:0px;
-	 
-	 } 
-
-.navbar-inverse .navbar-inner {
-   background-color: rgba(0, 0, 0, 0.8);
-  background-image: none;
-  border-color: #252525;
-}
-	
-	 
-.navbar-inverse .navbar-inner {
-
-}	 
-	 
-.navbar .nav {
-  position: relative;
-  left: 0;
-  display: block;
-  float: left;
-  margin: 0px;
-}
-
 .navbar-fixed-bottom  {
   margin-bottom: -30px;
 }
 
-.navbar .nav > li > a {
-  float: none;
+.navbar-sportete-top .nav > li > a {
   padding: 3px 10px 3px 11px;
   line-height: 19px;
   color: #dadada;
-  text-decoration: none;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }	
 
-.navbar-inner {
+.navbar-sportete-top .navbar-inner {
   min-height: 25px;
 height: 25px;
 padding-right: 0px;
-  padding-left: 0px;
+padding-left: 0px;
+margin-bottom:0px;
 }
 
 form {
@@ -416,13 +386,6 @@ background-color:#faf8f8;
   	 float:left;
 }
 
-
-  
-.colonnes_portail {
-    width: 33%;
-    *width: 33%;
-	float:left;
-  }
   
 .colwidth {
      width: 230px;
@@ -1328,16 +1291,6 @@ font-size:12px;
 
 .footer_cpmnt {font-size:80%;}
 
-#footer_content_portail { 
-background-image: url(../images/footer_background_1.jpg);
-background-repeat: repeat-x;
-background-position: top;
-padding: 25px 5px 5px 5px;
-color:#fff;
-line-height:12px;
-font-size:12px;
-}
-
 
 .footer_a_set {
 	padding: 10px 0px 10px 0px;
@@ -1526,203 +1479,6 @@ input.newsletter {
 	border:none;
 	}
 	
-/*! css_portail  */	
-
-.arriere_plan1 {
-	background-image:url(../images/background-1_portail_sport_ete.jpg);
-	background-position: top center;
-	background-repeat: repeat;}	
-	
-.arriere_plan2 {
-	background-image:url(../images/background-2_portail_sport_ete.jpg);
-	background-position: top center;
-	background-repeat: no-repeat;}		
-
-/*! Boutton plan du site portail  */
-.plandusite {
-	background-image:url(../images/background_boutton_plandusite.png);
-	background-repeat: no-repeat;
-	background-position: center center; 
-	width: 192px;
-	height:39px;
-	color:#fff;
-	background-color:none;
-	font-size: 11px;
-	padding-left:30px;
-	margin: -10px 0px -2px 0px;}
-	
-.plandusite:hover {
-	background-position: center center; 
-	color:#dadada;}
-	
-/*!portail : Boutton contact  */	
-.contact_portail {
-	float:right;
-	background-image:url(../images/background_boutton_contact.png);
-	background-repeat: no-repeat;
-	background-position: center center; 
-	width: 79px;
-	height:35px;
-	color:#fff;
-	background-color:none;
-	font-size: 11px;
-	text-align:center;
-	margin: -9px 0px 0px 0px;}
-	
-.contact_portail:hover {
-	background-position: center center; 
-	color:#dadada;}
-	
-/*! portail : boutton catalogue  */
-	
-.catalogue {
-	float:right;
-	background-image:url(../images/background_boutton_catalogue.png);
-	background-repeat: no-repeat;
-	background-position: center center; 
-	width: 157px;
-	height: 35px;
-	color:#fff;
-	background-color:none;
-	font-size: 11px;
-	padding-left:30px;
-	margin: -9px 0px 0px 0px;}
-	
-.catalogue:hover {
-	background-position: center center; 
-	color:#dadada;}
-	
-/*! portail : Slogan  */
-	
-#slogans_portail {
-	font-size: 24px;
-	line-height:24px;
-	margin: 75px 0px 0px 0px;
-	font-weight:200;
-	letter-spacing:1px;
-	text-align: center;
-	text-shadow: 0 1px 1px 0px rgba(0, 0, 0, 1);
-	}
-	
-#slogans_portail a {
-	color:#fff;
-	}	
-	
-
-/*! recherche portail  */
-
-.portail_recherche {
-	margin: -50px 0px 70px 0px;}
-	
-.portail_recherche a {
-	text-align: center;
-	padding: 60px 60px;
-	color:#fff;
-	background-image:url(../images/boutonportailrecherche.png);
-	background-repeat:no-repeat;
-	background-repeat:no-repeat;
-	background-position: top center;
-	display:block;
-	}
-	
-	
-.portail_recherche a:hover {
-	background-image: url(../images/boutonportailrecherche_hover.png);
-
-	}
-	
-.cpmnt {
-	font-family: Arial;
-	font-size:12px;}
-	
-
-/*! logo Portail Sport été  */
-
-.sportete a {
-	color:#fff;
-	} 		
-
-.sportete a:hover {
-  background-color: #999;
-  } 
-	
-
-#logo_portail {
-	margin-top: 100px;
-	color:#fff;
-height:150px;
-background-image: url(../images/logo.png);
-background-repeat:no-repeat;
-background-position: center center;
-text-align: center;
-}
-
-
-.academy_calage_horiz {
-	margin-left: 200px;
-	}
-	
-.academy_calage_vertic {
-	margin-top: -20px;
-	}	
-	
-.groupesetce_calage_horiz {
-	margin-left: -70px;
-	}
-	
-.groupesetce_calage_vertic {
-	margin-top: -20px;
-	}		
-
-.sejourssportifs_calage_vertic {
-	margin-top: 35px;
-	text-align: center;
-	vertical-align: bottom;
-	}
-	
-.sejourssportifs_calage_horiz {
-	margin-left:90px;}	
-	
-.curieuxdumonde_calage {
-	margin-top: -120px;
-	}
-	
-.colonies_calage_vertic {
-	margin-top: 45px;
-	}
-	
-.colonies_calage_horiz {
-	margin-left: -35px;
-	}	
-	
-.modalintro {
-  
-  width: 235px;
-  margin: -250px 0 0 -100px;
-  background-color: #none;
-}		
-			
-	
-/*! Effet zoom portail à corriger...  */	
-	
-.zoom {
-   padding: 0px; border: none;
-   background-color : transparent ; /* nécessaire pour que le filtre fonctionne */
-}
-
-.zoom:hover {
-   -moz-transform: scale(1.2);
-   -webkit-transform: scale(1.2);
-   -o-transform: scale(1.2);
-   transform: scale(1.2);
-   -ms-transform: scale(1.2);
-   background-color : transparent ; /* nécessaire pour que le filtre fonctionne */
-    -webkit-transition: all .3s ease-out;
-   -moz-transition: all .3s ease-out;
-   -o-transition: all .3s ease-out;
-   transition: all .3s ease-out;
-   }
-   
    
 /*! Tableau des Resas...  */	   
    

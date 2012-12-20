@@ -77,7 +77,20 @@ visibility:hidden;}
 	 
 #partenaires {
 	width:270px;
-	 }	 	 
+	 }	
+	 
+/*! portail */ 
+	 
+	 
+.sejourssportifs_calage_horiz {
+	margin-left:30px;}	
+	
+.academy_calage_horiz {
+	margin-left: 140px;
+	}
+	
+
+			  	 
 
 	}
 
@@ -134,23 +147,20 @@ background-image:none;
 
 #partenaires {
 	width:270px;
-	 }	 	 
+	 }	 
 	 
-	 	 
-  
-}
-
-@media (max-width: 1200px) {
+/*! portail */ 
+	 
+	 
+.sejourssportifs_calage_horiz {
+	margin-left:30px;}	
 	
- 
-.colonnes_portail {
-    width: 33%;
-    *width: 33%;
-	float:left;
-  }
+.academy_calage_horiz {
+	margin-left: 140px;
+	}
+	
 
-  
-  
-  
-}
+			  	 
 
+	}	 	 
+	 

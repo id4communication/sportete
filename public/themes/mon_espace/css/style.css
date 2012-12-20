@@ -1,0 +1,14 @@
+@import url(../../default/css/style.css);
+
+/*! HEADER */
+#header-page header {
+	background-image: url(../images/background-bandeau.jpg);
+}
+#header-page #bandeau {
+	background-image: url(../images/bandeau.jpg);
+}
+
+.menu_principal {
+	background-image: url(../images/background-menu.jpg);
+}
+
