@@ -169,14 +169,14 @@ padding: 15px 5px 0px 25px;
 	background-position: 83% 0px;
 	 }
 
-#mon_espace {
+#acces_mon_espace {
 	float:right;
 	z-index:11000;
 	width:230px;
 	zoom: 1;
 	}
 
-#mon_espace span {
+#acces_mon_espace span.titreacces {
 	display:block;
 	float:left;
 	z-index:11000;
@@ -972,7 +972,7 @@ background-color:#707173;
 	
 /*! Recherche Rapide */	
 
-#quick_search {
+#quick_search, #monespace {
 	z-index:1000;
 	text-align:center;
 margin-top:5px;

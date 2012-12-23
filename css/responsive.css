@@ -1,0 +1,108 @@
+/*!
+ * Bootstrap Responsive v2.0.4
+ *
+ * Copyright 2012 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+.clearfix {
+	*zoom: 1;
+}
+
+.clearfix:before,.clearfix:after {
+	display: table;
+	line-height: 0;
+	content: "";
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+@media ( min-width :0px) and (max-width: 1024px) {
+	.picto_monespace {
+		background-position: 79% 0px;
+	}
+	.main_col_width_univers,main_col_width {
+		width: 794px;
+		*width: 794px;
+		float: left;
+	}
+	.container-fluid,.container,.navbar-fixed-top .container,.navbar-fixed-bottom .container
+		{
+		width: 1024px;
+	}
+	#contacts {
+		margin-top: -12px;
+		margin-bottom: 10px;
+		background-image: none;
+	}
+	#page {
+		margin-top: -146px;
+	}
+	.hidden {
+		display: none;
+		visibility: hidden;
+	}
+	.droite {
+		width: 1024px;
+	}
+	#catalogue,#flash_info {
+		margin-top: -20px;
+	}
+	#flash_info,#partenaires,#destinationsetblogs {
+		margin-left: 20px;
+	}
+	#partenaires {
+		width: 270px;
+	}
+}
+
+@media ( min-width : 1024px) and (max-width: 1200px) {
+	.picto_monespace {
+		background-position: 79% 0px;
+	}
+	.main_col_width_univers,main_col_width {
+		width: 794px;
+		*width: 794px;
+		float: left;
+	}
+	.hidden {
+		display: none;
+		visibility: hidden;
+	}
+	.container,.navbar-fixed-top .container,.navbar-fixed-bottom .container
+		{
+		width: 1024px;
+	}
+	#catalogue,#flash_info {
+		margin-top: -20px;
+	}
+	#contacts {
+		margin-top: -12px;
+		margin-bottom: 10px;
+		background-image: none;
+	}
+	#page {
+		margin-top: -146px;
+	}
+	.droite {
+		width: 1024px;
+	}
+	#flash_info,#partenaires,#destinationsetblogs {
+		margin-left: 20px;
+	}
+	#partenaires {
+		width: 270px;
+	}
+}
+
+@media ( max-width : 1200px) {
+	.colonnes_portail {
+		width: 33%;
+		*width: 33%;
+		float: left;
+	}
+}

@@ -1,22 +1,17 @@
 <!DOCTYPE html>
-<html lang="fr"><!-- InstanceBegin template="/Templates/structure_generale.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="fr">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="author" content="iD4COM ©2012">
-<!-- InstanceBeginEditable name="head" -->
 <title>Sport été : Mon Espace</title>
 
 <meta name="description" content="espace client Sport été">
-<!-- InstanceEndEditable -->
-
 <!-- Le styles -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/bootstrap_sportete.css" rel="stylesheet">
-<!-- InstanceBeginEditable name="styles" -->
-<link href="css/fiches_univers.css" rel="stylesheet">
+<link href="css/fiches_sejour.css" rel="stylesheet">
 <link href="public/themes/mon_espace/css/style.css"  rel="stylesheet">
-<!-- InstanceEndEditable -->
 <link href="css/ihm-sportete.css" rel="stylesheet">
 <link href="css/bootstrap-responsive_sportete.css" rel="stylesheet">
 <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -95,8 +90,8 @@
            </ul>
     
           <!-- Navigation Espace perso / panier -->
- <div id="mon_espace"><span>Mon Espace</span><a href="mon_espace.html" class="acces">Accès</a><br>
- <a href="mon_panier.html" class="mon_panier"><img src="images/panier.png" width="16" height="18" style="margin-right:5px;" >Mon panier</a>
+ <div id="acces_mon_espace"><span class="titreacces">Mon Espace</span><a href="mon_espace.html" class="acces">Accès</a><br>
+ <a href="mon_panier.html" class="mon_panier"><span class="badge badge-warning">4</span> Réservations dans mon panier</a>
  </div>
     
     </div>
@@ -111,15 +106,14 @@
 
 
 <!-- Bandeau/logo/slogan/-->
-<div class="container-fluid" id="header-page"> 
+<div class="container-fluid"> 
   <!-- row_0 --> 
-  <div class="row-fluid">
+  <div class="row-fluid" id="header-page">
     <header>
       <div id="bandeau" class="container">
         <div class="row">
           <div id="logo" class="colwidth"></div>
-       <table class="main_col_width alignement_slogan"><tr><td valign="bottom" ><h1 id="slogans"><!-- InstanceBeginEditable name="slogan univers" -->
-	   <!-- InstanceEndEditable --></h1></td></tr></table>
+       <table class="main_col_width alignement_slogan"><tr><td valign="bottom" ><h1 id="slogans">&nbsp; </h1></td></tr></table>
         </div>
       </div>
     </header>
@@ -197,134 +191,33 @@
     
   
      
-      <!-- Recherche_rapide-->
-      <div id="quick_search">
-<div id="search">
-              
-                  <div class="titres_recherches">
-                   <img src="images/picto_recherche.png" width="21" height="21" alt="recherche"> Recherche <span>rapide</span>
+      <!-- menu-->
+      <nav id="monespace">
+                  <div class="titremenumonespace">
+                   Mr X x <a href="#" class="pull-right"><img src="images/picto_off.png"></a>
                  </div>
-                 
-                  <form class="form-search">
-          <fieldset>
-            <div class="quick_search_content">
-              <table>
-                <tr>
-                  <td class="search droit largeurlabels"><label>Activité : </label></td>
-                  <td class="search"><div class="btn-group">
-    <a class="btn dropdown-toggle btn-mini" data-toggle="dropdown" href="#">
-    Activités
-    <span class="caret"></span>
-    </a>
-    <ul class="dropdown-menu">
-    <li><a href="#">Badminton</a></li>
-                      <li><a href="#">Cirque</a></li>
-                      <li><a href="#">Cuisine</a></li>
-                      <li><a href="#">Equitation</a></li>
-                      <li><a href="#">Escalade</a></li>
-                     <li><a href="#">Football</a></li>
-                     <li><a href="#">Grands jeux</a></li>
-                      <li><a href="#">Journalisme</a></li>
-                      <li><a href="#">Magie</a></li>
-                      <li><a href="#">Multisports</a></li>
-                      <li><a href="#">Nautisme</a></li>
-                     <li><a href="#">Randonnée</a></li>
-                      <li><a href="#">Sports mécaniques</a></li>
-                      <li><a href="#">Squash</a></li>
-                      <li><a href="#">Taekwondo</a></li>
-                      <li><a href="#">Tennis</a></li>
-                      <li><a href="#">Tennis de table</a></li>
-                      <li><a href="#">Théâtre</a></li>
-                      <li><a href="#">Tir à l'arc</a></li>
-                      <li><a href="#">VTT</a></li>
-    </ul>
-    </div></td>
-                </tr>
-                <tr>
-                  <td class="search droit"><label>Période : </label></td>
-                  <td class="search"><div class="btn-group">
-    <a class="btn dropdown-toggle btn-mini" data-toggle="dropdown" href="#">
-    Périodes
-    <span class="caret"></span>
-    </a>
-    <ul class="dropdown-menu">
-    <li><a href="#">Badminton</a></li>
-                      <li><a href="#">Printemps</a></li>
-                      <li><a href="#">Eté</a></li>
-                      <li><a href="#">Automne</a></li>
-                      <li><a href="#">Hiver</a></li>
-    </ul>
-    </div></td>
-                </tr>
-                <tr>
-                  <td class="search droit"><label>Age : </label></td>
-                  <td class="search"><div class="btn-group">
-    <a class="btn dropdown-toggle btn-mini" data-toggle="dropdown" href="#">
-    Ages
-    <span class="caret"></span>
-    </a>
-    <ul class="dropdown-menu">
-                      <li><a href="#">7-->12ans</a></li>
-                      <li><a href="#">12-->16ans</a></li>
-                      <li><a href="#">Adultes</a></li>
-    </ul>
-    </div></td>
-                </tr>
-                <tr>
-                  <td class="search droit"><label>Code séjour : </label></td>
-                  <td class="search"><input class="quick_search_inputs" type="text" id="code_sejour"  /></td>
-                </tr>
-              </table>
-            </div>
-            <div class="espace_boutton_recherche">
-              <input type="submit" name="search" class="btn btn-mini center" id="search" value="Rechercher" />
-              &nbsp;
-              <a href="recherche_avancee.html" class="btn btn-mini center">+ de critère</a></div>
-         
-          </fieldset>
-        </form>
-                
-                </div>   
-      </div>
- <!--/Recherche_rapide--> 
-      
-      <div class="separateur"></div>
-      
- <!--Bloc espace promotion-->
-      <div class="hidden">
-      <div id="myCarousel" class="carousel slide">
-    <!-- Carousel items -->
-    <div class="carousel-inner">
-    <div class="active item"><img src="images/images_promotion/1.jpg" width="230" height="180"></div>
-    <div class="item"><img src="images/images_promotion/1.jpg" width="230" height="180"></div>
-    <div class="item"><img src="images/images_promotion/1.jpg" width="230" height="180"></div>
-    </div>
-    <!-- Carousel nav -->
-    <a class="carousel-control-promotion left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-    <a class="carousel-control-promotion right" href="#myCarousel" data-slide="next">&rsaquo;</a>
-    <a href="#" class="boutton_promotion" target="_self" >En savoir <span class="grossir">+</span></a></div></div>
-      <!--/ Bloc espace promotion--> 
-     <!--Bloc séjours_consultés-->
-    <div class="accordion colwidth" id="sejoursconsultes" >
-                <div class="accordion-group" >
-                  <div class="accordion-heading"><div class="right_block_title"><a data-toggle="collapse" data-parent="#sejoursconsultes" href="#collapsesejoursconsultes" class="collapsible"><img src="images/titre_sejours_consultes.png" width="220" height="19" alt="Sejours sport été consultés"></a></div></div>
-                  <div id="collapsesejoursconsultes" class="accordion-body collapse in">
-          <div class="sejours_consultes"><a href="fiche_sejour.html" target="_self">
-          <i class="icon-circle-arrow-right"></i>&nbsp;<b>STAGE Tennis de table</b><br>
-            <p>3h00/jour - Tout public - Contrexéville<br />
-            <i>2 périodes entre le 09/07 et le 27/07/12</i><br />
-            <span class="tarif_consultes">A partir de <b>179 <sup>€</sup></b></span></p>
-          </a></div>
-        <!--/ séjours 1--><!--séjours 2-->
-        <div class="sejours_consultes"><a href="fiche_sejour.html" target="_self">
-          <i class="icon-circle-arrow-right"></i>&nbsp;<b>STAGE Tennis de table</b><br>
-            <p>3h00/jour - Tout public - Contrexéville<br />
-            <i>2 périodes entre le 09/07 et le 27/07/12</i><br />
-            <span class="tarif_consultes">A partir de <b>179 <sup>€</sup></b></span></p>
-          </a></div></div></div>              
-      </div> <!--/ séjours consultés--> 
-      
-    </aside>
+                 <div class="contentmenumonespace">
+             <div class="accordion-group" id="menumonespace"><ul><li><a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#menumonespace" href="#sousmenu-0">Mon compte</a><ul id="sousmenu-0" class="accordion-body collapse"><li><a href="#">Sous menu</a></li>
+               <li><a href="#">Sous menu</a></li></ul></li>
+<li><a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#menumonespace" href="#sousmenu-1">Mes enfants</a><ul id="sousmenu-1" class="accordion-body collapse">
+<li><a href="#">Sous menu</a></li>
+<li><a href="#">Sous menu</a></li></ul></li> 
+<li><a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#menumonespace" href="#sousmenu-2">Mes réservations <span class="badge badge-warning pull-right">4</span></a><ul id="sousmenu-2" class="accordion-body collapse">
+<li><a href="#">Sous menu</a></li>
+<li><a href="#">Sous menu</a></li></ul></li> 
+<li><a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#menumonespace" href="#sousmenu-3">Mes factures</a><ul id="sousmenu-3" class="accordion-body collapse">
+<li><a href="#">Sous menu</a></li>
+<li><a href="#">Sous menu</a></li></ul></li> 
+<li><a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#menumonespace" href="#sousmenu-4">Messagerie</a><ul id="sousmenu-4" class="accordion-body collapse">
+<li><a href="#">Sous menu</a></li>
+<li><a href="#">Sous menu</a></li></ul></li>  
+<li><a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#menumonespace" href="#sousmenu-5">Besoin d’aide ?</a><ul id="sousmenu-5" class="accordion-body collapse">
+<li><a href="#">Sous menu</a></li>
+<li><a href="#">Sous menu</a></li></ul></li></ul></div> 
+     </div><br> <!-- --> <br></nav>
+
+  
+   </aside>
     <!--/aside_gauche--> 
     
     
@@ -336,14 +229,15 @@
        <!--Espace central-->
     <section id="page" class="main_col_width" >
     <header>
-    <div class="degrade_clair_enbas" ><div id="titredecodroite"><div id="titredecogauche" ><h1 id="titrepage">
-	<!-- InstanceBeginEditable name="Titre de pAGE" -->Identification<!-- InstanceEndEditable --></h1>
-        <blockquote class="reference"><!-- InstanceBeginEditable name="Blockquote" -->Merci de vous identifier<!-- InstanceEndEditable --></blockquote><!-- InstanceBeginEditable name="menu optionnel" --><!-- InstanceEndEditable --></div></div></div>  
+    <div class="degrade_clair_enbas" ><div id="titredecodroite"><div id="titredecogauche" ><h1 id="titrepage"> Identification</h1>
+        <blockquote class="reference">Merci de vous identifier</blockquote>
+    </div></div></div>  
       </header>    
         <!--contenu_page --> 
- <div class="pagecontent"><!-- InstanceBeginEditable name="Page" --><div class="row-fluid"><div class="span6 offset3"><form>Identifiant : <input class="input-medium"  type="text" ><br> Mot de Passe : <input class="input-medium" type="text" id="motdepasse" ><br><button class="btn btn-mini btn-inverse">Go !</button><br>
-       <a href="#">Mot de passe oublié ?</a>
-    <br> <a href="#">Créer un compte</a></form></div></div><!-- InstanceEndEditable --></div> 
+ <div class="pagecontent"><div class="row-fluid"><div class="span6 offset3"><form>Identifiant : <input class="input-medium"  type="text" ><br> Mot de Passe : <input class="input-medium" type="text" id="motdepasse" ><br><button class="btn btn-mini btn-inverse">Go !</button><br>
+   <a href="#">Mot de passe oublié ?</a>
+   <br> <a href="#">Créer un compte</a></form></div></div>
+ </div> 
  </section>
     <!-- / espace_central--> 
     
@@ -551,4 +445,4 @@ blablabla
     <script src="js/bootstrap.min.js"></script>
     <script src="js/application.js"></script>
 </body>
-<!-- InstanceEnd --></html>
+</html>

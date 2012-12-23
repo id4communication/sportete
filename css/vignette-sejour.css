@@ -1,0 +1,293 @@
+.vignette-sejour { 
+	margin-bottom: 1em;
+}
+.vignette-sejour .aeration {
+	margin: 0px 8px 0px 8px; padding: 3px;
+	border: 1px solid #DDDDDD;
+	-webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+	behavior: url(pie/PIE.php);
+}
+.vignette-sejour [class*="span"] {
+	display: block; overflow: hidden; text-align: center;
+}
+.vignette-sejour .enteteoffres {
+	background-color: #000; background-repeat: repeat-x;
+	color: #fff;
+	position: relative;
+	height: 40px;  text-align: left;
+	-webkit-border-radius-topleft: 8px;
+	-webkit-border-radius-topright: 8px;
+    -moz-border-radius-topleft: 8px;
+    -moz-border-radius-topright: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+	behavior: url(pie/PIE.php);
+	border:0px;
+	font-size: 15px;
+	font-weight:normal;
+	padding: 2px 2px 0px 5px;
+	line-height: 15px;
+}
+.vignette-sejour .enteteoffres .title {
+	position: relative; display: block; height: 22px; line-height: 22px; vertical-align:middle; overflow:hidden;
+}
+.vignette-sejour .enteteoffres .destinationentete {
+	position: absolute; bottom: 2px; height: 14px;
+	color: #dadada;
+	font-style: italic;
+	border: 0px;
+	font-size: 12px;
+	font-weight: normal;
+	padding: 5px 2px 0px 0px;
+	line-height:12px;
+	margin:0px;
+	display:block;
+	overflow:hidden;
+}
+.vignette-sejour .sejour-vignette-image {
+	height: 145px; vertical-align: middle; text-align: center; line-height: 140px;
+	border-bottom: 1px solid #DDDDDD;
+}
+.vignette-sejour .sejour-vignette-image img { vertical-align: middle; }
+.vignette-sejour .periods {
+	height: 65px; border-bottom: 1px solid #DDDDDD;
+}
+.vignette-sejour .duration, .vignette-sejour .formule, .vignette-sejour .public, .vignette-sejour .price {
+	height: 40px; border-bottom: 1px solid #DDDDDD;
+}
+.vignette-sejour .formule, .vignette-sejour .price {
+	border-left: 1px solid #DDDDDD;
+}
+.vignette-sejour .duration {
+	padding-top: 3px;
+}
+.vignette-sejour .descriptif {
+	line-height: 17px; height: 112px; text-align: left; font-size: 11px;
+	color: #333333;
+}
+
+.vignette-sejour a.sejours {
+	display:block; margin: 0; padding: 0;
+}
+.vignette-sejour a.sejours:hover {
+	background-color:#dadada;
+	text-decoration:none;
+	-webkit-transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+	-o-transition:  background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+	-ms-transition:  background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+	-moz-transition:  background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+	transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+.vignette-sejour .jour {
+	background-repeat: no-repeat;
+	background-position: center right;
+	display: block;
+	width: 14px;
+	margin: auto;
+	height: 15px;
+	padding-right: 17px;
+	font-size: 15px;
+}
+.vignette-sejour .nuit {
+	background-repeat: no-repeat;
+	background-position: center right;
+	display: block;
+	width: 14px;
+	margin: auto;
+	height: 15px;
+	padding-right: 17px;
+	font-size: 15px;
+}
+.vignette-sejour  .nombre_periode {
+	font-size: 150%;
+	color: #333333;
+	font-weight: bold;
+	line-height: 23px;
+	padding-right: 3px;
+}
+.vignette-sejour .texte_periode {
+	font-size: 11px;
+	color: #333333;
+	font-weight: bold;
+}
+.vignette-sejour .du_au {
+	font-size: 90%;
+	color: #333333;
+	font-weight: bold;
+	padding-right: 3px;
+}
+.vignette-sejour .date {
+	font-size: 110%;
+	font-weight: normal;
+}
+.vignette-sejour .formule {
+	font-family: Arial;
+	font-size: 11px;
+	padding: 3px;
+}
+.vignette-sejour .formule_type {
+	font-family: EdoRegular;
+	font-size: 12px;
+	text-align: center;
+	padding: 3px;
+}
+.vignette-sejour .tarif {
+	display: block;
+	color: #000000;
+	font-size: 110%;
+	font-weight: bold;
+}
+.vignette-sejour .apartirde {
+	font-size: 90%;
+}
+
+/* ELARGIR */
+.vignette-sejour .elargir {
+	border: 1px solid #dadada;
+	padding: 10px;
+	width: 74.6%;
+	float: left;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0
+		rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0
+		rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0
+		rgba(0, 0, 0, 0.1);
+	behavior: url(pie/PIE.php);
+}
+.vignette-sejour .elargir_titre {
+	margin-top: 3px;
+	padding: 0px;
+	font-size: 22px;
+	font-variant: small-caps;
+	font-weight: 400;
+	line-height: 13px;
+}
+.vignette-sejour .elargir_texte {
+	font-size: 17px;
+}
+
+/* COLONIES */
+.vignette-sejour.fichecolonie {
+	color:#85187F;
+    padding-top: 20px;
+	background-image: url(../images/commons/sstitre_colonies.png);
+	background-repeat: no-repeat;
+	background-position: 10px top;
+}
+.vignette-sejour.fichecolonie .couleur_univers {
+	color:#85187F;
+}	
+.vignette-sejour.fichecolonie .enteteoffres {
+  background-image: -moz-linear-gradient(top, #85187f, #4d1f56);
+  background-image: -ms-linear-gradient(top, #85187f, #4d1f56);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#85187f), to(#4d1f56));
+  background-image: -webkit-linear-gradient(top, #85187f, #4d1f56);
+  background-image: -o-linear-gradient(top, #85187f, #4d1f56);
+  background-image: linear-gradient(top, #85187f, #4d1f56);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#85187f', endColorstr='#4d1f56', GradientType=0);
+}
+.vignette-sejour.fichecolonie a.sejours:hover {
+  color: #85187F;
+}
+.vignette-sejour.fichecolonie .jour {
+	background-image: url(../../colonies/images/picto_jour.png);
+}
+.vignette-sejour.fichecolonie .nuit {
+	background-image:url(../../colonies/images/picto_nuit.png);
+}
+	
+/*! CURIEUX DU MONDE */
+.vignette-sejour.fichecurieux {
+	color:#449a2b;
+    padding-top: 20px;
+	background-image: url(../images/commons/sstitre_curieux.png);
+	background-repeat: no-repeat;
+	background-position: 10px top;
+}
+.vignette-sejour.fichecurieux .couleur_univers {
+	color:#449a2b;
+}	
+.vignette-sejour.fichecurieux .enteteoffres {
+  background-image: -moz-linear-gradient(top, #449a2b, #385a2d);
+  background-image: -ms-linear-gradient(top, #449a2b, #385a2d);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#449a2b), to(#385a2d));
+  background-image: -webkit-linear-gradient(top, #449a2b, #385a2d);
+  background-image: -o-linear-gradient(top, #449a2b, #385a2d);
+  background-image: linear-gradient(top, #449a2b, #385a2d);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#449a2b', endColorstr='#385a2d', GradientType=0);
+}
+.vignette-sejour.fichecurieux a.sejours:hover {
+  color: #449a2b;
+}
+.vignette-sejour.fichecurieux .jour {
+	background-image: url(../../curieux-monde/images/picto_jour.png);
+}
+.vignette-sejour.fichecurieux .nuit {
+	background-image:url(../../curieux-monde/images/picto_nuit.png);
+}
+
+/*! SEJOURS SPORTIFS */
+.vignette-sejour.fichesejourssportifs {
+	color:#ee8021;
+    padding-top: 20px;
+	background-image: url(../images/commons/sstitre_sejours_sportifs.png);
+	background-repeat: no-repeat;
+	background-position: 10px top;
+}
+.vignette-sejour.fichesejourssportifs .couleur_univers {
+	color:#ee8021;
+}	
+.vignette-sejour.fichesejourssportifs .enteteoffres {
+  background-image: -moz-linear-gradient(top, #fbc010, #ee8021);
+  background-image: -ms-linear-gradient(top, #fbc010, #ee8021);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fbc010), to(#ee8021));
+  background-image: -webkit-linear-gradient(top, #fbc010, #ee8021);
+  background-image: -o-linear-gradient(top, #fbc010, #ee8021);
+  background-image: linear-gradient(top, #fbc010, #ee8021);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#fbc010', endColorstr='#ee8021', GradientType=0);
+}
+.vignette-sejour.fichesejourssportifs a.sejours:hover {
+  color: #ee8021;
+}
+.vignette-sejour.fichesejourssportifs .jour {
+	background-image: url(../../sejours-sportifs/images/picto_jour.png);
+}
+.vignette-sejour.fichesejourssportifs .nuit {
+	background-image:url(../../sejours-sportifs/images/picto_nuit.png);
+}
+
+/*! ACADEMY */
+.vignette-sejour.academy {
+	color:#cc3333;
+    padding-top: 20px;
+	background-image: url(../images/commons/sstitre_academy.png);
+	background-repeat: no-repeat;
+	background-position: 10px top;
+}
+.vignette-sejour.academy .couleur_univers {
+	color:#cc3333;
+}	
+.vignette-sejour.academy .enteteoffres {
+  background-image: -moz-linear-gradient(top, #cc3333, #3d120b);
+  background-image: -ms-linear-gradient(top, #cc3333, #3d120b);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3d120b), to(#cc3333));
+  background-image: -webkit-linear-gradient(top, #cc3333, #3d120b);
+  background-image: -o-linear-gradient(top, #cc3333, #3d120b);
+  background-image: linear-gradient(top, #cc3333, #3d120b);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#cc3333', endColorstr='#3d120b', GradientType=0);
+}
+.vignette-sejour.academy a.sejours:hover {
+  color: #cc3333;
+}
+.vignette-sejour.academy .jour {
+	background-image: url(../../academy/images/picto_jour.png);
+}
+.vignette-sejour.academy .nuit {
+	background-image:url(../../academy/images/picto_nuit.png);
+}

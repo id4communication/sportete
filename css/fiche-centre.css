@@ -1,0 +1,39 @@
+.entete_destination_resume { margin-bottom: 1em; background-color:#737373; }
+.entete_destination_resume .gallery { 
+	position: relative; height: 215px; margin: 0;
+  	border: none; /* Pas de bordure = "none". */
+  	border-collapse: separate; /* Valeur par défaut: "separate". */
+  	border-spacing: 0; 
+}
+/* --- gallery */
+.entete_destination_resume .gallery td, .entete_destination_resume .gallery th {
+	 vertical-align: top; /* Valeur par défaut: "middle" */;
+	 height: 100%; padding: 1px 0 1px 0;
+}
+.entete_destination_resume .gallery ul.thumbnails-gallery > li { line-height: 71px;  height: 71px; width: 100%; }
+.entete_destination_resume .gallery ul.thumbnails-gallery > li img { line-height: 71px; width: 90%; margin: 0 5% 0 5%; }
+.entete_destination_resume .gallery .thumbnails-focus { 
+	height: 71px; width: 100%;
+}
+
+/* --- header addons */
+.entete_destination_resume table.addons { color: #FFF; border-top: 1px solid #FFF; }
+.entete_destination_resume .addons td { width: 33%; }
+.entete_destination_resume .addons td.middle { width: 34%; }
+.entete_destination_resume .addons .addons-content { background-color:#b1b3b4; color:#000; }
+.entete_destination_resume .addons ul { list-style: none; margin-left: 0; }
+
+/* --- header addons > map */
+#destination-map.full-screen { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 999999; }
+.entete_destination_resume .addons .localisation { background-color: transparent; }
+.entete_destination_resume .addons .localisation.full-screen { 
+	position: fixed; top: 0; right: 0; width: 150px; height: 20px; z-index: 9999999;
+	background-color: #FFF; color: #000;
+}
+#destination-map.small-screen {
+	position: relative; width: 200px; height: 200px;
+}
+
+.address-centre { border-left:1px solid #000; padding-left:10px; width: 33%; }
+.centre-buttons { margin-top: 1em; }
+.centre-buttons .btn { display: block; margin: 0 2px 0 2px; }
